@@ -44,3 +44,7 @@ const setVocabulary = () => {
 const setChoices = () => {
     
 }
+
+const chooseAnswer = () => {
+    
+}
