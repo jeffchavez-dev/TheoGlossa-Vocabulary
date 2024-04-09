@@ -8,7 +8,7 @@ const quiz = [
         b: "",
         c: "",
         d: "",
-        answer:
+        answer: ""
     },
     {
         image: "",
@@ -16,7 +16,7 @@ const quiz = [
         b: "",
         c: "",
         d: "",
-        answer:
+        answer: ""
     },
     {
         image: "",
