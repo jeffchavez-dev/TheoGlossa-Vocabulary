@@ -32,7 +32,7 @@ const quiz = [
         b: "",
         c: "",
         d: "",
-        answer:
+        answer: ""
     }
 
 ]
