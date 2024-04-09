@@ -1,4 +1,4 @@
-const vocabulary = document.querySelector('.vocabulary')
+const vocabs = document.querySelector('.vocabulary')
 const choices = document.querySelector('.choices')
 
 const quiz = [
@@ -39,7 +39,11 @@ const quiz = [
 
 
 const setVocabulary = () => {
-    vocabulary.innerText = quiz[0].image
+
+    const vocabularies = quiz.map((vocabulary) => {
+        vocabs.innerText = quiz.image
+    })
+    
 }
 
 setVocabulary()
