@@ -39,7 +39,7 @@ const quiz = [
 
 
 const setVocabulary = () => {
-    vocabulary.innerText = quiz.image[0]
+    vocabulary.innerText = quiz[0].image
 }
 
 setVocabulary()
