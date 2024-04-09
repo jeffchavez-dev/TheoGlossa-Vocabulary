@@ -18,7 +18,23 @@ const quiz = [
         d: "",
         answer:
     },
-    
+    {
+        image: "",
+        a: "",
+        b: "",
+        c: "",
+        d: "",
+        answer:
+    },
+    {
+        image: "",
+        a: "",
+        b: "",
+        c: "",
+        d: "",
+        answer:
+    },
+
 
 
 ]
