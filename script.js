@@ -41,7 +41,8 @@ const quiz = [
 const setVocabulary = () => {
 
     const vocabularies = quiz.map((vocabulary) => {
-        vocabs.innerText = vocabulary.image
+        const div = document.createElement('div')
+        div.innerText = vocabulary.image
     })
     
 }
