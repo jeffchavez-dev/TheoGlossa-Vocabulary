@@ -35,6 +35,9 @@ const quiz = [
         answer:
     }
 
-
-
 ]
+
+
+const setVocabulary = () => {
+    
+}
