@@ -53,7 +53,7 @@ setVocabulary()
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
         const div = document.createElement('div')
-        choice.innerText = choice.a
+        div.innerText = choice.a
         choices.appendChild(div)
     })
 }
