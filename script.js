@@ -9,6 +9,16 @@ const quiz = [
         c: "",
         d: "",
         answer:
-    }
+    },
+    {
+        image: "",
+        a: "",
+        b: "",
+        c: "",
+        d: "",
+        answer:
+    },
+    
+
 
 ]
