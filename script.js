@@ -1,0 +1,1 @@
+const vocabulary = document.querySelector('.vocabulary')
