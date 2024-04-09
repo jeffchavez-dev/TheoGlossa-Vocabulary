@@ -58,6 +58,8 @@ const setChoices = () => {
     })
 }
 
+setChoices()
+
 const chooseAnswer = () => {
     
 }
