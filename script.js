@@ -41,6 +41,9 @@ const quiz = [
 const setVocabulary = () => {
     vocabulary.innerText = quiz.image[0]
 }
+
+setVocabulary()
+
 const setChoices = () => {
     
 }
