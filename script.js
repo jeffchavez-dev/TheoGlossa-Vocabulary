@@ -27,7 +27,7 @@ const quiz = [
         answer: ""
     },
     {
-        image: "",
+        image: "Stone",
         a: "",
         b: "",
         c: "",
@@ -51,7 +51,11 @@ const setVocabulary = () => {
 setVocabulary()
 
 const setChoices = () => {
-    
+    const allchoices = quiz.map((choice) => {
+        const div = document.createElement('div')
+        div.innerText = vocabulary.image
+        vocabs.appendChild(div)
+    })
 }
 
 const chooseAnswer = () => {
