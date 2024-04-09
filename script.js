@@ -3,7 +3,7 @@ const choices = document.querySelector('.choices')
 
 const quiz = [
     {
-        image: "Grace",
+        image: "Dog",
         a: "",
         b: "",
         c: "",
@@ -11,7 +11,7 @@ const quiz = [
         answer: ""
     },
     {
-        image: "House",
+        image: "Man",
         a: "",
         b: "",
         c: "",
@@ -19,7 +19,7 @@ const quiz = [
         answer: ""
     },
     {
-        image: "",
+        image: "Woman",
         a: "",
         b: "",
         c: "",
