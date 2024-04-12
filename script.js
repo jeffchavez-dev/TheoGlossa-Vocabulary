@@ -1,5 +1,9 @@
 const vocabs = document.querySelector('.vocabulary')
 const choices = document.querySelector('.choices')
+const a = document.querySelector('.a')
+const b = document.querySelector('.a')
+const c = document.querySelector('.a')
+const d = document.querySelector('.a')
 
 const quiz = [
     {
