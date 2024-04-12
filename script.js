@@ -33,12 +33,9 @@ setVocabulary()
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
         a.innerHTML = choice.a
-        
         b.innerHTML = choice.a
         c.innerHTML = choice.a
-        const d = document.createElement('div')
         d.innerHTML = choice.a
-        choices.appendChild(a)
     })
 }
 
