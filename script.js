@@ -4,14 +4,14 @@ const choices = document.querySelector('.choices')
 const quiz = [
     {
         image: "/Assets/αὐτός.png",
-        a: "",
+        a: "αὐτός",
         b: "αὐτή",
         c: "σύ",
-        d: "/Assets/ἐγώ.png",
-        answer: "/Assets/ἐγώ.png"
+        d: "ἐγώ",
+        answer: "αὐτός"
     },
     {
-        image: "Man",
+        image: "/Assets/αὐτός.png",
         a: "",
         b: "",
         c: "",
@@ -19,7 +19,7 @@ const quiz = [
         answer: ""
     },
     {
-        image: "Woman",
+        image: "/Assets/αὐτός.png",
         a: "",
         b: "",
         c: "",
@@ -27,7 +27,7 @@ const quiz = [
         answer: ""
     },
     {
-        image: "Stone",
+        image: "/Assets/αὐτός.png",
         a: "",
         b: "",
         c: "",
