@@ -1,9 +1,9 @@
 const vocabs = document.querySelector('.vocabulary')
 const choices = document.querySelector('.choices')
 const a = document.querySelector('.a')
-const b = document.querySelector('.a')
-const c = document.querySelector('.a')
-const d = document.querySelector('.a')
+const b = document.querySelector('.b')
+const c = document.querySelector('.c')
+const d = document.querySelector('.d')
 
 const quiz = [
     {
@@ -32,11 +32,9 @@ setVocabulary()
 
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
-        const a = document.createElement('div')
         a.innerHTML = choice.a
-        const b = document.createElement('div')
+        
         b.innerHTML = choice.a
-        const c = document.createElement('div')
         c.innerHTML = choice.a
         const d = document.createElement('div')
         d.innerHTML = choice.a
