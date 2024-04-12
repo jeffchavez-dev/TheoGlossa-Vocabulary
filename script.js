@@ -9,31 +9,31 @@ const quiz = [
         c: "σύ",
         d: "ἐγώ",
         answer: "αὐτός"
-    },
-    {
-        image: "/Assets/αὐτός.png",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        answer: ""
-    },
-    {
-        image: "/Assets/αὐτός.png",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        answer: ""
-    },
-    {
-        image: "/Assets/αὐτός.png",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        answer: ""
     }
+    // {
+    //     image: "/Assets/αὐτός.png",
+    //     a: "",
+    //     b: "",
+    //     c: "",
+    //     d: "",
+    //     answer: ""
+    // },
+    // {
+    //     image: "/Assets/αὐτός.png",
+    //     a: "",
+    //     b: "",
+    //     c: "",
+    //     d: "",
+    //     answer: ""
+    // },
+    // {
+    //     image: "/Assets/αὐτός.png",
+    //     a: "",
+    //     b: "",
+    //     c: "",
+    //     d: "",
+    //     answer: ""
+    // }
 
 ]
 
