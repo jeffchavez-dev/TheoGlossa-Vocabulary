@@ -30,15 +30,17 @@ const quiz = [
 
 
 const setVocabulary = () => {
-    // const vocabularies = quiz.map((vocabulary) => {
-    //     const img = document.createElement('img')
-    //     img.src = vocabulary.image
-    //     vocabs.appendChild(img)
-    // })
-
+   
+        let i = 0;
         const img = document.createElement('img')
         img.src = quiz[0].image
         vocabs.appendChild(img)
+
+        nextImg.addEventListener('click', () => {
+            i++
+            alert(i)
+        })
+        
     
 }
 
@@ -59,7 +61,4 @@ const chooseAnswer = () => {
     
 }
 
-nextImg.addEventListener('click', () => {
-    alert("You clicked me")
-})
 
