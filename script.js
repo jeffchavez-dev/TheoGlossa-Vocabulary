@@ -5,39 +5,15 @@ const quiz = [
     {
         image: "/Assets/αὐτός.png",
         choices: 
-        {
-            a: "αὐτός",
-            b: "αὐτή",
-            c: "σύ",
-            d: "ἐγώ",
-            answer: "αὐτός"
-        }
+            {
+                a: "αὐτός",
+                b: "αὐτή",
+                c: "σύ",
+                d: "ἐγώ",
+                answer: "αὐτός"
+            }
        
     }
-    // {
-    //     image: "/Assets/αὐτός.png",
-    //     a: "",
-    //     b: "",
-    //     c: "",
-    //     d: "",
-    //     answer: ""
-    // },
-    // {
-    //     image: "/Assets/αὐτός.png",
-    //     a: "",
-    //     b: "",
-    //     c: "",
-    //     d: "",
-    //     answer: ""
-    // },
-    // {
-    //     image: "/Assets/αὐτός.png",
-    //     a: "",
-    //     b: "",
-    //     c: "",
-    //     d: "",
-    //     answer: ""
-    // }
 
 ]
 
@@ -56,7 +32,7 @@ setVocabulary()
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
         const div = document.createElement('div')
-        div.innerHTML = choice[a]
+        div.innerHTML = choice[0].a
         choices.appendChild(div)
     })
 }
