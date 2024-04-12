@@ -14,17 +14,30 @@ const quiz = [
         d: "ἐγώ",
         answer: "αὐτός"
        
+    },
+    {
+        image: "/Assets/ἐγώ.png",
+        a: "αὐτός",
+        b: "αὐτή",
+        c: "σύ",
+        d: "ἐγώ",
+        answer: "ἐγώ"
+       
     }
 
 ]
 
 
 const setVocabulary = () => {
-    const vocabularies = quiz.map((vocabulary) => {
+    // const vocabularies = quiz.map((vocabulary) => {
+    //     const img = document.createElement('img')
+    //     img.src = vocabulary.image
+    //     vocabs.appendChild(img)
+    // })
+
         const img = document.createElement('img')
-        img.src = vocabulary.image
+        img.src = quiz[0].image
         vocabs.appendChild(img)
-    })
     
 }
 
