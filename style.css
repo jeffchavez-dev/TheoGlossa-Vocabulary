@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+
+
+.choices {
+    width: 50%;
+    display: flex;
+
+    gap: 1em;
+}
