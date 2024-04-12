@@ -28,14 +28,14 @@ setVocabulary()
 
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
-        const div = document.createElement('div')
-        div.innerHTML = choice.a
-        const div = document.createElement('div')
-        div.innerHTML = choice.a
-        const div = document.createElement('div')
-        div.innerHTML = choice.a
-        const div = document.createElement('div')
-        div.innerHTML = choice.a
+        const a = document.createElement('div')
+        a.innerHTML = choice.a
+        const b = document.createElement('div')
+        b.innerHTML = choice.a
+        const c = document.createElement('div')
+        c.innerHTML = choice.a
+        const d = document.createElement('div')
+        d.innerHTML = choice.a
         choices.appendChild(div)
     })
 }
