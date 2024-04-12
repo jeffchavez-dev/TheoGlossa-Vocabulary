@@ -4,6 +4,7 @@ const a = document.querySelector('.a')
 const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
+const nextImg = document.querySelector('.next')
 
 const quiz = [
     {
@@ -57,4 +58,8 @@ setChoices()
 const chooseAnswer = () => {
     
 }
+
+nextImg.addEventListener('click', () => {
+    alert("You clicked me")
+})
 
