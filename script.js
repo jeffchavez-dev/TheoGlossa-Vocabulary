@@ -6,7 +6,7 @@ const quiz = [
         image: "Dog",
         a: "/Assets/αὐτός.png",
         b: "/Assets/αὐτή.png",
-        c: "",
+        c: "/Assets/σύ.png",
         d: "",
         answer: ""
     },
