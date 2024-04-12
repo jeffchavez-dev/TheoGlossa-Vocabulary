@@ -4,8 +4,8 @@ const choices = document.querySelector('.choices')
 const quiz = [
     {
         image: "Dog",
-        a: "kuwn",
-        b: "",
+        a: "/Assets/αὐτός.png",
+        b: "/Assets/αὐτή.png",
         c: "",
         d: "",
         answer: ""
@@ -52,9 +52,9 @@ setVocabulary()
 
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
-        const div = document.createElement('div')
-        div.innerText = choice.a
-        choices.appendChild(div)
+        const img = document.createElement('img')
+        img.src = choice
+        choices.appendChild(img)
     })
 }
 
