@@ -36,7 +36,7 @@ const setChoices = () => {
         c.innerHTML = choice.a
         const d = document.createElement('div')
         d.innerHTML = choice.a
-        choices.appendChild(div)
+        choices.appendChild(a)
     })
 }
 
