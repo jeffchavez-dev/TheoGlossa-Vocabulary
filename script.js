@@ -41,7 +41,7 @@ const quiz = [
 const setVocabulary = () => {
 
     const vocabularies = quiz.map((vocabulary) => {
-        const div = document.createElement('img')
+        const img = document.createElement('img')
         img.src = vocabulary.image
         vocabs.appendChild(img)
     })
@@ -52,8 +52,8 @@ setVocabulary()
 
 const setChoices = () => {
     const allchoices = quiz.map((choice) => {
-        const img = document.createElement('img')
-        img.src = choice.a
+        const div = document.createElement('div')
+        div.innerHTML = choice.a
         choices.appendChild(img)
     })
 }
