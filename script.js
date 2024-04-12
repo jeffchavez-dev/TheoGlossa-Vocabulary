@@ -39,7 +39,6 @@ const quiz = [
 
 
 const setVocabulary = () => {
-
     const vocabularies = quiz.map((vocabulary) => {
         const img = document.createElement('img')
         img.src = vocabulary.image
