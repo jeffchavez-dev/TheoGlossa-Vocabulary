@@ -5,8 +5,8 @@ const quiz = [
     {
         image: "/Assets/αὐτός.png",
         a: "",
-        b: "/Assets/αὐτή.png",
-        c: "/Assets/σύ.png",
+        b: "αὐτή",
+        c: "σύ",
         d: "/Assets/ἐγώ.png",
         answer: "/Assets/ἐγώ.png"
     },
@@ -54,7 +54,7 @@ const setChoices = () => {
     const allchoices = quiz.map((choice) => {
         const div = document.createElement('div')
         div.innerHTML = choice.a
-        choices.appendChild(img)
+        choices.appendChild(div)
     })
 }
 
