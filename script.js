@@ -30,11 +30,20 @@ const quiz = [
 
 
 const setVocabulary = () => {
-   
         let i = 0;
         const img = document.createElement('img')
         img.src = quiz[0].image
         vocabs.appendChild(img)
+
+        const vocab = `
+            <div class="vocabulary"></div>
+            <div class="choices">
+                <div class="a choice"></div>
+                <div class="b choice"></div>
+                <div class="c choice"></div>
+                <div class="d choice"></div>
+            </div>        
+        `
 
         nextImg.addEventListener('click', () => {
             i++
