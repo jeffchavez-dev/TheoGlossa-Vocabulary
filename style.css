@@ -5,7 +5,9 @@
 body {
     text-align: center;
 }
-
+.header img {
+    width: 150px;
+}
 .vocabulary {
     margin: auto;
 }
