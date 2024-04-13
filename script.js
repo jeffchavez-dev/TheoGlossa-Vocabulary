@@ -67,10 +67,11 @@ const setVocabulary = () => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
                     alert('Ναί')
-                    console.log(choice)
+                    console.log(choice.innerText)
+                    
                 } else {
                     alert('οὐκ')
-                    console.log(choice)
+                    console.log(choice.innerText)
                 }
 
             })
