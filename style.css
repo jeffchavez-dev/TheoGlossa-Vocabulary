@@ -51,3 +51,7 @@ button:hover {
     transform: scale(1.1);
     transition: all ease-in cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
+
+.end {
+    font-size: 3em;
+}

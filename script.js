@@ -67,7 +67,7 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     alert('Ναί')
                     console.log(choice.innerText)
-                    setNext
+                    setNext()
                 } else {
                     alert('οὐκ')
                     console.log(choice.innerText)
@@ -84,17 +84,17 @@ const setNext = () => {
         setVocabulary();
     } else {
         // Optionally, reset index or handle end of quiz
-        alert("τέλος!")
         console.log(i)
-        setVocabulary();
+        vocabs.innerHTML = "τέλος!"
+        vocabs.classList.add('end')
     }
 }
 
-// nextImg.addEventListener('click', () => {
-//     console.log('Clicked')
-//     setNext
+nextImg.addEventListener('click', () => {
+    console.log('Clicked')
+    setNext()
     
-// })
+})
 
 setVocabulary()
 
