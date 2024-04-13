@@ -90,11 +90,11 @@ const setNext = () => {
     }
 }
 
-nextImg.addEventListener('click', () => {
-    console.log('Clicked')
-    setNext
+// nextImg.addEventListener('click', () => {
+//     console.log('Clicked')
+//     setNext
     
-})
+// })
 
 setVocabulary()
 
