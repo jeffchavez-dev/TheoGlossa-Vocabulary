@@ -61,22 +61,13 @@ const setVocabulary = () => {
                 <div class="d choice">${quiz[i].d}</div>
             </div>        
         `
-        vocabs.innerHTML = vocab
-
-        nextImg.addEventListener('click',() => {
-            console.log('Clicked')
-            setNext()
-            
-        }
-            )
-      
+        vocabs.innerHTML = vocab     
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
                     alert('Ναί')
                     console.log(choice.innerText)
                     setNext
-            
                 } else {
                     alert('οὐκ')
                     console.log(choice.innerText)
@@ -85,7 +76,6 @@ const setVocabulary = () => {
             })
         })
 }
-
 
 const setNext = () => {
     i++
@@ -100,7 +90,11 @@ const setNext = () => {
     }
 }
 
-
+nextImg.addEventListener('click', () => {
+    console.log('Clicked')
+    setNext
+    
+})
 
 setVocabulary()
 
