@@ -70,6 +70,7 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     alert('Ναί')
                     console.log(choice.innerText)
+                    setNext()
                     
                 } else {
                     alert('οὐκ')
