@@ -33,6 +33,15 @@ const quiz = [
         d: "ἐγώ",
         answer: "ἐγώ"
        
+    },
+    {
+        image: "/Assets/σύ.png",
+        a: "αὐτός",
+        b: "αὐτή",
+        c: "σύ",
+        d: "ἐγώ",
+        answer: "ἐγώ"
+       
     }
 
 ]
