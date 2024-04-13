@@ -64,7 +64,9 @@ const setVocabulary = () => {
         vocabs.innerHTML = vocab
       
         document.querySelectorAll('.choice').forEach(choice => {
-            
+            choice.addEventListener('click', () => {
+                
+            })
         })
 }
 
