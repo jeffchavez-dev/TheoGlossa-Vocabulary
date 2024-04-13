@@ -31,7 +31,7 @@ const quiz = [
         b: "αὐτή",
         c: "σύ",
         d: "ἐγώ",
-        answer: "ἐγώ"
+        answer: "σύ"
        
     },
     {
