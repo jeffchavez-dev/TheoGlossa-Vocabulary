@@ -37,5 +37,17 @@ body {
 
 .choice:hover {
    opacity: 1;
-   color: ;
+   color: var(--main);
+}
+
+button {
+    background-color: var(--main);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid var(--main)
+}
+button:hover {
+    transform: scale(1.1);
+    transition: all ease-in cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
