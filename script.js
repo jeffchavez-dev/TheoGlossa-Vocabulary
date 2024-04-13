@@ -66,7 +66,9 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice === quiz[i.answer]) {
-                    
+                    alert('correct')
+                } else {
+                    alert('wrong')
                 }
 
             })
