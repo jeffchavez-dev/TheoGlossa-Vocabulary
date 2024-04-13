@@ -24,38 +24,50 @@ const quiz = [
         d: "ἐγώ",
         answer: "ἐγώ"
        
+    },
+    {
+        image: "/Assets/σύ.png",
+        a: "αὐτός",
+        b: "αὐτή",
+        c: "σύ",
+        d: "ἐγώ",
+        answer: "ἐγώ"
+       
     }
 
 ]
 
 
+let i = 0;
 const setVocabulary = () => {
-        let i = 0;
-        const img = document.createElement('img')
-        img.src = quiz[0].image
-        
-
+       
         const vocab = `
             <div class="vocabulary">
                 <img src="${quiz[0].image}">
                 </div>
             <div class="choices">
-                <div class="a choice">${quiz[0].a}</div>
-                <div class="b choice">${quiz[0].b}</div>
-                <div class="c choice">${quiz[0].c}</div>
-                <div class="d choice">${quiz[0].d}</div>
+                <div class="a choice">${quiz[i].a}</div>
+                <div class="b choice">${quiz[i].b}</div>
+                <div class="c choice">${quiz[i].c}</div>
+                <div class="d choice">${quiz[i].d}</div>
             </div>        
         `
-
         vocabs.innerHTML = vocab
-
-        nextImg.addEventListener('click', () => {
-            i++
-            alert(i)
-        })
-        
-    
+      
 }
+
+nextImg.addEventListener('click', () => {
+    i++
+    if (i < quiz.length) {
+        console.log(`i is less than quiz length ${i}`)
+        setVocabulary();
+    } else {
+        // Optionally, reset index or handle end of quiz
+        i = 0;
+        console.log(i)
+        setVocabulary();
+    }
+})
 
 setVocabulary()
 
@@ -68,7 +80,7 @@ setVocabulary()
 //     })
 // }
 
-setChoices()
+// setChoices()
 
 const chooseAnswer = () => {
     
