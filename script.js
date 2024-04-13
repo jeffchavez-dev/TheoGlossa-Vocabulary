@@ -66,7 +66,7 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
-                    alert('correct')
+                    alert('Ναί')
                     console.log(choice)
                 } else {
                     alert('wrong')
