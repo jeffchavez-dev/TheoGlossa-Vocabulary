@@ -69,7 +69,7 @@ const setVocabulary = () => {
                     alert('Ναί')
                     console.log(choice)
                 } else {
-                    alert('wrong')
+                    alert('οὐκ')
                     console.log(choice)
                 }
 
