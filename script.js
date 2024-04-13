@@ -63,6 +63,9 @@ const setVocabulary = () => {
         `
         vocabs.innerHTML = vocab
       
+        document.querySelectorAll('.choice').forEach(choice => {
+            
+        })
 }
 
 nextImg.addEventListener('click', () => {
