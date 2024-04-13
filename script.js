@@ -65,10 +65,12 @@ const setVocabulary = () => {
       
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
-                if(choice === quiz[i.answer]) {
+                if(choice.innerText == quiz[i].answer) {
                     alert('correct')
+                    console.log(choice)
                 } else {
                     alert('wrong')
+                    console.log(choice)
                 }
 
             })
