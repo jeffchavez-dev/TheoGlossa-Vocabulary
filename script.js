@@ -62,6 +62,8 @@ const setVocabulary = () => {
             </div>        
         `
         vocabs.innerHTML = vocab
+
+        nextButton()
       
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
@@ -78,18 +80,21 @@ const setVocabulary = () => {
         })
 }
 
-nextImg.addEventListener('click', () => {
-    i++
-    if (i < quiz.length) {
-        console.log(`i is less than quiz length ${i}`)
-        setVocabulary();
-    } else {
-        // Optionally, reset index or handle end of quiz
-        i = 0;
-        console.log(i)
-        setVocabulary();
-    }
-})
+const nextButton = () => {
+    nextImg.addEventListener('click', () => {
+        i++
+        if (i < quiz.length) {
+            console.log(`i is less than quiz length ${i}`)
+            setVocabulary();
+        } else {
+            // Optionally, reset index or handle end of quiz
+            alert("τέλος!")
+            console.log(i)
+            setVocabulary();
+        }
+    })
+}
+
 
 setVocabulary()
 
