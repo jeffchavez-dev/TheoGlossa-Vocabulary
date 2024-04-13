@@ -80,20 +80,26 @@ const setVocabulary = () => {
         })
 }
 
+
+const setNext = () => {
+    i++
+    if (i < quiz.length) {
+        console.log(`i is less than quiz length ${i}`)
+        setVocabulary();
+    } else {
+        // Optionally, reset index or handle end of quiz
+        alert("τέλος!")
+        console.log(i)
+        setVocabulary();
+    }
+}
 const nextButton = () => {
     nextImg.addEventListener('click', () => {
-        i++
-        if (i < quiz.length) {
-            console.log(`i is less than quiz length ${i}`)
-            setVocabulary();
-        } else {
-            // Optionally, reset index or handle end of quiz
-            alert("τέλος!")
-            console.log(i)
-            setVocabulary();
-        }
+       
     })
 }
+
+
 
 
 setVocabulary()
