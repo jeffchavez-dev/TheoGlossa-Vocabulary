@@ -35,7 +35,7 @@ const quiz = [
        
     },
     {
-        image: "/Assets/σύ.png",
+        image: "/Assets/αὐτή.png",
         a: "αὐτός",
         b: "αὐτή",
         c: "σύ",
