@@ -57,6 +57,7 @@ const setVocabulary = () => {
             <div class="vocabulary">
                 <img src="${quiz[i].image}">
                 </div>
+            <div id="status"></div>
             <div class="choices">
                 <div class="a choice">${quiz[i].a}</div>
                 <div class="b choice">${quiz[i].b}</div>
