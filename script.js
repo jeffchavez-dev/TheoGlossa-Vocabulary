@@ -144,7 +144,6 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
-
                     setTimeout(function() {
                         showCheck.innerText = ''
                         setNext()
@@ -152,10 +151,10 @@ const setVocabulary = () => {
                    
                 } else {
                     // showCross.innerText  = 'x'
-                   vocabs.classList.add('.wrong')
+                   vocabs.classList.add('wrong')
                    vocabs.classList.add('shake-element')
                    setTimeout(function() {
-                   vocabs.classList.add('.wrong')
+                   vocabs.classList.remove('wrong')
                     vocabs.classList.remove('shake-element')
                    }, 500)   
                  }
