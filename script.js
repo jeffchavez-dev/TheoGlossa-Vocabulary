@@ -143,13 +143,12 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     showState.innerText = 'Ναί'
 
-                    setTimeout( () => {
-
-                    })
+                    setTimeout(setNext, 500)   
                     console.log(choice.innerText)
-                    // setNext()
+                   
                 } else {
                    showState.innerText  = 'ouk'
+                   vocabs.classList.toggle('shake-element')
                    console.log(choice.innerText)
                 }
 
