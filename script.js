@@ -144,10 +144,10 @@ const setVocabulary = () => {
                     showState.innerText = 'Ναί'
 
                     setTimeout( () => {
-                        
+
                     })
                     console.log(choice.innerText)
-                    setNext()
+                    // setNext()
                 } else {
                    showState.innerText  = 'ouk'
                    console.log(choice.innerText)
