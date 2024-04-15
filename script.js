@@ -147,8 +147,11 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                    
                 } else {
-                   showState.innerText  = 'ouk'
+                    showState.innerText  = 'ouk'
                    vocabs.classList.toggle('shake-element')
+                   setTimeout(function() {
+                    showState.innerText  = ''
+                   }, 500)   
                    console.log(choice.innerText)
                 }
 
