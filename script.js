@@ -141,7 +141,8 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
-                    showState.innerText = 'Ναί'
+                    // showState.innerText = 'Ναί'
+                    showState.innerText = '>&#10003;'
 
                     setTimeout(setNext, 500)   
                     console.log(choice.innerText)
