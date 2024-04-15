@@ -57,7 +57,7 @@ const setVocabulary = () => {
             <div class="vocabulary">
                 <img src="${quiz[i].image}">
                 </div>
-            <div id="status"></div>
+            <div id="status">'οὐκ'</div>
             <div class="choices">
                 <div class="a choice">${quiz[i].a}</div>
                 <div class="b choice">${quiz[i].b}</div>
@@ -73,8 +73,8 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                    document.getElementById("status").innerText = 'οὐκ'
-                    console.log(choice.innerText)
+                    document.getElementById("status").style.display = block
+                   console.log(choice.innerText)
                 }
 
             })
