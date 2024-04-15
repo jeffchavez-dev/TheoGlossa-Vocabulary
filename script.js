@@ -145,9 +145,7 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                   const status = 
-                   
-                    document.getElementById("status").style.display = block
+                  
                    console.log(choice.innerText)
                 }
 
