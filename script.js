@@ -145,8 +145,10 @@ const setVocabulary = () => {
                     // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
 
-                    setTimeout(setNext, 500)   
-                    console.log(choice.innerText)
+                    setTimeout(function() {
+                        showCheck.innerText = ''
+                        setNext()
+                    }, 500)   
                    
                 } else {
                     showCross.innerText  = 'x'
@@ -155,8 +157,7 @@ const setVocabulary = () => {
                     showCross.innerText  = ''
                     vocabs.classList.remove('shake-element')
                    }, 500)   
-                   console.log(choice.innerText)
-                }
+                 }
 
             })
         })
