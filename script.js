@@ -42,7 +42,8 @@ const quiz = [
         d: "ἐγώ",
         answer: "αὐτή"
        
-    }{
+    },
+    {
         image: "/Assets/αὐτός.png",
         a: "αὐτός",
         b: "αὐτή",
@@ -77,7 +78,8 @@ const quiz = [
         d: "ἐγώ",
         answer: "αὐτή"
        
-    }{
+    },
+    {
         image: "/Assets/αὐτός.png",
         a: "αὐτός",
         b: "αὐτή",
