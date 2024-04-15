@@ -22,7 +22,9 @@ body {
 
 #status {
     display: block;
-    font-size: 3em;;
+    font-size: 3em;
+    
+
 }
 
 @keyframes shake {
