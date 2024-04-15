@@ -148,9 +148,10 @@ const setVocabulary = () => {
                    
                 } else {
                     showState.innerText  = 'ouk'
-                   vocabs.classList.toggle('shake-element')
+                   vocabs.classList.add('shake-element')
                    setTimeout(function() {
                     showState.innerText  = ''
+                    vocabs.classList.remove('shake-element')
                    }, 500)   
                    console.log(choice.innerText)
                 }
