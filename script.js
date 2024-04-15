@@ -73,7 +73,6 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                    alert('οὐκ')
                     document.getElementById("status").innerText = 'οὐκ'
                     console.log(choice.innerText)
                 }
