@@ -146,7 +146,7 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                    status.
+                   status.innerText = 'οὐκ'
                    console.log(choice.innerText)
                 }
 
