@@ -27,9 +27,17 @@ body {
     position: absolute;
     top: 20%;
     left: 40%;
+    
+}
+
+.check {
     color: greenyellow;
+}
 
-
+.cross img{
+    color: red;
+    display: none;
+    width: 50%;
 }
 
 @keyframes shake {

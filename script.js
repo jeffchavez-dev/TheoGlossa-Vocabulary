@@ -151,10 +151,11 @@ const setVocabulary = () => {
                     }, 500)   
                    
                 } else {
-                    showCross.innerText  = 'x'
+                    // showCross.innerText  = 'x'
+                    showCross.style.display = 'block'
                    vocabs.classList.add('shake-element')
                    setTimeout(function() {
-                    showCross.innerText  = ''
+                    showCross.style.display = 'none'
                     vocabs.classList.remove('shake-element')
                    }, 500)   
                  }
@@ -178,7 +179,6 @@ const setNext = () => {
 }
 
 nextImg.addEventListener('click', () => {
-    console.log('Clicked')
     setNext()
     
 })
