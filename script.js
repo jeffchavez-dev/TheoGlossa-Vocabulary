@@ -5,6 +5,7 @@ const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
 const nextImg = document.querySelector('.next')
+const status = document.getElementById('status')
 
 const quiz = [
     {
@@ -145,7 +146,7 @@ const setVocabulary = () => {
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                  
+                    status.
                    console.log(choice.innerText)
                 }
 
