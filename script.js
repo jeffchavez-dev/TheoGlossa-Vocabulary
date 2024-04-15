@@ -47,6 +47,9 @@ const quiz = [
 ]
 
 
+const randomQuiz = [...quiz]
+console.log(randomQuiz)
+
 let i = 0;
 const setVocabulary = () => {
        
