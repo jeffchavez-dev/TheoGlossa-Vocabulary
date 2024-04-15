@@ -5,7 +5,7 @@ const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
 const nextImg = document.querySelector('.next')
-const status = document.getElementById('status')
+const showState = document.getElementById('status')
 
 const quiz = [
     {
@@ -141,11 +141,15 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
-                    alert('Ναί')
+                    showState.innerText = 'Ναί'
+
+                    setTimeout( () => {
+                        
+                    })
                     console.log(choice.innerText)
                     setNext()
                 } else {
-                   status.innerText = 'οὐκ'
+                   showState.innerText  = 'ouk'
                    console.log(choice.innerText)
                 }
 
@@ -158,6 +162,7 @@ const setNext = () => {
     if (i < quiz.length) {
         console.log(`i is less than quiz length ${i}`)
         setVocabulary();
+        showState.innerText = ''
     } else {
         // Optionally, reset index or handle end of quiz
         console.log(i)
