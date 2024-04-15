@@ -121,10 +121,10 @@ const quiz = [
 ]
 
 
-const randomQuiz = [...quiz]
-console.log(randomQuiz)
+const randomQuiz = Math.floor(Math.random(quiz.length) * 10)
+console.log(`this is randomized: ${randomQuiz}`)
 
-let i = 0;
+let i = randomQuiz;
 const setVocabulary = () => {
        
         const vocab = `
