@@ -74,6 +74,7 @@ const setVocabulary = () => {
                     setNext()
                 } else {
                     alert('οὐκ')
+                    
                     console.log(choice.innerText)
                 }
 
