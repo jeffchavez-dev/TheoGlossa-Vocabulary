@@ -24,6 +24,10 @@ body {
     display: block;
     font-size: 3em;;
 }
+
+.wrong {
+    animation-name: wrong;
+}
 .choices {
     width: 50%;
     margin: 2em auto;
