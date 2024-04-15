@@ -21,7 +21,7 @@ body {
 }
 
 #status {
-    display: none;
+    display: block;
 }
 .choices {
     width: 50%;
