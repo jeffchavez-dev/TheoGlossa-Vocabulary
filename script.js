@@ -5,7 +5,8 @@ const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
 const nextImg = document.querySelector('.next')
-const showState = document.getElementById('status')
+const showCheck = document.querySelector('.check')
+const showCross = document.querySelector('.cross')
 
 const quiz = [
     {
@@ -142,16 +143,16 @@ const setVocabulary = () => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == quiz[i].answer) {
                     // showState.innerText = 'Ναί'
-                    showState.innerText = '>&#10003;'
+                    showCheck.innerText = '✔'
 
                     setTimeout(setNext, 500)   
                     console.log(choice.innerText)
                    
                 } else {
-                    showState.innerText  = 'ouk'
+                    showCross.innerText  = 'x'
                    vocabs.classList.add('shake-element')
                    setTimeout(function() {
-                    showState.innerText  = ''
+                    showCross.innerText  = ''
                     vocabs.classList.remove('shake-element')
                    }, 500)   
                    console.log(choice.innerText)

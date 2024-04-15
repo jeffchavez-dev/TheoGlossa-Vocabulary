@@ -21,12 +21,13 @@ body {
     margin: auto;
 }
 
-#status {
+.status {
     display: block;
-    font-size: 3em;
+    font-size: 10em;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
+    color: greenyellow;
 
 
 }
