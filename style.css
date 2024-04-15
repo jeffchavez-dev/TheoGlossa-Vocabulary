@@ -34,17 +34,17 @@ body {
     color: greenyellow;
 }
 
-.cross img{
-    color: red;
-    display: none;
-    width: 50%;
+.wrong {
+    border: 1px solid red;
 }
 
 @keyframes shake {
     0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
+    25% { transform: translateX(-10px); }
+    30% { transform: translateY(-10px); }
     50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
+    60% { transform: translateY(-10px); }
+    75% { transform: translateX(-15px); }
     100% { transform: translateX(0); }
   }
   

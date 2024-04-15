@@ -152,10 +152,10 @@ const setVocabulary = () => {
                    
                 } else {
                     // showCross.innerText  = 'x'
-                    showCross.style.display = 'block'
+                   vocabs.classList.add('.wrong')
                    vocabs.classList.add('shake-element')
                    setTimeout(function() {
-                    showCross.style.display = 'none'
+                   vocabs.classList.add('.wrong')
                     vocabs.classList.remove('shake-element')
                    }, 500)   
                  }
@@ -169,7 +169,7 @@ const setNext = () => {
     if (i < quiz.length) {
         console.log(`i is less than quiz length ${i}`)
         setVocabulary();
-        showState.innerText = ''
+        
     } else {
         // Optionally, reset index or handle end of quiz
         console.log(i)
