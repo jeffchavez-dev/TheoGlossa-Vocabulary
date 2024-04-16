@@ -146,20 +146,21 @@ const setVocabulary = () => {
                     // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
                     console.log(showCheck.innerText)
-                    setTimeout(function() {
-                        showCheck.innerText = ''
-                        setNext()
-                    }, 500)   
+                    // alert(showCheck.innerText)
+                    // setTimeout(function() {
+                    //     showCheck.innerText = ''
+                    //     setNext()
+                    // }, 500)   
                    
                 } else {
                     // showCross.innerText  = 'x'
                    const vocabImg = document.querySelector('.vocabulary')
                 //    vocabImg.classList.add('wrong')
-                   vocabImg.classList.add('shake-element')
+                   vocabImg.classList.toggle('shake-element')
                    setTimeout(function() {
                    vocabImg.classList.remove('wrong')
                     vocabs.classList.remove('shake-element')
-                   }, 500)   
+                   }, 200)   
                  }
 
             })

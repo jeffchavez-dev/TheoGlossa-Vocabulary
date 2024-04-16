@@ -10,7 +10,9 @@
 header img {
     width: 150px;
 }
-
+section {
+    text-align: center;
+}
 .vocab-section {
     text-align: center;
     position: relative;
@@ -24,11 +26,11 @@ header img {
 
 .status {
     display: block;
-    /* font-size: 10em;
+    font-size: 10em;
     position: absolute;
     top: 20%;
     left: 40%;
-    z-index: 1; */
+   
 }
 
 .check {
