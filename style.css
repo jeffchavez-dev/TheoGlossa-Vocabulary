@@ -84,16 +84,31 @@ section {
 .choice {
     cursor: pointer;
     font-size: 1.8em;
-    opacity: .5;
+    color: white;
+    opacity: .7;
     background-color: var(--main);
     padding: 5px;
     border-radius: 10px;
 }
 
+
+
 .choice:hover {
    opacity: 1;
    color: var(--main);
 }
+
+@media only screen and (max-width: 768px) {
+    .choice {
+      font-size: .8em;
+    }
+    .vocabulary img {
+        width: 70%;
+        padding: 10px;
+        z-index: 2;
+    }
+    
+  }
 
 button {
     background-color: var(--main);
