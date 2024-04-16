@@ -11,6 +11,18 @@ header img {
     width: 150px;
     cursor: pointer;
 }
+
+.vocabulary-lessons {
+    display: flex;
+    text-align: center;
+}
+.lessons {   
+    margin-left: 50px;
+}
+.lessons a {
+    text-decoration: none;
+    color: white;
+}
 section {
     text-align: center;
 }
