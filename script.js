@@ -75,7 +75,7 @@ const quiz = [
     // }
 
 
-const randomQuiz = Math.floor(Math.random(quiz.length) * 10)
+const randomQuiz = Math.floor(Math.random() * quiz.length)
 console.log(`this is randomized: ${randomQuiz}`)
 
 
@@ -86,6 +86,7 @@ console.log(`this is randomized: ${randomQuiz}`)
 
 
 let i = randomQuiz;
+console.log(randomQuiz)
 const setVocabulary = () => {
        
         const vocab = `
