@@ -19,14 +19,16 @@ header img {
     margin: auto;
     width: 50%;
     padding: 10px;
+    z-index: 2;
 }
 
 .status {
     display: block;
-    font-size: 10em;
+    /* font-size: 10em;
     position: absolute;
     top: 20%;
     left: 40%;
+    z-index: 1; */
 }
 
 .check {

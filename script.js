@@ -145,6 +145,7 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
+                    console.log(showCheck.innerText)
                     setTimeout(function() {
                         showCheck.innerText = ''
                         setNext()
@@ -153,8 +154,8 @@ const setVocabulary = () => {
                 } else {
                     // showCross.innerText  = 'x'
                    const vocabImg = document.querySelector('.vocabulary')
-                   vocabImg.classList.add('wrong')
-                   vocabs.classList.add('shake-element')
+                //    vocabImg.classList.add('wrong')
+                   vocabImg.classList.add('shake-element')
                    setTimeout(function() {
                    vocabImg.classList.remove('wrong')
                     vocabs.classList.remove('shake-element')
