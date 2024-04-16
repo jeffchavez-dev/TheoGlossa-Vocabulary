@@ -165,7 +165,7 @@ console.log(`this is randomized: ${randomQuiz}`)
 // })
 
 
-let i = randomQuiz;
+let i = randomQuiz; 
 console.log(randomQuiz)
 const setVocabulary = () => {
        
