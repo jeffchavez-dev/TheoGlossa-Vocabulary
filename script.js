@@ -1,4 +1,4 @@
-const vocabs = document.querySelector('.vocabulary')
+const vocabs = document.querySelector('.vocab-section')
 const choices = document.querySelector('.choices')
 const a = document.querySelector('.a')
 const b = document.querySelector('.b')
