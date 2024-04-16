@@ -4,6 +4,8 @@ reload.addEventListener('click', () => {
     location.reload();
 })
 
+
+const chooseLessons = document.querySelectorAll('.lessons')
 const choices = document.querySelector('.choices')
 const a = document.querySelector('.a')
 const b = document.querySelector('.b')
@@ -128,6 +130,13 @@ const quiz = [
 
 const randomQuiz = Math.floor(Math.random(quiz.length) * 10)
 console.log(`this is randomized: ${randomQuiz}`)
+
+
+// chooseLessons.addEventListener('click', () => {
+//     const quizSection = document.querySelector('.quiz-section')
+//     quizSection.style.display = block
+// })
+
 
 let i = randomQuiz;
 const setVocabulary = () => {

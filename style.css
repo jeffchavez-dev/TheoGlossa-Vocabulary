@@ -25,6 +25,7 @@ header img {
 }
 section {
     text-align: center;
+    /* display: none; */
 }
 .vocab-section {
     text-align: center;
