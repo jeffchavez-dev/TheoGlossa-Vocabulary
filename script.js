@@ -23,7 +23,6 @@ const quiz = [
         c: "σύ",
         d: "ἐγώ",
         answer: "αὐτός"
-       
     },
     {
         image: "/Assets/ἐγώ.png",
@@ -32,7 +31,6 @@ const quiz = [
         c: "σύ",
         d: "ἐγώ",
         answer: "ἐγώ"
-       
     },
     {
         image: "/Assets/σύ.png",
@@ -41,7 +39,6 @@ const quiz = [
         c: "σύ",
         d: "ἐγώ",
         answer: "σύ"
-       
     },
     {
         image: "/Assets/αὐτή.png",
@@ -50,7 +47,6 @@ const quiz = [
         c: "σύ",
         d: "ἐγώ",
         answer: "αὐτή"
-       
     },
     {
         image: "/Assets/μέγας.png",
@@ -68,7 +64,8 @@ const quiz = [
         d: "μικρός",
         answer: "μικρός"
     }
-    // {
+]
+ // {
     //     image: "",
     //     a: "",
     //     b: "",
@@ -76,8 +73,6 @@ const quiz = [
     //     d: "",
     //     answer: ""
     // }
-
-]
 
 
 const randomQuiz = Math.floor(Math.random(quiz.length) * 10)
