@@ -1,11 +1,15 @@
 const vocabs = document.querySelector('.vocab-section')
+const reload = document.querySelector('.header img')
+reload.addEventListener('click', () => {
+    location.reload();
+})
 
 const choices = document.querySelector('.choices')
 const a = document.querySelector('.a')
 const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
-const nextImg = document.querySelector('.next')
+// const nextImg = document.querySelector('.next')
 const showCheck = document.querySelector('.check')
 const showCross = document.querySelector('.cross')
 
@@ -154,10 +158,9 @@ const setVocabulary = () => {
                     // showCross.innerText  = 'x'
                    const vocabImg = document.querySelector('.vocabulary')
                 //    vocabImg.classList.add('wrong')
-                   vocabImg.classList.toggle('shake-element')
+                   vocabImg.classList.add('shake-element')
                    setTimeout(function() {
-                   vocabImg.classList.remove('wrong')
-                    vocabs.classList.remove('shake-element')
+                     vocabImg.classList.remove('shake-element')
                    }, 200)   
                  }
 
@@ -179,10 +182,10 @@ const setNext = () => {
     }
 }
 
-nextImg.addEventListener('click', () => {
-    setNext()
+// nextImg.addEventListener('click', () => {
+//     setNext()
     
-})
+// })
 
 setVocabulary()
 

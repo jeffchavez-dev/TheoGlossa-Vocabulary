@@ -9,6 +9,7 @@
 
 header img {
     width: 150px;
+    cursor: pointer;
 }
 section {
     text-align: center;
