@@ -26,7 +26,7 @@ section {
 
 .status {
     display: block;
-    font-size: 10em;
+    font-size: 15em;
     position: absolute;
     top: 20%;
     left: 40%;
@@ -35,6 +35,7 @@ section {
 
 .check {
     color: greenyellow;
+    opacity: .8;
 }
 
 .wrong {

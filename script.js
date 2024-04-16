@@ -145,12 +145,10 @@ const setVocabulary = () => {
                 if(choice.innerText == quiz[i].answer) {
                     // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
-                    console.log(showCheck.innerText)
-                    // alert(showCheck.innerText)
-                    // setTimeout(function() {
-                    //     showCheck.innerText = ''
-                    //     setNext()
-                    // }, 500)   
+                    setTimeout(function() {
+                        showCheck.innerText = ''
+                        setNext()
+                    }, 500)   
                    
                 } else {
                     // showCross.innerText  = 'x'
