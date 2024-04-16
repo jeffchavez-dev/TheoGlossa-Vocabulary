@@ -167,6 +167,9 @@ console.log(`this is randomized: ${randomQuiz}`)
 
 let i = randomQuiz; 
 console.log(randomQuiz)
+
+const number = document.querySelector('.number')
+number.innerText = randomQuiz.length
 const setVocabulary = () => {
        
         const vocab = `
