@@ -1,4 +1,5 @@
 const vocabs = document.querySelector('.vocab-section')
+
 const choices = document.querySelector('.choices')
 const a = document.querySelector('.a')
 const b = document.querySelector('.b')
@@ -151,10 +152,11 @@ const setVocabulary = () => {
                    
                 } else {
                     // showCross.innerText  = 'x'
-                   vocabs.classList.add('wrong')
+                   const vocabImg = document.querySelector('.vocabulary')
+                   vocabImg.classList.add('wrong')
                    vocabs.classList.add('shake-element')
                    setTimeout(function() {
-                   vocabs.classList.remove('wrong')
+                   vocabImg.classList.remove('wrong')
                     vocabs.classList.remove('shake-element')
                    }, 500)   
                  }
