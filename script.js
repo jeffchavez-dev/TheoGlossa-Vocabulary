@@ -169,7 +169,7 @@ let i = randomQuiz;
 console.log(randomQuiz)
 
 const number = document.querySelector('.number')
-number.innerText = randomQuiz.length
+number.innerText = quiz.length
 const setVocabulary = () => {
        
         const vocab = `
