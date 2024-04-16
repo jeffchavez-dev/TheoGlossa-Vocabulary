@@ -100,7 +100,7 @@ section {
 
 @media only screen and (max-width: 768px) {
     .choice {
-      font-size: .8em;
+      font-size: 1em;
     }
     .vocabulary img {
         width: 70%;
