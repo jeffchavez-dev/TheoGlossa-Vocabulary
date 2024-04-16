@@ -107,7 +107,10 @@ section {
         padding: 10px;
         z-index: 2;
     }
-    
+    .status {
+        font-size: 8em;
+        
+    }
   }
 
 button {
