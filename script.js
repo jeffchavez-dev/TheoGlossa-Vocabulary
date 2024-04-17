@@ -205,7 +205,7 @@ setNewVocabulary.forEach(newVocabulary => {
              const vocabArray = Object.values(vocabularyObj)[0];
              if(myQuiz.length > 0) {
                 myQuiz = []
-                console.log(myQuiz)
+                currentQuiz = []
                 myQuiz.push(...vocabArray)
                 setVocabulary();
              } else {
@@ -234,11 +234,13 @@ function shuffleArray(array) {
     }
     return array;
   }
-
+  
+let currentQuiz = []
 
 const setVocabulary = () => {
+        
+        
         const shuffledArray = shuffleArray(myQuiz)
-        const currentQuiz = []
         currentQuiz.push(shuffledArray[i])
         const vocab = `
             <div class="vocabulary">
@@ -279,11 +281,16 @@ const setVocabulary = () => {
 const setNext = () => {
     i++
     if (i < myQuiz.length) {
-        console.log(`i is less than quiz length ${i}`)
+        console.log(`i is less than quiz length ${i}/${myQuiz.length}`)
         setVocabulary();
     } else {
         console.log(i)
-        vocabs.innerHTML = "τέλος!"
+        const reset = () => location.reload();
+        vocabs.innerHTML = `
+        <div>τέλος!</div>
+        <button onClick="${reset}">reset</button>
+        `
+
         vocabs.classList.add('end')
     }
 }
