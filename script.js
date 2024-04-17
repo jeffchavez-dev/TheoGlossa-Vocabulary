@@ -202,9 +202,17 @@ setNewVocabulary.forEach(newVocabulary => {
          const vocabularyObj = allVocabulary.find(obj => Object.keys(obj)[0] === clickedLesson);
 
          if (vocabularyObj) {
-             const vocabArray = Object.values(vocabularyObj)[0];s
-             myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
-             setVocabulary();
+             const vocabArray = Object.values(vocabularyObj)[0];
+             if(myQuiz.length > 0) {
+                myQuiz = []
+                console.log(myQuiz)
+                myQuiz.push(...vocabArray)
+                setVocabulary();
+             } else {
+                myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
+                setVocabulary();
+             }
+             
          } else {
              vocabs.innerHTML = "No Vocabs!";
          }
@@ -216,7 +224,7 @@ setNewVocabulary.forEach(newVocabulary => {
 
 
 let i = 0; 
-const currentQuiz = []
+
 
 
 function shuffleArray(array) {
@@ -229,12 +237,8 @@ function shuffleArray(array) {
 
 
 const setVocabulary = () => {
-
         const shuffledArray = shuffleArray(myQuiz)
-        console.log('i:', i);
-        console.log('shuffledArray:', shuffledArray);
-        console.log('currentQuiz:', currentQuiz);
-
+        const currentQuiz = []
         currentQuiz.push(shuffledArray[i])
         const vocab = `
             <div class="vocabulary">
