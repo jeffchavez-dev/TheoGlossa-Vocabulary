@@ -165,7 +165,8 @@ console.log(`this is randomized: ${randomQuiz}`)
 // })
 
 
-let i = randomQuiz; 
+let i = 0; 
+const currentQuiz = []
 console.log(randomQuiz)
 
 const number = document.querySelector('.number')
@@ -184,6 +185,8 @@ const setVocabulary = () => {
                 <div class="d choice">${quiz[i].d}</div>
             </div>        
         `
+        currentQuiz.push(quiz[i])
+        console.log(currentQuiz)
         vocabs.innerHTML = vocab     
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
