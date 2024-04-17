@@ -151,34 +151,35 @@ const allVocabulary = [
                 answer: "ὁ κύων"
             }      
          ]
-        },
-        { "Vocabulary 2": [ 
-            
-            {
-                image: "/Assets/σύ.png",
-                a: "αὐτός",
-                b: "αὐτή",
-                c: "σύ",
-                d: "ἐγώ",
-                answer: "σύ"
-            },
-            {
-                image: "/Assets/αὐτή.png",
-                a: "αὐτός",
-                b: "αὐτή",
-                c: "σύ",
-                d: "ἐγώ",
-                answer: "αὐτή"
-            },
-            {
-                image: "/Assets/μέγας.png",
-                a: "μικρός",
-                b: "μέγας",
-                c: "κακός",
-                d: "καλός",
-                answer: "μέγας"
-            }]
         }
+
+        // { "Vocabulary 2": [ 
+            
+        //     {
+        //         image: "/Assets/σύ.png",
+        //         a: "αὐτός",
+        //         b: "αὐτή",
+        //         c: "σύ",
+        //         d: "ἐγώ",
+        //         answer: "σύ"
+        //     },
+        //     {
+        //         image: "/Assets/αὐτή.png",
+        //         a: "αὐτός",
+        //         b: "αὐτή",
+        //         c: "σύ",
+        //         d: "ἐγώ",
+        //         answer: "αὐτή"
+        //     },
+        //     {
+        //         image: "/Assets/μέγας.png",
+        //         a: "μικρός",
+        //         b: "μέγας",
+        //         c: "κακός",
+        //         d: "καλός",
+        //         answer: "μέγας"
+        //     }]
+        // }
            
 ]
 
@@ -198,14 +199,13 @@ setNewVocabulary.forEach(newVocabulary => {
             clickedLesson === key
         )
         if (matchingKey) {
-               
-                console.log(`Array for ${clickedLesson}:`, vocabularyObj[matchingKey]);
                 vocabularyObj[matchingKey].forEach(obj => {
                     myQuiz.push(obj);
                 });
-                console.log(`my quiz: ${JSON.stringify(myQuiz)}`);
                 setVocabulary()
-            } 
+            } else {
+                vocabs.innerHTML = "No Vocabs!"
+            }
        })  
     }
         
