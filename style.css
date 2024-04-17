@@ -14,10 +14,13 @@ header img {
 
 .vocabulary-lessons {
     display: flex;
+    flex-direction: column;
+    gap: .5em;
     text-align: center;
 }
 .lessons {   
     margin-left: 50px;
+    width: 100px;
 }
 .lessons a {
     text-decoration: none;
