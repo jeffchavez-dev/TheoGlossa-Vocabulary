@@ -172,12 +172,13 @@ console.log(randomQuiz)
 const number = document.querySelector('.number')
 number.innerText = quiz.length
 const setVocabulary = () => {
-       
+        currentQuiz.push(quiz[i])
+        console.log(currentQuiz)
         const vocab = `
             <div class="vocabulary">
                 <img src="${quiz[i].image}">
                 </div>
-                <div class="number"><span>${quiz.length}</span>${i.length}<span></span></div>
+                <div class="number"><span>${quiz.length}</span>/<span>${currentQuiz.length}</span></div>
             <div class="choices">
                 <div class="a choice">${quiz[i].a}</div>
                 <div class="b choice">${quiz[i].b}</div>
@@ -185,8 +186,7 @@ const setVocabulary = () => {
                 <div class="d choice">${quiz[i].d}</div>
             </div>        
         `
-        currentQuiz.push(quiz[i])
-        console.log(currentQuiz)
+        
         vocabs.innerHTML = vocab     
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
