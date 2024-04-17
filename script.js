@@ -169,8 +169,6 @@ let i = 0;
 const currentQuiz = []
 console.log(randomQuiz)
 
-const number = document.querySelector('.number')
-number.innerText = quiz.length
 const setVocabulary = () => {
         currentQuiz.push(quiz[i])
         console.log(currentQuiz)
