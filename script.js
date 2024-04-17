@@ -164,6 +164,7 @@ const quiz = [
 let i = 0; 
 const currentQuiz = []
 
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -171,8 +172,6 @@ function shuffleArray(array) {
     }
     return array;
   }
-
-
 const shuffledArray = shuffleArray(quiz)
 
 const setVocabulary = () => {
@@ -203,12 +202,10 @@ const setVocabulary = () => {
                     }, 500)   
                    
                 } else {
-                    // showCross.innerText  = 'x'
-                   const vocabImg = document.querySelector('.vocabulary')
-                //    vocabImg.classList.add('wrong')
-                   vocabImg.classList.add('shake-element')
-                   setTimeout(function() {
-                     vocabImg.classList.remove('shake-element')
+                    const vocabImg = document.querySelector('.vocabulary')
+                    vocabImg.classList.add('shake-element')
+                    setTimeout(function() {
+                    vocabImg.classList.remove('shake-element')
                    }, 200)   
                  }
 
