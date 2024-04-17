@@ -176,7 +176,7 @@ const setVocabulary = () => {
             <div class="vocabulary">
                 <img src="${quiz[i].image}">
                 </div>
-                <div class="number"><span>${quiz.length}</span>/<span>${currentQuiz.length}</span></div>
+                <div class="number"><span>${currentQuiz.length}</span>/<span>${quiz.length}</span></div>
             <div class="choices">
                 <div class="a choice">${quiz[i].a}</div>
                 <div class="b choice">${quiz[i].b}</div>
