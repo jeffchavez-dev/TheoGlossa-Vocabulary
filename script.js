@@ -155,10 +155,6 @@ const quiz = [
     // }
 
 
-const randomQuiz = Math.floor(Math.random() * quiz.length)
-console.log(`this is randomized: ${randomQuiz}`)
-
-
 // chooseLessons.addEventListener('click', () => {
 //     const quizSection = document.querySelector('.quiz-section')
 //     quizSection.style.display = block
@@ -167,21 +163,31 @@ console.log(`this is randomized: ${randomQuiz}`)
 
 let i = 0; 
 const currentQuiz = []
-console.log(randomQuiz)
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+
+const shuffledArray = shuffleArray(quiz)
 
 const setVocabulary = () => {
-        currentQuiz.push(quiz[i])
+        currentQuiz.push(shuffledArray[i])
         console.log(currentQuiz)
         const vocab = `
             <div class="vocabulary">
-                <img src="${quiz[i].image}">
+                <img src="${shuffledArray[i].image}">
                 </div>
-                <div class="number"><span>${currentQuiz.length}</span>/<span>${quiz.length}</span></div>
+                <div class="number"><span>${currentQuiz.length}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
-                <div class="a choice">${quiz[i].a}</div>
-                <div class="b choice">${quiz[i].b}</div>
-                <div class="c choice">${quiz[i].c}</div>
-                <div class="d choice">${quiz[i].d}</div>
+                <div class="a choice">${shuffledArray[i].a}</div>
+                <div class="b choice">${shuffledArray[i].b}</div>
+                <div class="c choice">${shuffledArray[i].c}</div>
+                <div class="d choice">${shuffledArray[i].d}</div>
             </div>        
         `
         
