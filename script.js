@@ -151,35 +151,43 @@ const allVocabulary = [
                 answer: "ὁ κύων"
             }      
          ]
-        }
-
-        // { "Vocabulary 2": [ 
+        },
+        { "Vocabulary 2": [ 
             
-        //     {
-        //         image: "/Assets/σύ.png",
-        //         a: "αὐτός",
-        //         b: "αὐτή",
-        //         c: "σύ",
-        //         d: "ἐγώ",
-        //         answer: "σύ"
-        //     },
-        //     {
-        //         image: "/Assets/αὐτή.png",
-        //         a: "αὐτός",
-        //         b: "αὐτή",
-        //         c: "σύ",
-        //         d: "ἐγώ",
-        //         answer: "αὐτή"
-        //     },
-        //     {
-        //         image: "/Assets/μέγας.png",
-        //         a: "μικρός",
-        //         b: "μέγας",
-        //         c: "κακός",
-        //         d: "καλός",
-        //         answer: "μέγας"
-        //     }]
-        // }
+            {
+                image: "/Assets/ὁ βασιλεύς.png",
+                a: "ὁ ἵππος",
+                b: "ὁ βασιλεύς",
+                c: "ἡ βασιλεία",
+                d: "ὁ θρόνος",
+                answer: "ὁ βασιλεύς"
+            },
+            {
+                image: "/Assets/ὁ θρόνος.png",
+                a: "ὁ βασιλεύς",
+                b: "ὁ στέφανος",
+                c: "ὁ θρόνος",
+                d: "ἡ βασιλεία",
+                answer: "ὁ θρόνος"
+            },
+            {
+                image: "/Assets/ὁ στέφανος.png",
+                a: "ὁ θρόνος",
+                b: "ἡ βασιλεία",
+                c: "ὁ στέφανος",
+                d: "ὁ βασιλεύς",
+                answer: "ὁ στέφανος"
+            },
+            {
+                image: "/Assets/ἡ βασιλεία.png",
+                a: "ὁ θρόνος",
+                b: "ὁ βασιλεύς",
+                c: "ὁ στέφανος",
+                d: "ἡ βασιλεία",
+                answer: "ἡ βασιλεία"
+            }
+         ]
+        }
            
 ]
 
@@ -274,15 +282,11 @@ const setNext = () => {
     if (i < myQuiz.length) {
         console.log(`i is less than quiz length ${i}`)
         setVocabulary();
-        
     } else {
-        // Optionally, reset index or handle end of quiz
         console.log(i)
         vocabs.innerHTML = "τέλος!"
         vocabs.classList.add('end')
     }
 }
 
-
-// setVocabulary()
 

@@ -36,6 +36,7 @@ section {
 .vocabulary img {
     margin: auto;
     width: 50%;
+    max-width: 80%;
     padding: 10px;
     z-index: 2;
 }
