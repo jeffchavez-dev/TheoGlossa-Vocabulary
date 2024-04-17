@@ -14,7 +14,6 @@ header img {
 
 .vocabulary-lessons {
     display: flex;
-    flex-direction: column;
     gap: .5em;
     text-align: center;
 }
@@ -22,7 +21,7 @@ header img {
     margin-left: 50px;
     width: 100px;
 }
-.lessons a {
+.lessons {
     text-decoration: none;
     color: white;
 }
@@ -112,7 +111,9 @@ section {
     }
     .status {
         font-size: 8em;
-        
+    }
+    .lessons {
+        font-size: .8em;
     }
   }
 
