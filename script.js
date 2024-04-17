@@ -198,23 +198,16 @@ const setNewVocabulary = document.querySelectorAll('.lessons')
 setNewVocabulary.forEach(newVocabulary => {
     newVocabulary.addEventListener('click', () => {
         const clickedLesson = newVocabulary.innerText
+         // Find the vocabulary object for the clicked lesson
+         const vocabularyObj = allVocabulary.find(obj => Object.keys(obj)[0] === clickedLesson);
 
-       // Iterate over each object in allVocabulary
-
-       allVocabulary.forEach(vocabularyObj => {
-        const keys = Object.keys(vocabularyObj);
-        const matchingKey = keys.find(key => 
-            clickedLesson === key
-        )
-        if (matchingKey) {
-                vocabularyObj[matchingKey].forEach(obj => {
-                    myQuiz.push(obj);
-                });
-                setVocabulary()
-            } else {
-                vocabs.innerHTML = "No Vocabs!"
-            }
-       })  
+         if (vocabularyObj) {
+             const vocabArray = Object.values(vocabularyObj)[0];
+             myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
+             setVocabulary();
+         } else {
+             vocabs.innerHTML = "No Vocabs!";
+         }
     }
         
     )
