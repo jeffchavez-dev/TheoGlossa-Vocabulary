@@ -238,10 +238,9 @@ function shuffleArray(array) {
 let currentQuiz = []
 
 const setVocabulary = () => {
-        
-        
         const shuffledArray = shuffleArray(myQuiz)
         currentQuiz.push(shuffledArray[i])
+        console.log(currentQuiz)
         const vocab = `
             <div class="vocabulary">
                 <img src="${shuffledArray[i].image}">
@@ -259,7 +258,6 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == shuffledArray[i].answer) {
-                    // showState.innerText = 'Ναί'
                     showCheck.innerText = '✔'
                     setTimeout(function() {
                         showCheck.innerText = ''
