@@ -245,7 +245,7 @@ const setVocabulary = () => {
             <div class="vocabulary">
                 <img src="${shuffledArray[i].image}">
                 </div>
-                <div class="number"><span>${currentQuiz.length}</span>/<span>${shuffledArray.length}</span></div>
+                <div class="number"><span>${i + 1}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
                 <div class="a choice">${shuffledArray[i].a}</div>
                 <div class="b choice">${shuffledArray[i].b}</div>
