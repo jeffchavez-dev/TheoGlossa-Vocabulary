@@ -235,10 +235,12 @@ function shuffleArray(array) {
     return array;
   }
   
-let currentQuiz = []
+let shuffledIndices = []
+
+const shuffledArray = shuffleArray(myQuiz)
 
 const setVocabulary = () => {
-        const shuffledArray = shuffleArray(myQuiz)
+        
         // currentQuiz.push(shuffledArray[i])
         // console.log(currentQuiz)
         console.log('Shuffled Array:', shuffledArray);
