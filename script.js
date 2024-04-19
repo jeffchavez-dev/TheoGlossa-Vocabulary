@@ -194,18 +194,22 @@ const allVocabulary = [
 let myQuiz = []
 
 let j = 0;
+
+const vocabularyLessons = document.querySelector('.vocabulary-lessons')
 const setNewVocabulary = document.querySelectorAll('.lessons')
 setNewVocabulary.forEach(newVocabulary => {
     newVocabulary.addEventListener('click', () => {
         const clickedLesson = newVocabulary.innerText
          // Find the vocabulary object for the clicked lesson
          const vocabularyObj = allVocabulary.find(obj => Object.keys(obj)[0] === clickedLesson);
+         
+         vocabularyLessons.classList.add("hide")
 
          if (vocabularyObj) {
              const vocabArray = Object.values(vocabularyObj)[0];
              if(myQuiz.length > 0) {
                 myQuiz = []
-                currentQuiz = []
+                shuffledIndices = []
                 myQuiz.push(...vocabArray)
                 setVocabulary();
              } else {
@@ -260,7 +264,7 @@ const setVocabulary = () => {
             <div class="vocabulary">
                 <img src="${currentQuizItem.image}">
                 </div>
-                <div class="number"><span>${currentIndex + 1}</span>/<span>${shuffledArray.length}</span></div>
+                <div class="number"><span>${i + 1}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
                 <div class="a choice">${currentQuizItem.a}</div>
                 <div class="b choice">${currentQuizItem.b}</div>
@@ -299,11 +303,13 @@ const setNext = () => {
     } else {
         console.log(i)
         const reset = () => location.reload();
+
         vocabs.innerHTML = `
         <div>τέλος!</div>
-        <button onClick="${reset}">reset</button>
+        <button id="reset">reset</button>
         `
-
+        document.getElementById('reset').addEventListener('click', reset)
+        vocabularyLessons.classList.remove("hide")
         vocabs.classList.add('end')
     }
 }

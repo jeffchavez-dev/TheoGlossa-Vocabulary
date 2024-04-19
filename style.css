@@ -30,6 +30,10 @@ section {
     text-align: center;
     /* display: none; */
 }
+
+.hide {
+    display: none;
+}
 .vocab-section {
     text-align: center;
     position: relative;
