@@ -308,12 +308,15 @@ const setNext = () => {
         <div>τέλος!</div>
         <button id="reset">reset</button>
         `
+
+        vocabs.classList.add('end')
+        
         document.getElementById('reset').addEventListener('click', () => {
             reset()
             vocabularyLessons.classList.remove("hide")
         })
         
-        vocabs.classList.add('end')
+        
     }
 }
 
