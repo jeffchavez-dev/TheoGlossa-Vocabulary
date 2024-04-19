@@ -239,8 +239,12 @@ let currentQuiz = []
 
 const setVocabulary = () => {
         const shuffledArray = shuffleArray(myQuiz)
-        currentQuiz.push(shuffledArray[i])
-        console.log(currentQuiz)
+        // currentQuiz.push(shuffledArray[i])
+        // console.log(currentQuiz)
+        console.log('Shuffled Array:', shuffledArray);
+        console.log('Index i:', i);
+        console.log('Current Quiz Length:', myQuiz.length);
+        console.log('Current Quiz Item:', shuffledArray[i]);
         const vocab = `
             <div class="vocabulary">
                 <img src="${shuffledArray[i].image}">
