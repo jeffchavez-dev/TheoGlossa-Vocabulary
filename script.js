@@ -243,27 +243,36 @@ const setVocabulary = () => {
         
         // currentQuiz.push(shuffledArray[i])
         // console.log(currentQuiz)
-        console.log('Shuffled Array:', shuffledArray);
-        console.log('Index i:', i);
-        console.log('Current Quiz Length:', myQuiz.length);
-        console.log('Current Quiz Item:', shuffledArray[i]);
+        // console.log('Shuffled Array:', shuffledArray);
+        // console.log('Index i:', i);
+        // console.log('Current Quiz Length:', myQuiz.length);
+        // console.log('Current Quiz Item:', shuffledArray[i]);
+
+        // Shuffle the indices if all have been used
+        if (shuffledIndices.length === 0) {
+            shuffledIndices = shuffleArray([...Array(myQuiz.length).keys()]);
+        }
+
+        // Use the shuffled index to access elements from myQuiz
+        const currentIndex = shuffledIndices.pop();
+        const currentQuizItem = myQuiz[currentIndex];
         const vocab = `
             <div class="vocabulary">
-                <img src="${shuffledArray[i].image}">
+                <img src="${currentQuizItem.image}">
                 </div>
-                <div class="number"><span>${i + 1}</span>/<span>${shuffledArray.length}</span></div>
+                <div class="number"><span>${currentIndex + 1}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
-                <div class="a choice">${shuffledArray[i].a}</div>
-                <div class="b choice">${shuffledArray[i].b}</div>
-                <div class="c choice">${shuffledArray[i].c}</div>
-                <div class="d choice">${shuffledArray[i].d}</div>
+                <div class="a choice">${currentQuizItem.a}</div>
+                <div class="b choice">${currentQuizItem.b}</div>
+                <div class="c choice">${currentQuizItem.c}</div>
+                <div class="d choice">${currentQuizItem.d}</div>
             </div>        
         `
         
         vocabs.innerHTML = vocab     
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
-                if(choice.innerText == shuffledArray[i].answer) {
+                if(choice.innerText == currentQuizItem.answer) {
                     showCheck.innerText = '✔'
                     setTimeout(function() {
                         showCheck.innerText = ''
