@@ -378,7 +378,7 @@ const setNext = () => {
 
         vocabs.innerHTML = `
         <div>τέλος!</div>
-        <button id="reset">reset</button>
+        <button id="reset">🏠</button>
         `
 
         vocabs.classList.add('end')
