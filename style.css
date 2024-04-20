@@ -53,7 +53,8 @@ section {
 
 }
 .image-list {
-    width: 100px;
+    width: 150px;
+    max-width: 80%;
 }
 .status {
     display: block;
