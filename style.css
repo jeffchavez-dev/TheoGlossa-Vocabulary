@@ -165,6 +165,11 @@ button:hover {
 .end {
     font-size: 3em;
 }
+.vocab-section #reset {
+    font-size: 50px;
+    cursor: pointer;
+}
+
 
 footer {
     text-align: center;

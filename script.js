@@ -235,8 +235,19 @@ const allVocabulary = [
                 answer: "βασιλεύω"
             }
          ]
-        }
-           
+        },
+        { "Vocabulary 3": [ 
+            
+            {
+                image: "/Assets/αὐτός περιπατεῖ.png",
+                a: "ἐγώ περιπατέω",
+                b: "ἐγώ πορεύομαι",
+                c: "αὐτός πορεύεται",
+                d: "αὐτός περιπατεῖ",
+                answer: "αὐτός περιπατεῖ"
+            }
+         ]
+        }   
 ]
 
 let myQuiz = []
@@ -377,11 +388,9 @@ const setNext = () => {
         const reset = () => location.reload();
 
         vocabs.innerHTML = `
-        <div>τέλος!</div>
-        <button id="reset">🏠</button>
+        <div class="end">τέλος!</div>
+        <div id="reset">🏠</div>
         `
-
-        vocabs.classList.add('end')
         
         document.getElementById('reset').addEventListener('click', () => {
             reset()
