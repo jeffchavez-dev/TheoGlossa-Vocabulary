@@ -46,10 +46,17 @@ section {
     z-index: 2;
 }
 
+
+
 .lists {
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+.list-vocabulary-headings {
+    margin: .8em;
+    font-size: 1.8em;
 }
 
 .image-list {

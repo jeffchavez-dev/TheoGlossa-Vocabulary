@@ -267,8 +267,8 @@ const viewList = allVocabulary.map((list) => {
     
     return `
     <details>
-        <summary class="vocabulary-headings">${vocabularyName}</summary>
-        <div class="vocabulary-items">${itemsHTML}</div>
+        <summary class="list-vocabulary-headings">${vocabularyName}</summary>
+        <div class="list-vocabulary-items">${itemsHTML}</div>
     </details>
     `;
     
