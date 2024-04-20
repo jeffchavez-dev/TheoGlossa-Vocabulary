@@ -50,7 +50,15 @@ section {
     display: flex;
     flex-direction: column;
     margin: auto;
+}
 
+.vocabulary-items {
+    display: flex;
+    flex-direction: column;
+}
+.vocabulary-element {
+    display: flex;
+    flex-direction: row;
 }
 .image-list {
     width: 200px;
