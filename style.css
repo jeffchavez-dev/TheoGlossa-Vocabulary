@@ -46,6 +46,15 @@ section {
     z-index: 2;
 }
 
+.lists {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.image-list {
+    width: 100px;
+}
 .status {
     display: block;
     font-size: 15em;
