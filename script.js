@@ -243,9 +243,11 @@ setNewVocabulary.forEach(newVocabulary => {
                 myQuiz = []
                 shuffledIndices = []
                 myQuiz.push(...vocabArray)
+                console.log(myQuiz)
                 setVocabulary();
              } else {
                 myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
+                console.log(myQuiz)
                 setVocabulary();
              }
              
@@ -256,6 +258,13 @@ setNewVocabulary.forEach(newVocabulary => {
         
     )
 })
+
+
+const viewList = allVocabulary.map((list) => {
+    `<div>${Object.values(list)[0]}</div>`
+})
+
+const list = document.querySelector('.list')
 
 
 
