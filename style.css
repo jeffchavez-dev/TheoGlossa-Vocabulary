@@ -123,6 +123,14 @@ section {
     }
   }
 
+  @media only screen and (max-width: 1080px) {
+    
+    .vocabulary img {
+        width: 70%;
+    }
+    
+  }
+
 button {
     background-color: var(--main);
     color: white;
@@ -137,4 +145,16 @@ button:hover {
 
 .end {
     font-size: 3em;
+}
+
+footer {
+    text-align: center;
+    color: var(--main);
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 20px;
+}
+
+footer a {
+    color: var(--main);
 }
