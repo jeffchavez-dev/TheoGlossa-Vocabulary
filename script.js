@@ -261,10 +261,15 @@ setNewVocabulary.forEach(newVocabulary => {
 
 
 const viewList = allVocabulary.map((list) => {
-    `<div>${Object.values(list)[0]}</div>`
+    `<div>${Object.keys(list)[0]}</div>`
 })
 
 const list = document.querySelector('.list')
+
+list.addEventListener('click', () => {
+    console.log(viewList)
+    vocabularyLessons.innerHTML = viewList
+})
 
 
 
