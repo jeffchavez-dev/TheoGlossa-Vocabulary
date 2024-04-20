@@ -266,7 +266,7 @@ const viewList = allVocabulary.map((list) => {
     const itemsHTML = vocabularyItems.map(item => `<div>${item.answer}</div><img class="image-list" src="${item.image}">`).join(''); // Map each item to HTML and join them
     
     return `
-        <div class="vocabulary-lessons">${vocabularyName}</div>
+        <h3 class="vocabulary-headings">${vocabularyName}</h3>
         <div class="vocabulary-items">${itemsHTML}</div>
     `;
     
