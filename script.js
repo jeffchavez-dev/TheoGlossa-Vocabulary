@@ -261,9 +261,15 @@ setNewVocabulary.forEach(newVocabulary => {
 
 
 const viewList = allVocabulary.map((list) => {
+    const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
+    const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
+    const itemsHTML = vocabularyItems.map(item => `<div>${item.answer}</div><img class="image-list" src="${item.image}">`).join(''); // Map each item to HTML and join them
     
-    `<div>${Object.keys(list)[0]}</div>`
-    return
+    return `
+        <div>${vocabularyName}</div>
+        ${itemsHTML}
+    `;
+    
 })
 
 const list = document.querySelector('.list')
