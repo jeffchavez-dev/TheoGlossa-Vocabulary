@@ -58,7 +58,9 @@ section {
     margin: .8em;
     font-size: 1.8em;
 }
-
+.list-vocabulary-items {
+    margin: .5em;
+}
 .image-list {
     width: 200px;
     max-width: 80%;
