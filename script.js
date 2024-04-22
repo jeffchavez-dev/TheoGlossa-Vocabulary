@@ -385,7 +385,8 @@ const setVocabulary = () => {
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == currentQuizItem.answer) {
-                    showCheck.innerText = '✔'
+                    showStatus.innerText = '✔'
+                    showStatus.classList.add("check")
                     setTimeout(function() {
                         showCheck.innerText = ''
                         setNext()
