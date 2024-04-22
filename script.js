@@ -396,7 +396,7 @@ const setVocabulary = () => {
                    showStatus.innerText = 'X'
                    showStatus.classList.add("wrong")
                     setTimeout(function() {
-                        showCheck.innerText = ''
+                        showStatus.innerText = ''
                         showStatus.classList.remove("wrong")
                     }, 500)  
                     choice.classList.add('hide')
