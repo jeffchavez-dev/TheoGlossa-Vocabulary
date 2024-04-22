@@ -1,10 +1,12 @@
 const vocabs = document.querySelector('.vocab-section')
 const reload = document.querySelector('.header img')
+
+// Reload page when the reload button is clicked
 reload.addEventListener('click', () => {
     location.reload();
 })
 
-// Event listener for lesson buttons
+// Consolidate query selectors
 const chooseLessons = document.querySelectorAll('.lessons')
 const choices = document.querySelector('.choices')
 const vocabularyLessons = document.querySelector('.vocabulary-lessons')
@@ -14,7 +16,8 @@ const a = document.querySelector('.a')
 const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
-// const nextImg = document.querySelector('.next')
+
+
 const showStatus = document.querySelector('.status')
 const showCheck = document.querySelector('.check')
 const showCross = document.querySelector('.cross')
@@ -278,13 +281,9 @@ const allVocabulary = [
         }   
 ]
 
-let myQuiz = []
 
-let j = 0;
-
-
-const setNewVocabulary = document.querySelectorAll('.lessons')
-setNewVocabulary.forEach(newVocabulary => {
+// Event listener for lesson buttons
+chooseLessons.forEach(newVocabulary => {
     newVocabulary.addEventListener('click', () => {
         const clickedLesson = newVocabulary.innerText
          // Find the vocabulary object for the clicked lesson
@@ -314,7 +313,7 @@ setNewVocabulary.forEach(newVocabulary => {
     )
 })
 
-
+// Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
     const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
@@ -329,18 +328,20 @@ const viewList = allVocabulary.map((list) => {
     
 })
 
-const list = document.querySelector('.learn')
-
-list.addEventListener('click', () => {
+// Event listener for list button
+const listButton = document.querySelector('.learn')
+listButton.addEventListener('click', () => {
     console.log(viewList)
     vocabularyLessons.innerHTML = viewList.join('')
 })
 
 
+let myQuiz = []
 
 let i = 0; 
 
 
+// Shuffle array function
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -354,6 +355,7 @@ let shuffledIndices = []
 
 const shuffledArray = shuffleArray(myQuiz)
 
+// Set vocabulary function
 const setVocabulary = () => {
 
         // Shuffle the indices if all have been used
@@ -377,7 +379,9 @@ const setVocabulary = () => {
             </div>        
         `
         
-        vocabs.innerHTML = vocab     
+        vocabs.innerHTML = vocab 
+        
+         // Event listeners for choices
         document.querySelectorAll('.choice').forEach(choice => {
             choice.addEventListener('click', () => {
                 if(choice.innerText == currentQuizItem.answer) {
@@ -409,6 +413,8 @@ const setVocabulary = () => {
         })
 }
 
+
+// Set next function
 const setNext = () => {
     i++
     if (i < myQuiz.length) {
