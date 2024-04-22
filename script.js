@@ -389,6 +389,7 @@ const setVocabulary = () => {
                     showStatus.classList.add("check")
                     setTimeout(function() {
                         showCheck.innerText = ''
+                        showStatus.classList.remove("check")
                         setNext()
                     }, 500)   
                    
@@ -399,9 +400,11 @@ const setVocabulary = () => {
                     setTimeout(function() {
                     vocabImg.classList.remove('shake-element')
                    }, 200)   
-                   showCheck.innerText = 'X'
+                   showStatus.innerText = 'X'
+                   showStatus.classList.add("wrong")
                     setTimeout(function() {
                         showCheck.innerText = ''
+                        showStatus.classList.remove("wrong")
                     }, 500)  
                     choice.classList.add('hide')
                  }

@@ -78,10 +78,11 @@ section {
     color: greenyellow;
     opacity: .8;
 }
-
 .wrong {
-    border: 2px solid red;
+    color: red;
+    opacity: .8;
 }
+
 
 @keyframes shake {
     0% { transform: translateX(0); }
