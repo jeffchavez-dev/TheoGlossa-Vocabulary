@@ -12,6 +12,7 @@ const b = document.querySelector('.b')
 const c = document.querySelector('.c')
 const d = document.querySelector('.d')
 // const nextImg = document.querySelector('.next')
+const showStatus = document.querySelector('.status')
 const showCheck = document.querySelector('.check')
 const showCross = document.querySelector('.cross')
 
