@@ -4,9 +4,12 @@ reload.addEventListener('click', () => {
     location.reload();
 })
 
-
+// Event listener for lesson buttons
 const chooseLessons = document.querySelectorAll('.lessons')
 const choices = document.querySelector('.choices')
+const vocabularyLessons = document.querySelector('.vocabulary-lessons')
+
+
 const a = document.querySelector('.a')
 const b = document.querySelector('.b')
 const c = document.querySelector('.c')
@@ -279,7 +282,7 @@ let myQuiz = []
 
 let j = 0;
 
-const vocabularyLessons = document.querySelector('.vocabulary-lessons')
+
 const setNewVocabulary = document.querySelectorAll('.lessons')
 setNewVocabulary.forEach(newVocabulary => {
     newVocabulary.addEventListener('click', () => {
