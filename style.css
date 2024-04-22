@@ -141,6 +141,12 @@ section {
     .lessons {
         font-size: .8em;
     }
+    .status {
+        font-size: 10em;
+        top: 10%;
+        left: 40%;
+       
+    }
   }
 
   @media only screen and (max-width: 1080px) {

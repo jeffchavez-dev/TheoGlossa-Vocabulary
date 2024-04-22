@@ -381,7 +381,7 @@ const setVocabulary = () => {
                     showStatus.innerText = '✔'
                     showStatus.classList.add("check")
                     setTimeout(function() {
-                        showCheck.innerText = ''
+                        showStatus.innerText = ''
                         showStatus.classList.remove("check")
                         setNext()
                     }, 500)   
