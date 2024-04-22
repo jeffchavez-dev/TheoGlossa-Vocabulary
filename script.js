@@ -360,16 +360,21 @@ const setVocabulary = () => {
         // Use the shuffled index to access elements from myQuiz
         const currentIndex = shuffledIndices.pop();
         const currentQuizItem = myQuiz[currentIndex];
+
+
+        // Shuffle the choices
+        const shuffledChoices = shuffleArray([currentQuizItem.a, currentQuizItem.b, currentQuizItem.c, currentQuizItem.d]);
+
         const vocab = `
             <div class="vocabulary">
                 <img src="${currentQuizItem.image}">
                 </div>
                 <div class="number"><span>${i + 1}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
-                <div class="choice">${currentQuizItem.a}</div>
-                <div class="choice">${currentQuizItem.b}</div>
-                <div class="choice">${currentQuizItem.c}</div>
-                <div class="choice">${currentQuizItem.d}</div>
+                <div class="choice">${shuffledChoices[0]}</div>
+                <div class="choice">${shuffledChoices[1]}</div>
+                <div class="choice">${shuffledChoices[2]}</div>
+                <div class="choice">${shuffledChoices[3]}</div>
             </div>        
         `
         
