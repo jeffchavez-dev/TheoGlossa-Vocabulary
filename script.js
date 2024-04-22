@@ -325,7 +325,7 @@ const viewList = allVocabulary.map((list) => {
     
 })
 
-const list = document.querySelector('.list')
+const list = document.querySelector('.learn')
 
 list.addEventListener('click', () => {
     console.log(viewList)
