@@ -392,11 +392,16 @@ const setVocabulary = () => {
                    
                 } else {
                     const vocabImg = document.querySelector('.vocabulary')
-                    choice.classList.add('hide')
+                    
                     vocabImg.classList.add('shake-element')
                     setTimeout(function() {
                     vocabImg.classList.remove('shake-element')
                    }, 200)   
+                   showCheck.innerText = 'X'
+                    setTimeout(function() {
+                        showCheck.innerText = ''
+                    }, 500)  
+                    choice.classList.add('hide')
                  }
 
             })
