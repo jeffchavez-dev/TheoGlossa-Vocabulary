@@ -352,13 +352,6 @@ let shuffledIndices = []
 const shuffledArray = shuffleArray(myQuiz)
 
 const setVocabulary = () => {
-        
-        // currentQuiz.push(shuffledArray[i])
-        // console.log(currentQuiz)
-        // console.log('Shuffled Array:', shuffledArray);
-        // console.log('Index i:', i);
-        // console.log('Current Quiz Length:', myQuiz.length);
-        // console.log('Current Quiz Item:', shuffledArray[i]);
 
         // Shuffle the indices if all have been used
         if (shuffledIndices.length === 0) {
