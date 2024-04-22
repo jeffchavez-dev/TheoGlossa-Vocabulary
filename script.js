@@ -12,12 +12,6 @@ const choices = document.querySelector('.choices')
 const vocabularyLessons = document.querySelector('.vocabulary-lessons')
 
 
-const a = document.querySelector('.a')
-const b = document.querySelector('.b')
-const c = document.querySelector('.c')
-const d = document.querySelector('.d')
-
-
 const showStatus = document.querySelector('.status')
 const showCheck = document.querySelector('.check')
 const showCross = document.querySelector('.cross')
@@ -372,10 +366,10 @@ const setVocabulary = () => {
                 </div>
                 <div class="number"><span>${i + 1}</span>/<span>${shuffledArray.length}</span></div>
             <div class="choices">
-                <div class="a choice">${currentQuizItem.a}</div>
-                <div class="b choice">${currentQuizItem.b}</div>
-                <div class="c choice">${currentQuizItem.c}</div>
-                <div class="d choice">${currentQuizItem.d}</div>
+                <div class="choice">${currentQuizItem.a}</div>
+                <div class="choice">${currentQuizItem.b}</div>
+                <div class="choice">${currentQuizItem.c}</div>
+                <div class="choice">${currentQuizItem.d}</div>
             </div>        
         `
         
@@ -418,16 +412,14 @@ const setVocabulary = () => {
 const setNext = () => {
     i++
     if (i < myQuiz.length) {
-        console.log(`i is less than quiz length ${i}/${myQuiz.length}`)
         setVocabulary();
     } else {
-        console.log(i)
         const reset = () => location.reload();
 
         vocabs.innerHTML = `
-        <div class="end">τέλος!</div>
-        <div id="reset">🏠</div>
-        `
+            <div class="end">τέλος!</div>
+            <div id="reset">🏠</div>
+        `;
         
         document.getElementById('reset').addEventListener('click', () => {
             reset()
