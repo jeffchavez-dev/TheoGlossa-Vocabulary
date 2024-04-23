@@ -22,7 +22,7 @@ const quiz = [
 
 
 const allVocabulary = [
-        { "Vocabulary 1": [ 
+        { "πρῶτος": [ 
             {
                 image: "/Assets/αὐτός.png",
                 a: "αὐτός",
