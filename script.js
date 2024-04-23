@@ -237,7 +237,7 @@ const allVocabulary = [
             }
          ]
         },
-        { "Vocabulary 3": [ 
+        { "τρίτος": [ 
             
             {
                 image: "/Assets/αὐτός περιπατεῖ.png",
