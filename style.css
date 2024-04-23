@@ -21,6 +21,7 @@ header img {
 .lessons, .learn {   
     margin-left: 50px;
     width: 100px;
+    cursor: pointer;
 }
 .lessons {
     text-decoration: none;
