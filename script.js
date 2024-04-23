@@ -153,7 +153,7 @@ const allVocabulary = [
             }      
          ]
         },
-        { "Vocabulary 2": [ 
+        { "δεύτερος": [ 
             
             {
                 image: "/Assets/ὁ βασιλεύς.png",
