@@ -259,7 +259,7 @@ const allVocabulary = [
                 image: "/Assets/ὧδε.png",
                 a: "ὧδε",
                 b: "ἐκεῖ",
-                c: "αὐτός πορεύεται",
+                c: "νῦν",
                 d: "αὐτός περιπατεῖ",
                 answer: "ὧδε"
             },
@@ -267,7 +267,7 @@ const allVocabulary = [
                 image: "/Assets/ἐκεῖ.png",
                 a: "ἐκεῖ",
                 b: "ὧδε",
-                c: "αὐτός πορεύεται",
+                c: "νῦν",
                 d: "αὐτός περιπατεῖ",
                 answer: "ἐκεῖ"
             }
