@@ -5,7 +5,6 @@ const reload = document.querySelector('.header img')
 reload.addEventListener('click', () => {
     location.reload();
 })
-
 // Consolidate query selectors
 const chooseLessons = document.querySelectorAll('.lessons')
 const choices = document.querySelector('.choices')
