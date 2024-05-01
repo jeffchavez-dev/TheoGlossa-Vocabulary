@@ -427,6 +427,15 @@ const allVocabulary = [
                 c: "νῦν",
                 d: "πότε",
                 answer: "ὧδε"
+            },
+            
+            {
+                image: "/Assets/ὧδε.png",
+                a: "ὧδε",
+                b: "ἐκεῖ",
+                c: "νῦν",
+                d: "πότε",
+                answer: "ὧδε"
             }
             
          ]
