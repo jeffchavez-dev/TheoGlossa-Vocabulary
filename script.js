@@ -195,12 +195,28 @@ const allVocabulary = [
                 answer: "ὁ χοῖρος"
             },
             {
-                image: "/Assets/.png",
-                a: "",
-                b: "",
-                c: "",
+                image: "/Assets/ποῦ;.png",
+                a: "ποῦ;",
+                b: "ἐκεῖ",
+                c: "νῦν",
                 d: "τὸ παιδίον",
-                answer: ""
+                answer: "ποῦ;"
+            },
+            {
+                image: "/Assets/τὸ πρόβατον.png",
+                a: "ποῦ;",
+                b: "ἐκεῖ",
+                c: "τὸ πρόβατον",
+                d: "τὸ παιδίον",
+                answer: "τὸ πρόβατον"
+            },
+            {
+                image: "/Assets/ποῦ;.png",
+                a: "τὸ πρόβατον",
+                b: "ἐκεῖ",
+                c: "νῦν",
+                d: "τὸ παιδίον",
+                answer: "ποῦ;"
             }
             
          ]
