@@ -285,7 +285,7 @@ const allVocabulary = [
             
          ]
         },
-        { "τέταρτος": [ 
+        { "τρίτος": [ 
             
             {
                 image: "/Assets/ὁ βασιλεύς.png",
@@ -425,7 +425,7 @@ const allVocabulary = [
             }
          ]
         },
-        { "πέμπτος": [ 
+        { "τέταρτος": [ 
             
             {
                 image: "/Assets/ὧδε.png",
@@ -542,7 +542,7 @@ const allVocabulary = [
             
          ]
         },
-        { "": [ 
+        { "πέμπτος": [ 
             
             {
                 image: "/Assets/ὧδε.png",
