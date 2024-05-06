@@ -345,7 +345,7 @@ const allVocabulary = [
             }
          ]
         },
-        { "τρίτος": [ 
+        { "πέμπτος": [ 
             
             {
                 image: "/Assets/ὧδε.png",
