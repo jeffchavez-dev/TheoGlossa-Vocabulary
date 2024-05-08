@@ -240,7 +240,7 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "ὁ ὄνος",
                 d: "τὸ παιδίον",
-                answer: "τὸ ποτήριον"
+                answer: "ὁ ὄνος"
             },
             {
                 image: "/Assets/τὸ βιβλίον.png",
