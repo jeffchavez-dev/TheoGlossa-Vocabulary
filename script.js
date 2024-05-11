@@ -538,30 +538,21 @@ const allVocabulary = [
         { "πέμπτος": [ 
             
             {
-                image: "/Assets/ὧδε.png",
-                a: "ὧδε",
+                image: "/Assets/ὁ καιρός.png",
+                a: "ὁ καιρός",
                 b: "ἐκεῖ",
                 c: "νῦν",
                 d: "πότε",
-                answer: "ὧδε"
+                answer: "ὁ καιρός"
             },
             
             {
-                image: "/Assets/ὧδε.png",
+                image: "/Assets/ὁ ἥλιος.png",
                 a: "ὧδε",
-                b: "ἐκεῖ",
+                b: "ὁ καιρός",
                 c: "νῦν",
-                d: "πότε",
-                answer: "ὧδε"
-            },
-            
-            {
-                image: "/Assets/ὧδε.png",
-                a: "ὧδε",
-                b: "ἐκεῖ",
-                c: "νῦν",
-                d: "πότε",
-                answer: "ὧδε"
+                d: "ὁ ἥλιος",
+                answer: "ὁ ἥλιος"
             }
             
          ]
