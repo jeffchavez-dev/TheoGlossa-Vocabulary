@@ -52,7 +52,6 @@ section {
 .lists {
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
 }
 
 .list-vocabulary-headings {
@@ -188,7 +187,7 @@ footer {
     text-align: center;
     color: var(--main);
     font-size: 1.5em;
-    position: fixed;
+    /* position: absolute; */
     bottom: 20px;
 }
 
