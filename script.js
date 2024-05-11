@@ -277,9 +277,7 @@ const allVocabulary = [
             
          ]
         },
-        {
-            
-        },
+
         { "τρίτος": [ 
             
             {
