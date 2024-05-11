@@ -536,7 +536,6 @@ const allVocabulary = [
          ]
         },
         { "πέμπτος": [ 
-            
             {
                 image: "/Assets/ὁ καιρός.png",
                 a: "ὁ καιρός",
@@ -545,7 +544,6 @@ const allVocabulary = [
                 d: "πότε",
                 answer: "ὁ καιρός"
             },
-            
             {
                 image: "/Assets/ὁ ἥλιος.png",
                 a: "ἡ νύξ",
@@ -554,7 +552,6 @@ const allVocabulary = [
                 d: "ὁ ἥλιος",
                 answer: "ὁ ἥλιος"
             },
-            
             {
                 image: "/Assets/ἡ σελήνη.png",
                 a: "ἡ σελήνη",
@@ -563,7 +560,6 @@ const allVocabulary = [
                 d: "ὁ ἥλιος",
                 answer: "ἡ σελήνη"
             },
-            
             {
                 image: "/Assets/ἡ σελήνη.png",
                 a: "ἡ σελήνη",
