@@ -561,12 +561,12 @@ const allVocabulary = [
                 answer: "ἡ σελήνη"
             },
             {
-                image: "/Assets/ἡ σελήνη.png",
+                image: "/Assets/ἡ νύξ.png",
                 a: "ἡ σελήνη",
                 b: "ὁ καιρός",
                 c: "ἡ νύξ",
                 d: "ὁ ἥλιος",
-                answer: "ἡ σελήνη"
+                answer: "ἡ νύξ"
             }
             
          ]
