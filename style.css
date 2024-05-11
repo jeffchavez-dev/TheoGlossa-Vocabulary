@@ -52,15 +52,16 @@ section {
 .lists {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .list-vocabulary-headings {
-    margin: .8em;
+    /* margin: .8em; */
+    text-align: left;
     font-size: 1.8em;
 }
 .list-vocabulary-items {
-    margin-bottom:3em;
+    /* margin-bottom:3em; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
