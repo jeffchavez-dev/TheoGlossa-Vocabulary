@@ -23,6 +23,10 @@ header img {
     width: 100px;
     cursor: pointer;
 }
+
+.learn {
+    display: none;
+}
 .lessons {
     text-decoration: none;
     color: white;
