@@ -638,7 +638,7 @@ const allVocabulary = [
                 b: "λέγει",
                 c: "λαλοῦσιν",
                 d: "λέγουσιν",
-                answer: "λαλεῖ"
+                answer: "λαλεῖ" 
             }
             ,
             {
