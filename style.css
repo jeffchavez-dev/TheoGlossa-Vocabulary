@@ -24,6 +24,7 @@ header img {
     cursor: pointer;
 }
 
+/*hide from online view */
 .learn {
     display: none;
 }
