@@ -709,12 +709,12 @@ const allVocabulary = [
                 answer: "ἄκουε"
             },
             {
-                image: "/Assets/Ἐλθὲ ὧδε..png",
+                image: "/Assets/Ὁ ἀνὴρ ἀκούει..png",
                 a: "Ἐλθὲ ὧδε.",
                 b: "Ἔλθετε ὧδε.",
                 c: "Πορεύθητι ἐκεῖ.",
                 d: "Πορεύθητε ἐκεῖ.",
-                answer: "Ἐλθὲ ὧδε."
+                answer: "Ὁ ἀνὴρ ἀκούει."
             },
             {
                 image: "/Assets/Κάθισον..png",
