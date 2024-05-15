@@ -682,7 +682,10 @@ const allVocabulary = [
                 answer: "λαλοῦσιν"
             }
          ]
-        }   
+        },
+        { "πέμπτος": [ 
+             ]
+        }
 ]
 
 
@@ -718,27 +721,27 @@ chooseLessons.forEach(newVocabulary => {
 })
 
 // Generate HTML for vocabulary list
-// const viewList = allVocabulary.map((list) => {
-//     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
-//     const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
-//         const itemsHTML = vocabularyItems.map(item => `
-//             <div class="list-vocabulary-items-holder"><div>${item.answer}</div><img class="image-list" src="${item.image}"></div>`).join(''); // Map each item to HTML and join them
+const viewList = allVocabulary.map((list) => {
+    const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
+    const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
+        const itemsHTML = vocabularyItems.map(item => `
+            <div class="list-vocabulary-items-holder"><div>${item.answer}</div><img class="image-list" src="${item.image}"></div>`).join(''); // Map each item to HTML and join them
                 
-//             return `
-//             <details>
-//                 <summary class="list-vocabulary-headings">${vocabularyName}</summary>
-//                 <div class="list-vocabulary-items">${itemsHTML}</div>
-//             </details>
-//     `;
+            return `
+            <details>
+                <summary class="list-vocabulary-headings">${vocabularyName}</summary>
+                <div class="list-vocabulary-items">${itemsHTML}</div>
+            </details>
+    `;
     
-// })
+})
 
-// // Event listener for list button
-// const listButton = document.querySelector('.learn')
-// listButton.addEventListener('click', () => {
-//     console.log(viewList)
-//     vocabularyLessons.innerHTML = viewList.join('')
-// })
+// Event listener for list button
+const listButton = document.querySelector('.learn')
+listButton.addEventListener('click', () => {
+    console.log(viewList)
+    vocabularyLessons.innerHTML = viewList.join('')
+})
 
 
 let myQuiz = []
