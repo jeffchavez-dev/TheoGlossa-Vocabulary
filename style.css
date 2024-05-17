@@ -193,8 +193,6 @@ footer {
     gap: 1em;
     margin: auto;
     color: var(--main);
-    font-size: 1.5em;
-    /* position: absolute; */
     bottom: 20px;
 }
 
