@@ -192,7 +192,6 @@ footer {
     display: flex;
     gap: 1em;
     margin: auto;
-    color: var(--main);
     bottom: 20px;
 }
 
