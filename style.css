@@ -189,6 +189,8 @@ button:hover {
 
 
 footer {
+    display: flex;
+    gap: 1em;
     text-align: center;
     color: var(--main);
     font-size: 1.5em;
@@ -198,4 +200,8 @@ footer {
 
 footer a {
     color: var(--main);
+}
+
+footer, img {
+    width: 20px;
 }
