@@ -810,9 +810,9 @@ const viewList = allVocabulary.map((list) => {
     const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
         const itemsHTML = vocabularyItems.map(item => `
             <div class="list-vocabulary-items-holder">
-            <div>${item.answer}</div>
-            <img class="image-list" src="${item.image}">
-            <button class="gloss">View Gloss</button>
+                <div>${item.answer}</div>
+                <img class="image-list" src="${item.image}">
+                <button class="gloss">View Gloss</button>
             </div>
             
             
