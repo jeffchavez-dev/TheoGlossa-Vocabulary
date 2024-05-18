@@ -192,7 +192,6 @@ footer {
     display: flex;
     gap: 1em;
     margin: auto;
-    bottom: 20px;
 }
 
 footer a {
