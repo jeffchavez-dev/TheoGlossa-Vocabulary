@@ -701,17 +701,17 @@ const allVocabulary = [
                 answer: "τὸ ὄρος"
             },
             {
-                image: "/Assets/ἄκουε.png",
+                image: "/Assets/ἀκούω.png",
                 a: "ἄκουε",
-                b: "Ἐλθὲ",
+                b: "ἀκούω",
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
-                answer: "ἄκουε"
+                answer: "ἀκούω"
             },
             {
                 image: "/Assets/ἄκουε.png",
                 a: "ἄκουε",
-                b: "Ἐλθὲ",
+                b: "ἀκούω",
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
                 answer: "ἄκουε"
