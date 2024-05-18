@@ -28,7 +28,8 @@ const allVocabulary = [
                 b: "αὐτή",
                 c: "σύ",
                 d: "ἐγώ",
-                answer: "αὐτός"
+                answer: "αὐτός",
+                answer: "He"
             },
             {
                 image: "/Assets/ἐγώ.png",

@@ -59,11 +59,21 @@ section {
     flex-direction: column;
 }
 
+.list-vocabulary-items {
+    /* margin-bottom:3em; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
 .list-vocabulary-headings {
     /* margin: .8em; */
     text-align: left;
     font-size: 1.8em;
 }
+
+
 .list-vocabulary-items-holder {
     display: flex;
     flex-direction: column;
@@ -76,13 +86,7 @@ section {
     width: 50%;
     cursor: pointer;
 }
-.list-vocabulary-items {
-    /* margin-bottom:3em; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1em;
-}
+
 .image-list {
     width: 200px;
     max-width: 80%;
