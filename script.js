@@ -809,6 +809,10 @@ chooseLessons.forEach(newVocabulary => {
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
     const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
+    const gloss = document.querySelector('.gloss')
+    gloss.addEventListener('click', () => {
+        
+    })
         const itemsHTML = vocabularyItems.map(item => `
             <div class="list-vocabulary-items-holder">
                 <div>${item.answer}</div>
