@@ -187,15 +187,10 @@ button:hover {
     cursor: pointer;
 }
 
-
 footer {
     display: flex;
     gap: 1em;
     margin: auto;
-}
-
-footer a {
-    color: var(--main);
 }
 
 footer, img {
