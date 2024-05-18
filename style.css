@@ -74,6 +74,7 @@ section {
 
 .gloss {
     width: 50%;
+    cursor: pointer;
 }
 .list-vocabulary-items {
     /* margin-bottom:3em; */
