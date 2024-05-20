@@ -770,7 +770,7 @@ const allVocabulary = [
         },
         { "ἕβδομος": [ 
         ]
-   }
+        }
 ]
 
 
