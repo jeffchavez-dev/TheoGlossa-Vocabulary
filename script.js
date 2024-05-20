@@ -750,12 +750,12 @@ const allVocabulary = [
                 answer: "κελεύω"
             },
             {
-                image: "/Assets/ὑπακούει.png",
-                a: "κελεύει",
+                image: "/Assets/oὐχ ὑπακούει.png",
+                a: "oὐχ ὑπακούει",
                 b: "ὑπακούει",
                 c: "καθίζω",
                 d: "κελεύω",
-                answer: "ὑπακούει"
+                answer: "oὐχ ὑπακούει"
             },
             {
                 image: "/Assets/ὑπακούει.png",
