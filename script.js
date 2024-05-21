@@ -684,7 +684,7 @@ const allVocabulary = [
             }
          ]
         },
-        { "ἕκτος": [ 
+        { "δεκατέσσαρα": [ 
             {
                 image: "/Assets/αἱ νεφέλαι.png",
                 a: "αἱ νεφέλαι",
@@ -821,6 +821,9 @@ chooseLessons.forEach(newVocabulary => {
         
     )
 })
+
+
+// Generate HTML Lessons from Objects
 
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
