@@ -27,6 +27,7 @@ header img {
 /*hide from online view */
 .learn {
     display: block;
+    margin-top: 10px;
 }
 .lessons {
     text-decoration: none;
