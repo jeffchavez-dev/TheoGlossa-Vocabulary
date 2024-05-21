@@ -791,6 +791,17 @@ const allVocabulary = [
 ]
 
 
+
+// Generate HTML Lessons from Objects
+
+
+allVocabulary.forEach((vocab) => {
+    console.log(`lesson: ${Object.keys(vocab)[0]}`);
+});
+
+console.log(`Lessons: ${Object.keys(allVocabulary[0])[0]}`)
+
+
 // Event listener for lesson buttons
 chooseLessons.forEach(newVocabulary => {
     newVocabulary.addEventListener('click', () => {
@@ -826,10 +837,6 @@ chooseLessons.forEach(newVocabulary => {
     )
 })
 
-
-// Generate HTML Lessons from Objects
-
-console.log(`Lessons: ${Object.keys[0]}`)
 
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
