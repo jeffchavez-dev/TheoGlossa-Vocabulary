@@ -811,13 +811,13 @@ const allVocabulary = [
 // Generate HTML Lessons from Objects
 
 
-allVocabulary.forEach((vocab) => {
-    console.log(Object.keys(vocab)[0])
-    const lessonDiv = document.createElement('div')
-    lessonDiv.innerHTML = `
-        <button class="lessons">${Object.keys(vocab)[0]}</button> `;
-        vocabularyLessons.appendChild(lessonDiv)
-});
+// allVocabulary.forEach((vocab) => {
+//     console.log(Object.keys(vocab)[0])
+//     const lessonDiv = document.createElement('div')
+//     lessonDiv.innerHTML = `
+//         <button class="lessons">${Object.keys(vocab)[0]}</button> `;
+//         vocabularyLessons.appendChild(lessonDiv)
+// });
 
 
 
