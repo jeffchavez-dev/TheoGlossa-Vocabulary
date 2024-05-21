@@ -803,7 +803,6 @@ allVocabulary.forEach((vocab) => {
         vocabularyLessons.appendChild = lessonDiv
 });
 
-console.log(`Lessons: ${Object.keys(allVocabulary[0])[0]}`)
 
 
 // Event listener for lesson buttons
