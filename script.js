@@ -825,6 +825,8 @@ chooseLessons.forEach(newVocabulary => {
 
 // Generate HTML Lessons from Objects
 
+console.log(`Lessons: ${allVocabulary[0]}`)
+
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
