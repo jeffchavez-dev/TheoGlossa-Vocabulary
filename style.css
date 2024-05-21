@@ -176,14 +176,6 @@ section {
     }
   }
 
-  @media only screen and (max-width: 1080px) {
-    
-    .vocabulary img {
-        width: 70%;
-    }
-    
-  }
-
 button {
     background-color: var(--main);
     color: white;
