@@ -159,6 +159,7 @@ section {
     }
     .vocabulary img {
         width: 80%;
+        max-width: 250px;
         padding: 10px;
         z-index: 2;
     }
