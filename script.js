@@ -786,7 +786,7 @@ const allVocabulary = [
         },
         
         { "ἕβδομος": [ 
-        ]
+            ]
         }
 ]
 
