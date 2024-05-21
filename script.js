@@ -796,10 +796,11 @@ const allVocabulary = [
 
 
 allVocabulary.forEach((vocab) => {
-    console.log(`lesson: ${Object.keys(vocab)[0]}`)
-    vocabularyLessons.innerHTML = `
+    const lessonDiv = document.createElement('div')
+    lessonDiv.innerHTML = `
         <button class="lessons">${Object.keys(vocab)[0]}</button> `;
-       
+    
+        vocabularyLessons.appendChild = lessonDiv
 });
 
 console.log(`Lessons: ${Object.keys(allVocabulary[0])[0]}`)
