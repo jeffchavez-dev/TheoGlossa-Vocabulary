@@ -802,17 +802,21 @@ chooseLessons.forEach(newVocabulary => {
 
          if (vocabularyObj) {
              const vocabArray = Object.values(vocabularyObj)[0];
+             console.log(`Lessons: ${Object.values(vocabularyObj)[0]}`)
              if(myQuiz.length > 0) {
                 myQuiz = []
                 shuffledIndices = []
                 myQuiz.push(...vocabArray)
                 console.log(myQuiz)
                 setVocabulary();
+               
              } else {
                 myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
                 console.log(myQuiz)
                 setVocabulary();
              }
+
+            
              
          } else {
              vocabs.innerHTML = "No Vocabs!";
@@ -825,7 +829,7 @@ chooseLessons.forEach(newVocabulary => {
 
 // Generate HTML Lessons from Objects
 
-console.log(`Lessons: ${allVocabulary[0]}`)
+console.log(`Lessons: ${Object.keys[0]}`)
 
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
