@@ -869,11 +869,11 @@ const viewList = allVocabulary.map((list) => {
 })
 
 // Event listener for list button
-// const listButton = document.querySelector('.learn')
-// listButton.addEventListener('click', () => {
-//     console.log(viewList)
-//     vocabularyLessons.innerHTML = viewList.join('')
-// })
+const listButton = document.querySelector('.learn')
+listButton.addEventListener('click', () => {
+    console.log(viewList)
+    vocabularyLessons.innerHTML = viewList.join('')
+})
 
 
 let myQuiz = []
