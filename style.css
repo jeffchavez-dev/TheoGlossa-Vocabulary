@@ -25,9 +25,9 @@ header img {
 }
 
 /*hide from online view */
-/* .learn {
-    display: none;
-} */
+.learn {
+    display: block;
+}
 .lessons {
     text-decoration: none;
     color: white;
