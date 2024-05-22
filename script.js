@@ -721,7 +721,8 @@ const allVocabulary = [
                 b: "ἡ σελήνη",
                 c: "τὸ ὄρος",
                 d: "ἡ σάλπιγξ",
-                answer: "αἱ νεφέλαι"
+                answer: "αἱ νεφέλαι",
+                gloss: "He"
             },
             {
                 image: "/Assets/τὸ ὄρος.png",
@@ -729,7 +730,8 @@ const allVocabulary = [
                 b: "ἡ σελήνη",
                 c: "τὸ ὄρος",
                 d: "ἡ σάλπιγξ",
-                answer: "τὸ ὄρος"
+                answer: "τὸ ὄρος",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἀκούω.png",
@@ -737,7 +739,8 @@ const allVocabulary = [
                 b: "ἀκούω",
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
-                answer: "ἀκούω"
+                answer: "ἀκούω",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἄκουε.png",
@@ -745,7 +748,8 @@ const allVocabulary = [
                 b: "ἀκούω",
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
-                answer: "ἄκουε"
+                answer: "ἄκουε",
+                gloss: "He"
             },
             {
                 image: "/Assets/Ὁ ἀνὴρ ἀκούει..png",
@@ -753,7 +757,8 @@ const allVocabulary = [
                 b: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου.",
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
-                answer: "Ὁ ἀνὴρ ἀκούει."
+                answer: "Ὁ ἀνὴρ ἀκούει.",
+                gloss: "He"
             },
             {
                 image: "/Assets/Αἱ γυναῖκες ἀκούουσιν..png",
@@ -761,7 +766,8 @@ const allVocabulary = [
                 b: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου.",
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
-                answer: "Αἱ γυναῖκες ἀκούουσιν."
+                answer: "Αἱ γυναῖκες ἀκούουσιν.",
+                gloss: "He"
             },
             {
                 image: "/Assets/Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου..png",
@@ -769,7 +775,8 @@ const allVocabulary = [
                 b: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου.",
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
-                answer: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου."
+                answer: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου.",
+                gloss: "He"
             },
             {
                 image: "/Assets/κελεύω.png",
@@ -777,7 +784,8 @@ const allVocabulary = [
                 b: "ὑπακούει",
                 c: "καθίζω",
                 d: "κελεύω",
-                answer: "κελεύω"
+                answer: "κελεύω",
+                gloss: "He"
             },
             {
                 image: "/Assets/oὐχ ὑπακούει.png",
@@ -785,7 +793,8 @@ const allVocabulary = [
                 b: "ὑπακούει",
                 c: "oὐ ακούει",
                 d: "oὐ κελεύω",
-                answer: "oὐχ ὑπακούει"
+                answer: "oὐχ ὑπακούει",
+                gloss: "she/he does not obey"
             },
             {
                 image: "/Assets/ὑπακούει.png",
@@ -793,7 +802,8 @@ const allVocabulary = [
                 b: "ὑπακούει",
                 c: "καθίζω",
                 d: "κελεύω",
-                answer: "ὑπακούει"
+                answer: "ὑπακούει",
+                gloss: "she/he obeys"
             },
             {
                 image: "/Assets/κελεύει.png",
@@ -801,7 +811,8 @@ const allVocabulary = [
                 b: "ὑπακούει",
                 c: "καθίζω",
                 d: "κελεύω",
-                answer: "κελεύει"
+                answer: "κελεύει",
+                gloss: "she/he commands"
             },
             {
                 image: "/Assets/εἶπεν.png",
@@ -809,7 +820,8 @@ const allVocabulary = [
                 b: "ὑπακούει",
                 c: "καθίζω",
                 d: "εἶπεν",
-                answer: "εἶπεν"
+                answer: "εἶπεν",
+                gloss: "He said"
             }
         
              ]
