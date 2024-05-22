@@ -838,6 +838,15 @@ const allVocabulary = [
                 gloss: "good"
             },
             {
+                image: "/Assets/κακός.png",
+                a: "καλός",
+                b: "κακός",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "κακός",
+                gloss: "bad"
+            },
+            {
                 image: "/Assets/Ποῖος.png",
                 a: "καλός",
                 b: "κακός",
