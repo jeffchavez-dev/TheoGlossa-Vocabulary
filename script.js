@@ -38,7 +38,7 @@ const allVocabulary = [
                 c: "σύ",
                 d: "ἐγώ",
                 answer: "ἐγώ",
-                gloss: "He"
+                gloss: "I"
             },
             {
                 image: "/Assets/σύ.png",
@@ -47,7 +47,7 @@ const allVocabulary = [
                 c: "σύ",
                 d: "ἐγώ",
                 answer: "σύ",
-                gloss: "He"
+                gloss: "you (singular)"
             },
             {
                 image: "/Assets/αὐτή.png",
@@ -56,7 +56,7 @@ const allVocabulary = [
                 c: "σύ",
                 d: "ἐγώ",
                 answer: "αὐτή",
-                gloss: "He"
+                gloss: "she"
             },
             {
                 image: "/Assets/μέγας.png",
@@ -65,7 +65,7 @@ const allVocabulary = [
                 c: "κακός",
                 d: "καλός",
                 answer: "μέγας",
-                gloss: "He"
+                gloss: "big"
             },
             {
                 image: "/Assets/μικρός.png",
@@ -74,7 +74,7 @@ const allVocabulary = [
                 c: "μέγας",
                 d: "μικρός",
                 answer: "μικρός",
-                gloss: "He"
+                gloss: "small"
             },
             {
                 image: "/Assets/ἡ γυνή.png",
@@ -83,7 +83,7 @@ const allVocabulary = [
                 c: "ὁ ἀλέκτωρ",
                 d: "ὁ ἀνήρ",
                 answer: "ἡ γυνή",
-                gloss: "He"
+                gloss: "female/woman/wife"
             },
             {
                 image: "/Assets/ὁ ἀνήρ.png",
@@ -92,7 +92,7 @@ const allVocabulary = [
                 c: "ἡ γυνή",
                 d: "ὁ ἀλέκτωρ",
                 answer: "ὁ ἀνήρ",
-                gloss: "He"
+                gloss: "male"
             },
             {
                 image: "/Assets/ἡ ὄρνις.png",
@@ -101,7 +101,7 @@ const allVocabulary = [
                 c: "ὁ ἀλέκτωρ",
                 d: "ἡ γυνή",
                 answer: "ἡ ὄρνις",
-                gloss: "He"
+                gloss: "hen"
             },
             {
                 image: "/Assets/ὁ ἀλέκτωρ.png",
@@ -110,7 +110,7 @@ const allVocabulary = [
                 c: "ἡ γυνή",
                 d: "ὁ ἀλέκτωρ",
                 answer: "ὁ ἀλέκτωρ",
-                gloss: "He"
+                gloss: "rooster"
             },
             {
                 image: "/Assets/ἡ ὑδρία.png",
@@ -119,7 +119,7 @@ const allVocabulary = [
                 c: "ἡ ὑδρία",
                 d: "ὁ ἀλέκτωρ",
                 answer: "ἡ ὑδρία",
-                gloss: "He"
+                gloss: "waterpot"
             },
             {
                 image: "/Assets/ἡ οἰκία.png",
