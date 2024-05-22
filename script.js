@@ -722,7 +722,7 @@ const allVocabulary = [
                 c: "τὸ ὄρος",
                 d: "ἡ σάλπιγξ",
                 answer: "αἱ νεφέλαι",
-                gloss: "He"
+                gloss: "clouds"
             },
             {
                 image: "/Assets/τὸ ὄρος.png",
@@ -731,7 +731,7 @@ const allVocabulary = [
                 c: "τὸ ὄρος",
                 d: "ἡ σάλπιγξ",
                 answer: "τὸ ὄρος",
-                gloss: "He"
+                gloss: "mountain"
             },
             {
                 image: "/Assets/ἀκούω.png",
@@ -740,7 +740,7 @@ const allVocabulary = [
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
                 answer: "ἀκούω",
-                gloss: "He"
+                gloss: "I hear"
             },
             {
                 image: "/Assets/ἄκουε.png",
@@ -749,7 +749,7 @@ const allVocabulary = [
                 c: "Πορεύθητι",
                 d: "Καθίσατε",
                 answer: "ἄκουε",
-                gloss: "He"
+                gloss: "Hear!"
             },
             {
                 image: "/Assets/Ὁ ἀνὴρ ἀκούει..png",
@@ -758,7 +758,7 @@ const allVocabulary = [
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
                 answer: "Ὁ ἀνὴρ ἀκούει.",
-                gloss: "He"
+                gloss: "The man hears"
             },
             {
                 image: "/Assets/Αἱ γυναῖκες ἀκούουσιν..png",
@@ -767,7 +767,7 @@ const allVocabulary = [
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
                 answer: "Αἱ γυναῖκες ἀκούουσιν.",
-                gloss: "He"
+                gloss: "The women hear"
             },
             {
                 image: "/Assets/Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου..png",
@@ -776,7 +776,7 @@ const allVocabulary = [
                 c: "ἡ γυνή ἀκούει.",
                 d: "Ὁ ἀνὴρ ἀκούει.",
                 answer: "Οἱ μαθηταὶ ἀκούουσιν τοῦ διδασκάλου.",
-                gloss: "He"
+                gloss: "The students hear the teacher"
             },
             {
                 image: "/Assets/κελεύω.png",
@@ -785,7 +785,7 @@ const allVocabulary = [
                 c: "καθίζω",
                 d: "κελεύω",
                 answer: "κελεύω",
-                gloss: "He"
+                gloss: "I command"
             },
             {
                 image: "/Assets/oὐχ ὑπακούει.png",
