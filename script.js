@@ -871,8 +871,6 @@ const viewList = allVocabulary.map((list) => {
                 <img class="image-list" src="${item.image}">
                 <button class="gloss">View Gloss</button>
             </div>
-            
-            
             `).join(''); // Map each item to HTML and join them
                 
             return `
