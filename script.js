@@ -37,7 +37,8 @@ const allVocabulary = [
                 b: "αὐτή",
                 c: "σύ",
                 d: "ἐγώ",
-                answer: "ἐγώ"
+                answer: "ἐγώ",
+                gloss: "He"
             },
             {
                 image: "/Assets/σύ.png",
@@ -45,7 +46,8 @@ const allVocabulary = [
                 b: "αὐτή",
                 c: "σύ",
                 d: "ἐγώ",
-                answer: "σύ"
+                answer: "σύ",
+                gloss: "He"
             },
             {
                 image: "/Assets/αὐτή.png",
@@ -53,7 +55,8 @@ const allVocabulary = [
                 b: "αὐτή",
                 c: "σύ",
                 d: "ἐγώ",
-                answer: "αὐτή"
+                answer: "αὐτή",
+                gloss: "He"
             },
             {
                 image: "/Assets/μέγας.png",
@@ -61,7 +64,8 @@ const allVocabulary = [
                 b: "μέγας",
                 c: "κακός",
                 d: "καλός",
-                answer: "μέγας"
+                answer: "μέγας",
+                gloss: "He"
             },
             {
                 image: "/Assets/μικρός.png",
@@ -69,7 +73,8 @@ const allVocabulary = [
                 b: "καλός",
                 c: "μέγας",
                 d: "μικρός",
-                answer: "μικρός"
+                answer: "μικρός",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἡ γυνή.png",
@@ -77,7 +82,8 @@ const allVocabulary = [
                 b: "ἡ γυνή",
                 c: "ὁ ἀλέκτωρ",
                 d: "ὁ ἀνήρ",
-                answer: "ἡ γυνή"
+                answer: "ἡ γυνή",
+                gloss: "He"
             },
             {
                 image: "/Assets/ὁ ἀνήρ.png",
@@ -85,7 +91,8 @@ const allVocabulary = [
                 b: "ἡ ὄρνις",
                 c: "ἡ γυνή",
                 d: "ὁ ἀλέκτωρ",
-                answer: "ὁ ἀνήρ"
+                answer: "ὁ ἀνήρ",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἡ ὄρνις.png",
@@ -93,7 +100,8 @@ const allVocabulary = [
                 b: "ἡ ὄρνις",
                 c: "ὁ ἀλέκτωρ",
                 d: "ἡ γυνή",
-                answer: "ἡ ὄρνις"
+                answer: "ἡ ὄρνις",
+                gloss: "He"
             },
             {
                 image: "/Assets/ὁ ἀλέκτωρ.png",
@@ -101,7 +109,8 @@ const allVocabulary = [
                 b: "ἡ οἰκία",
                 c: "ἡ γυνή",
                 d: "ὁ ἀλέκτωρ",
-                answer: "ὁ ἀλέκτωρ"
+                answer: "ὁ ἀλέκτωρ",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἡ ὑδρία.png",
@@ -109,7 +118,8 @@ const allVocabulary = [
                 b: "ὁ ἵππος",
                 c: "ἡ ὑδρία",
                 d: "ὁ ἀλέκτωρ",
-                answer: "ἡ ὑδρία"
+                answer: "ἡ ὑδρία",
+                gloss: "He"
             },
             {
                 image: "/Assets/ἡ οἰκία.png",
@@ -117,7 +127,8 @@ const allVocabulary = [
                 b: "ἡ οἰκία",
                 c: "ὁ ἄνθρωπος",
                 d: "ὁ ἀλέκτωρ",
-                answer: "ἡ οἰκία"
+                answer: "ἡ οἰκία",
+                gloss: "house"
             },
             {
                 image: "/Assets/ὁ ἄνθρωπος.png",
@@ -125,7 +136,8 @@ const allVocabulary = [
                 b: "ἡ οἰκία",
                 c: "ὁ κύων",
                 d: "ὁ ἀλέκτωρ",
-                answer: "ὁ ἄνθρωπος"
+                answer: "ὁ ἄνθρωπος",
+                gloss: "man"
             },
             {
                 image: "/Assets/ὁ ἵππος.png",
@@ -133,7 +145,8 @@ const allVocabulary = [
                 b: "ἡ οἰκία",
                 c: "ὁ βοῦς",
                 d: "ὁ ἵππος",
-                answer: "ὁ ἵππος"
+                answer: "ὁ ἵππος",
+                gloss: "horse"
             },
             {
                 image: "/Assets/ὁ βοῦς.png",
@@ -141,7 +154,8 @@ const allVocabulary = [
                 b: "ὁ βοῦς",
                 c: "ὁ ἵππος",
                 d: "ὁ κύων",
-                answer: "ὁ βοῦς"
+                answer: "ὁ βοῦς",
+                gloss: "ox"
             },
             {
                 image: "/Assets/ὁ κύων.png",
@@ -149,7 +163,8 @@ const allVocabulary = [
                 b: "ἡ οἰκία",
                 c: "ἡ γυνή",
                 d: "ὁ ἵππος",
-                answer: "ὁ κύων"
+                answer: "ὁ κύων",
+                gloss: "dog"
             }      
          ]
         },
