@@ -848,8 +848,8 @@ allVocabulary.forEach((vocab) => {
 const viewGloss = () => {
     const glosses = allVocabulary.map((gloss) => {
         console.log('click')
-        const vocabulary = Object.keys(gloss)[0]; // Get the name of the vocabulary
-        const vocabularyGloss = Object.values(gloss)[0]; // Get the array of vocabulary items
+        const vocabulary = Object.keys(gloss)[0];
+        const vocabularyGloss = Object.values(gloss)[0]; 
             const itemsHTML = vocabularyGloss.map(item => `
                 <div class="list-vocabulary-items-holder">
                     <div>${item.answer}</div>
