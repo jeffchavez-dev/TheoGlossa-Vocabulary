@@ -872,6 +872,24 @@ const allVocabulary = [
                 d: "Ποία",
                 answer: "Ποῖον",
                 gloss: "what sort of/kind of? (neuter)"
+            },
+            {
+                image: "/Assets/μικρόν.png",
+                a: "μικρόν",
+                b: "μεγάλη",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "μικρόν",
+                gloss: "small"
+            },
+            {
+                image: "/Assets/μεγάλη.png",
+                a: "μικρόν",
+                b: "μεγάλη",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "μεγάλη",
+                gloss: "big"
             }
             ]
         }
