@@ -849,11 +849,29 @@ const allVocabulary = [
             {
                 image: "/Assets/Ποῖος.png",
                 a: "καλός",
-                b: "κακός",
+                b: "Ποῖον",
                 c: "Ποῖος",
                 d: "Ποία",
                 answer: "Ποῖος",
-                gloss: "what sort of/kind of?"
+                gloss: "what sort of/kind of? (masculine)"
+            },
+            {
+                image: "/Assets/Ποία.png",
+                a: "καλός",
+                b: "Ποῖον",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "Ποία",
+                gloss: "what sort of/kind of? (feminine)"
+            },
+            {
+                image: "/Assets/Ποῖον.png",
+                a: "καλός",
+                b: "Ποῖον",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "Ποῖον",
+                gloss: "what sort of/kind of? (neuter)"
             }
             ]
         }
