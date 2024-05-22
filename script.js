@@ -846,42 +846,6 @@ allVocabulary.forEach((vocab) => {
 
 
 
-// Event listener for lesson buttons
-chooseLessons.forEach(newVocabulary => {
-    newVocabulary.addEventListener('click', () => {
-        const clickedLesson = newVocabulary.innerText
-         // Find the vocabulary object for the clicked lesson
-         const vocabularyObj = allVocabulary.find(obj => Object.keys(obj)[0] === clickedLesson);
-         
-         vocabularyLessons.classList.add("hide")
-
-         if (vocabularyObj) {
-             const vocabArray = Object.values(vocabularyObj)[0];
-             console.log(`Lessons: ${Object.values(vocabularyObj)[0]}`)
-             if(myQuiz.length > 0) {
-                myQuiz = []
-                shuffledIndices = []
-                myQuiz.push(...vocabArray)
-                console.log(myQuiz)
-                setVocabulary();
-               
-             } else {
-                myQuiz.push(...vocabArray); // Push all vocabulary objects to myQuiz array
-                console.log(myQuiz)
-                setVocabulary();
-             }
-
-            
-             
-         } else {
-             vocabs.innerHTML = "No Vocabs!";
-         }
-    }
-        
-    )
-})
-
-
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
