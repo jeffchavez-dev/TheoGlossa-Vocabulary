@@ -845,39 +845,39 @@ allVocabulary.forEach((vocab) => {
 });
 
 
-const viewGloss = () => {
-    const glosses = allVocabulary.map((gloss) => {
-        console.log('click')
-        const vocabulary = Object.keys(gloss)[0];
-        const vocabularyGloss = Object.values(gloss)[0]; 
-            const itemsHTML = vocabularyGloss.map(item => `
-                <div class="list-vocabulary-items-holder">
-                    <div>${item.answer}</div>
-                    <img class="image-list" src="${item.image}">
-                    <button class="gloss" onclick="viewGloss">View Gloss</button>
-                </div>
-                `).join(''); // Map each item to HTML and join them
-    })
-}
+// Function to display gloss when button is clicked
+const viewGloss = (gloss) => {
+    // Assuming you have an HTML element with class "gloss" to display the gloss
+    alert(gloss)
+    const glossElement = document.querySelector('.gloss');
+    if (glossElement) {
+        glossElement.textContent = gloss;
+    } else {
+        console.error('Element with class "gloss" not found.');
+    }
+};
+
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
-    const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
-    const vocabularyItems = Object.values(list)[0]; // Get the array of vocabulary items
-        const itemsHTML = vocabularyItems.map(item => `
+    const vocabularyName = Object.keys(list)[0];
+    const vocabularyItems = Object.values(list)[0];
+
+    const itemsHTML = vocabularyItems
+        .map((item) => `
             <div class="list-vocabulary-items-holder">
                 <div>${item.answer}</div>
-                <img class="image-list" src="${item.image}">
-                <button class="gloss" onclick="viewGloss()">View Gloss</button>
+                <img class="image-list" src="${item.image}" alt="${item.answer}">
+                <button class="view-gloss-button" onclick="viewGloss('${item.gloss}')">View Gloss</button>
             </div>
-            `).join(''); // Map each item to HTML and join them
-                
-            return `
-            <details>
-                <summary class="list-vocabulary-headings">${vocabularyName}</summary>
-                <div class="list-vocabulary-items">${itemsHTML}</div>
-            </details>
+        `)
+        .join('');
+
+    return `
+        <details>
+            <summary class="list-vocabulary-headings">${vocabularyName}</summary>
+            <div class="list-vocabulary-items">${itemsHTML}</div>
+        </details>
     `;
-    
 })
 
 // Event listener for list button
