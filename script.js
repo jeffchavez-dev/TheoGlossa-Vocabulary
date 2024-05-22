@@ -845,7 +845,20 @@ allVocabulary.forEach((vocab) => {
 });
 
 
-
+const viewGloss = () => {
+    const glosses = allVocabulary.map((gloss) => {
+        console.log('click')
+        const vocabulary = Object.keys(gloss)[0]; // Get the name of the vocabulary
+        const vocabularyGloss = Object.values(gloss)[0]; // Get the array of vocabulary items
+            const itemsHTML = vocabularyGloss.map(item => `
+                <div class="list-vocabulary-items-holder">
+                    <div>${item.answer}</div>
+                    <img class="image-list" src="${item.image}">
+                    <button class="gloss" onclick="viewGloss">View Gloss</button>
+                </div>
+                `).join(''); // Map each item to HTML and join them
+    })
+}
 // Generate HTML for vocabulary list
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0]; // Get the name of the vocabulary
@@ -854,7 +867,7 @@ const viewList = allVocabulary.map((list) => {
             <div class="list-vocabulary-items-holder">
                 <div>${item.answer}</div>
                 <img class="image-list" src="${item.image}">
-                <button class="gloss">View Gloss</button>
+                <button class="gloss" onclick="viewGloss()">View Gloss</button>
             </div>
             `).join(''); // Map each item to HTML and join them
                 
