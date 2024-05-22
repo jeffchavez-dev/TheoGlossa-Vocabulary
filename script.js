@@ -834,7 +834,8 @@ const allVocabulary = [
                 b: "κακός",
                 c: "Ποῖος",
                 d: "Ποία",
-                answer: "καλός"
+                answer: "καλός",
+                gloss: "good"
             },
             {
                 image: "/Assets/Ποῖος.png",
@@ -842,7 +843,8 @@ const allVocabulary = [
                 b: "κακός",
                 c: "Ποῖος",
                 d: "Ποία",
-                answer: "Ποῖος"
+                answer: "Ποῖος",
+                gloss: "what sort of/kind of?"
             }
             ]
         }
