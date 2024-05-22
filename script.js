@@ -811,13 +811,38 @@ const allVocabulary = [
 // Generate HTML Lessons from Objects
 
 
-// allVocabulary.forEach((vocab) => {
-//     console.log(Object.keys(vocab)[0])
-//     const lessonDiv = document.createElement('div')
-//     lessonDiv.innerHTML = `
-//         <button class="lessons">${Object.keys(vocab)[0]}</button> `;
-//         vocabularyLessons.appendChild(lessonDiv)
-// });
+allVocabulary.forEach((vocab) => {
+    const lessonKey = Object.keys(vocab)[0];
+    const button = document.createElement("button");
+    button.classList.add("lessons");
+    button.textContent = lessonKey;
+    vocabularyLessons.appendChild(button);
+
+    button.addEventListener("click", () => {
+        const clickedLesson = button.innerText;
+        const vocabularyObj = allVocabulary.find((obj) => Object.keys(obj)[0] === clickedLesson);
+
+        vocabularyLessons.classList.add("hide");
+
+        if (vocabularyObj) {
+            const vocabArray = Object.values(vocabularyObj)[0];
+            console.log(`Lessons: ${Object.values(vocabularyObj)[0]}`);
+            if (myQuiz.length > 0) {
+                myQuiz = [];
+                shuffledIndices = [];
+                myQuiz.push(...vocabArray);
+                console.log(myQuiz);
+                setVocabulary();
+            } else {
+                myQuiz.push(...vocabArray);
+                console.log(myQuiz);
+                setVocabulary();
+            }
+        } else {
+            vocabs.innerHTML = "No Vocabs!";
+        }
+    });
+});
 
 
 
