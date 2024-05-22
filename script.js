@@ -176,7 +176,8 @@ const allVocabulary = [
                 b: "ὁ χοῖρος",
                 c: "ὁ ἵππος",
                 d: "τὸ παιδίον",
-                answer: "τὸ παιδίον"
+                answer: "τὸ παιδίον",
+                gloss: "child"
             },
             {
                 image: "/Assets/ὁ ἄρτος.png",
@@ -184,7 +185,8 @@ const allVocabulary = [
                 b: "ὁ κάμηλος",
                 c: "ὁ ἄρτος",
                 d: "τὸ παιδίον",
-                answer: "ὁ ἄρτος"
+                answer: "ὁ ἄρτος",
+                gloss: "bread"
             },
             {
                 image: "/Assets/ὁ κάμηλος.png",
@@ -192,7 +194,8 @@ const allVocabulary = [
                 b: "ὁ χοῖρος",
                 c: "ὁ ἵππος",
                 d: "τὸ παιδίον",
-                answer: "ὁ κάμηλος"
+                answer: "ὁ κάμηλος",
+                gloss: "camel"
             },
             {
                 image: "/Assets/ὁ λύκος.png",
@@ -200,7 +203,8 @@ const allVocabulary = [
                 b: "ὁ λύκος",
                 c: "ὁ ἵππος",
                 d: "τὸ παιδίον",
-                answer: "ὁ λύκος"
+                answer: "ὁ λύκος",
+                gloss: "wolf"
             },
             {
                 image: "/Assets/ὁ χοῖρος.png",
@@ -208,7 +212,8 @@ const allVocabulary = [
                 b: "τὸ πετεινόν",
                 c: "ὁ ἵππος",
                 d: "τὸ παιδίον",
-                answer: "ὁ χοῖρος"
+                answer: "ὁ χοῖρος",
+                gloss: "pig"
             },
             {
                 image: "/Assets/ποῦ;.png",
@@ -216,7 +221,8 @@ const allVocabulary = [
                 b: "ἐκεῖ",
                 c: "νῦν",
                 d: "πότε",
-                answer: "ποῦ;"
+                answer: "ποῦ;",
+                gloss: "where"
             },
             {
                 image: "/Assets/τὸ πρόβατον.png",
@@ -224,7 +230,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "τὸ πρόβατον",
                 d: "τὸ παιδίον",
-                answer: "τὸ πρόβατον"
+                answer: "τὸ πρόβατον",
+                gloss: "sheep"
             },
             {
                 image: "/Assets/τὸ ποτήριον.png",
@@ -232,7 +239,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "τὸ πετεινόν",
                 d: "τὸ παιδίον",
-                answer: "τὸ ποτήριον"
+                answer: "τὸ ποτήριον",
+                gloss: "glass"
             },
             {
                 image: "/Assets/τὸ πετεινόν.png",
@@ -240,7 +248,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "τὸ πετεινόν",
                 d: "τὸ παιδίον",
-                answer: "τὸ πετεινόν"
+                answer: "τὸ πετεινόν",
+                gloss: "bird"
             },
             {
                 image: "/Assets/ὁ ὄνος.png",
@@ -248,7 +257,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "ὁ ὄνος",
                 d: "τὸ παιδίον",
-                answer: "ὁ ὄνος"
+                answer: "ὁ ὄνος",
+                gloss: "donkey"
             },
             {
                 image: "/Assets/τὸ βιβλίον.png",
@@ -256,7 +266,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "ὁ ὄνος",
                 d: "τὸ παιδίον",
-                answer: "τὸ βιβλίον"
+                answer: "τὸ βιβλίον",
+                gloss: "book"
             },
             {
                 image: "/Assets/τὸ δένδρον.png",
@@ -264,7 +275,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "τὸ δένδρον",
                 d: "τὸ παιδίον",
-                answer: "τὸ δένδρον"
+                answer: "τὸ δένδρον",
+                gloss: "tree"
             },
             {
                 image: "/Assets/τὸ θηλυκόν ἄρθρον.png",
@@ -272,7 +284,8 @@ const allVocabulary = [
                 b: "τὸ θηλυκόν ἄρθρον",
                 c: "τὸ ἀρσενικόν ἄρθρον",
                 d: "τὸ παιδίον",
-                answer: "τὸ θηλυκόν ἄρθρον"
+                answer: "τὸ θηλυκόν ἄρθρον",
+                gloss: "feminine article"
             },
             {
                 image: "/Assets/τὸ ἀρσενικόν ἄρθρον.png",
@@ -280,7 +293,8 @@ const allVocabulary = [
                 b: "τὸ ἀρσενικόν ἄρθρον",
                 c: "τὸ δένδρον",
                 d: "τὸ θηλυκόν ἄρθρον",
-                answer: "τὸ ἀρσενικόν ἄρθρον"
+                answer: "τὸ ἀρσενικόν ἄρθρον",
+                gloss: "masculine article"
             },
             {
                 image: "/Assets/τὸ οὐδέτερον ἄρθρον.png",
@@ -288,7 +302,8 @@ const allVocabulary = [
                 b: "τὸ ποτήριον",
                 c: "τὸ δένδρον ἄρθρον",
                 d: "τὸ οὐδέτερον ἄρθρον",
-                answer: "τὸ οὐδέτερον ἄρθρον"
+                answer: "τὸ οὐδέτερον ἄρθρον",
+                gloss: "neuter article"
             }
             
          ]
