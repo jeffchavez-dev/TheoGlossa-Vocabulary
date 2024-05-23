@@ -55,7 +55,7 @@ section {
 }
 .vocabulary img {
     margin: auto;
-    width: 1000%;
+    width: 90%;
     padding: 10px;
     z-index: 2;
 }
@@ -166,7 +166,7 @@ section {
     }
     .vocabulary img {
         width: 90%;
-        max-width: 250px;
+        max-width: 500px;
         padding: 10px;
         z-index: 2;
     }
