@@ -909,6 +909,15 @@ const allVocabulary = [
                 d: "Ποία",
                 answer: "Πόσοι",
                 gloss: "How many? (masculine)"
+            },
+            {
+                image: "/Assets/Δύο.png",
+                a: "τρεῖς",
+                b: "Εἷς",
+                c: "τέσσαρες",
+                d: "Δύο",
+                answer: "Δύο",
+                gloss: "two"
             }
             ]
         }
