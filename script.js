@@ -929,13 +929,22 @@ const allVocabulary = [
                 gloss: "How many? (feminine)"
             },
             {
-                image: "/Assets/Δύο.png",
+                image: "/Assets/Πέντε.png",
                 a: "τρεῖς",
-                b: "Εἷς",
+                b: "Πέντε",
                 c: "τέσσαρες",
                 d: "Δύο",
-                answer: "Δύο",
-                gloss: "two"
+                answer: "Πέντε",
+                gloss: "five"
+            },
+            {
+                image: "/Assets/Πόσα.png",
+                a: "Πόσοι",
+                b: "Πόσαι",
+                c: "Πόσα",
+                d: "Ποία",
+                answer: "Πόσα",
+                gloss: "How many? (neuter)"
             }
             ]
         }
