@@ -909,6 +909,7 @@ allVocabulary.forEach((vocab) => {
     vocabularyLessons.appendChild(button);
 
     button.addEventListener("click", () => {
+        listButton.classList.add('hide')
         const clickedLesson = button.innerText;
         const vocabularyObj = allVocabulary.find((obj) => Object.keys(obj)[0] === clickedLesson);
 
