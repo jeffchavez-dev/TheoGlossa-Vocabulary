@@ -14,6 +14,7 @@ const vocabularyLessons = document.querySelector('.vocabulary-lessons')
 const showStatus = document.querySelector('.status')
 const showCheck = document.querySelector('.check')
 const showCross = document.querySelector('.cross')
+const listButton = document.querySelector('.learn')
 
 const quiz = [
  
@@ -970,10 +971,10 @@ const viewList = allVocabulary.map((list) => {
 })
 
 // Event listener for list button
-const listButton = document.querySelector('.learn')
+
 listButton.addEventListener('click', () => {
+    listButton.classList.add('hide')
     vocabularyLessons.innerHTML = viewList.join('')
-    listButton.classList.add('.hide')
 })
 
 
