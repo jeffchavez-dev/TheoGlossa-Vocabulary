@@ -973,6 +973,7 @@ const viewList = allVocabulary.map((list) => {
 const listButton = document.querySelector('.learn')
 listButton.addEventListener('click', () => {
     vocabularyLessons.innerHTML = viewList.join('')
+    listButton.classList.add('.hide')
 })
 
 
