@@ -204,7 +204,7 @@ button:hover {
 footer {
     display: flex;
     gap: 1em;
-    margin: auto;
+    margin: 5em auto;
 }
 
 footer, img {
