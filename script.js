@@ -900,6 +900,15 @@ const allVocabulary = [
                 d: "Ποία",
                 answer: "ψηφίζε",
                 gloss: "count"
+            },
+            {
+                image: "/Assets/Πόσοι.png",
+                a: "Πόσοι",
+                b: "μεγάλη",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "Πόσοι",
+                gloss: "How many? (masculine)"
             }
             ]
         }
