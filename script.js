@@ -954,6 +954,24 @@ const allVocabulary = [
                 d: "τέσσαρα",
                 answer: "Τρία",
                 gloss: "Three (neuter)"
+            },
+            {
+                image: "/Assets/Στῆθι.png",
+                a: "Στῆτε",
+                b: "Στῆθι",
+                c: "Περιπάτει",
+                d: "Περιπατεῖτε",
+                answer: "Στῆθι",
+                gloss: "Stop (Imperative - singular)"
+            },
+            {
+                image: "/Assets/Περιπάτει.png",
+                a: "Στῆθι",
+                b: "Περιπάτει",
+                c: "Περιπατεῖτε",
+                d: "Στῆτε",
+                answer: "Περιπάτει",
+                gloss: "Walk (Imperative - singular)"
             }
             ]
         }
