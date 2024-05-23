@@ -1,6 +1,7 @@
 *, *::after, *::before {
     box-sizing: border-box;
    
+   
 }
 
 :root {
@@ -45,13 +46,16 @@ section {
     display: none;
 }
 .vocab-section {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
     text-align: center;
     position: relative;
+    border: solid red 1px;
 }
 .vocabulary img {
     margin: auto;
-    width: 50%;
-    max-width: 80%;
+    width: 1000%;
     padding: 10px;
     z-index: 2;
 }
@@ -161,7 +165,7 @@ section {
       font-size: 1em;
     }
     .vocabulary img {
-        width: 80%;
+        width: 90%;
         max-width: 250px;
         padding: 10px;
         z-index: 2;
