@@ -29,6 +29,9 @@ header img {
     display: block;
     margin-top: 10px;
 }
+.hide {
+    display: none;
+}
 .lessons {
     text-decoration: none;
     color: white;
