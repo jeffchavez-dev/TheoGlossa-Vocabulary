@@ -945,6 +945,15 @@ const allVocabulary = [
                 d: "Ποία",
                 answer: "Πόσα",
                 gloss: "How many? (neuter)"
+            },
+            {
+                image: "/Assets/Τρία.png",
+                a: "τρεῖς",
+                b: "Τρία",
+                c: "τέσσαρες",
+                d: "τέσσαρα",
+                answer: "Τρία",
+                gloss: "Three (neuter)"
             }
             ]
         }
