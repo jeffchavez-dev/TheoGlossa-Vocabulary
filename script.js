@@ -891,6 +891,15 @@ const allVocabulary = [
                 d: "Ποία",
                 answer: "μεγάλη",
                 gloss: "big"
+            },
+            {
+                image: "/Assets/ψηφίζε.png",
+                a: "ψηφίζε",
+                b: "μεγάλη",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "ψηφίζε",
+                gloss: "count"
             }
             ]
         }
