@@ -904,11 +904,29 @@ const allVocabulary = [
             {
                 image: "/Assets/Πόσοι.png",
                 a: "Πόσοι",
-                b: "μεγάλη",
+                b: "Πόσαι",
                 c: "Ποῖος",
                 d: "Ποία",
                 answer: "Πόσοι",
                 gloss: "How many? (masculine)"
+            },
+            {
+                image: "/Assets/Δύο.png",
+                a: "τρεῖς",
+                b: "Εἷς",
+                c: "τέσσαρες",
+                d: "Δύο",
+                answer: "Δύο",
+                gloss: "two"
+            },
+            {
+                image: "/Assets/Πόσαι.png",
+                a: "Πόσοι",
+                b: "Πόσαι",
+                c: "Ποῖος",
+                d: "Ποία",
+                answer: "Πόσαι",
+                gloss: "How many? (feminine)"
             },
             {
                 image: "/Assets/Δύο.png",
