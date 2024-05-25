@@ -972,6 +972,15 @@ const allVocabulary = [
                 d: "Στῆτε",
                 answer: "Περιπάτει",
                 gloss: "Walk (Imperative - singular)"
+            },
+            {
+                image: "/Assets/Στῆθι.png",
+                a: "Στῆτε",
+                b: "Στῆθι",
+                c: "Περιπάτει",
+                d: "Περιπατεῖτε",
+                answer: "Στῆθι",
+                gloss: "Stop (Imperative - singular)"
             }
             ]
         }
