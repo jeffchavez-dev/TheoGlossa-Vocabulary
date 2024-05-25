@@ -989,7 +989,7 @@ const allVocabulary = [
                 c: "Περιπατεῖτε",
                 d: "Στῆτε",
                 answer: "Στῆτε",
-                gloss: "Walk (Imperative - singular)"
+                gloss: "Walk (Imperative - plural)"
             }
             ]
         }
