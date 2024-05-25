@@ -983,7 +983,7 @@ const allVocabulary = [
                 gloss: "Stop (Imperative - plural)"
             },
             {
-                image: "/Assets/Περιπάτει.png",
+                image: "/Assets/Στῆτε.png",
                 a: "Στῆθι",
                 b: "Περιπάτει",
                 c: "Περιπατεῖτε",
