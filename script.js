@@ -336,6 +336,15 @@ const allVocabulary = [
                 answer: "λίθοι (οἱ)",
                 gloss: "stones"
             },
+            {
+                image: "/Assets/ἄρτοι (οἱ).png",
+                a: "ἵπποι (οἱ)",
+                b: "ὄνοι (οἱ)",
+                c: "λίθοι (οἱ)",
+                d: "ἄρτοι (οἱ)",
+                answer: "ἄρτοι (οἱ)",
+                gloss: "breads"
+            },
         ]
         },
         { "τέταρτος": [ 
