@@ -314,9 +314,9 @@ const allVocabulary = [
                 a: "ἵπποι (οἱ)",
                 b: "ὄνοι (οἱ)",
                 c: "λίθοι (οἱ)",
-                d: "ἵπποι (οἱ)",
+                d: "ἄρτοι (οἱ)",
                 answer: "ἵπποι (οἱ)",
-                gloss: "child"
+                gloss: "horses"
             },
         ]
         },
