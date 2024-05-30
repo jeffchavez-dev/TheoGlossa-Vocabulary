@@ -345,6 +345,15 @@ const allVocabulary = [
                 answer: "ἄρτοι (οἱ)",
                 gloss: "breads"
             },
+            {
+                image: "/Assets/κάλαμοι (οἱ).png",
+                a: "ἵπποι (οἱ)",
+                b: "ὄνοι (οἱ)",
+                c: "κάλαμοι (οἱ)",
+                d: "ἄρτοι (οἱ)",
+                answer: "κάλαμοι (οἱ)",
+                gloss: "camels"
+            },
         ]
         },
         { "τέταρτος": [ 
