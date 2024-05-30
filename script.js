@@ -369,7 +369,7 @@ const allVocabulary = [
                 b: "κάμηλοι (οἱ)",
                 c: "κάλαμοι (οἱ)",
                 d: "λύκοι (οἱ)",
-                answer: "κάμηλοι (οἱ)",
+                answer: "λύκοι (οἱ)",
                 gloss: "reeds"
             },
         ]
