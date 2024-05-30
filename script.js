@@ -170,31 +170,6 @@ const allVocabulary = [
          ]
         },
         { "δεύτερος": [ 
-        ]
-        },
-        { "τρίτος": [ 
-        ]
-        },
-        { "τέταρτος": [ 
-        ]
-        },
-        { "πέμπτος": [ 
-        ]
-        },
-        { "έκτος": [ 
-        ]
-        },
-        { "έβδομος": [ 
-        ]
-        },
-        { "όγδοο": [ 
-        ]
-        },
-        { "ένατος": [ 
-        ]
-        },
-        { "δέκατος": [ 
-            
             {
                 image: "/Assets/τὸ παιδίον.png",
                 a: "ὁ ἄρτος",
@@ -331,6 +306,32 @@ const allVocabulary = [
                 gloss: "neuter article"
             }
             
+        ]
+        },
+        { "τρίτος": [ 
+        ]
+        },
+        { "τέταρτος": [ 
+        ]
+        },
+        { "πέμπτος": [ 
+        ]
+        },
+        { "έκτος": [ 
+        ]
+        },
+        { "έβδομος": [ 
+        ]
+        },
+        { "όγδοο": [ 
+        ]
+        },
+        { "ένατος": [ 
+        ]
+        },
+        { "δέκατος": [ 
+            
+          
          ]
         },
 
@@ -1032,29 +1033,36 @@ allVocabulary.forEach((vocab) => {
     vocabularyLessons.appendChild(button);
 
     button.addEventListener("click", () => {
-        listButton.classList.add('hide')
-        const clickedLesson = button.innerText;
-        const vocabularyObj = allVocabulary.find((obj) => Object.keys(obj)[0] === clickedLesson);
 
-        vocabularyLessons.classList.add("hide");
+        if (Object.keys(vocab).length > 0) {
 
-        if (vocabularyObj) {
-            const vocabArray = Object.values(vocabularyObj)[0];
-            console.log(`Lessons: ${Object.values(vocabularyObj)[0]}`);
-            if (myQuiz.length > 0) {
-                myQuiz = [];
-                shuffledIndices = [];
-                myQuiz.push(...vocabArray);
-                console.log(myQuiz);
-                setVocabulary();
+            listButton.classList.add('hide')
+            const clickedLesson = button.innerText;
+            const vocabularyObj = allVocabulary.find((obj) => Object.keys(obj)[0] === clickedLesson);
+    
+            vocabularyLessons.classList.add("hide");
+    
+            if (vocabularyObj) {
+                const vocabArray = Object.values(vocabularyObj)[0];
+                console.log(`Lessons: ${Object.values(vocabularyObj)[0]}`);
+                if (myQuiz.length > 0) {
+                    myQuiz = [];
+                    shuffledIndices = [];
+                    myQuiz.push(...vocabArray);
+                    console.log(myQuiz);
+                    setVocabulary();
+                } else {
+                    myQuiz.push(...vocabArray);
+                    console.log(myQuiz);
+                    setVocabulary();
+                }
             } else {
-                myQuiz.push(...vocabArray);
-                console.log(myQuiz);
-                setVocabulary();
+                vocabs.innerHTML = "No Vocabs!";
             }
         } else {
             vocabs.innerHTML = "No Vocabs!";
         }
+
     });
 });
 
