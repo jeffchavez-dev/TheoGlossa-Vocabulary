@@ -327,6 +327,15 @@ const allVocabulary = [
                 answer: "ὄνοι (οἱ)",
                 gloss: "donkies"
             },
+            {
+                image: "/Assets/ὄνοι (οἱ).png",
+                a: "ἵπποι (οἱ)",
+                b: "ὄνοι (οἱ)",
+                c: "λίθοι (οἱ)",
+                d: "ἄρτοι (οἱ)",
+                answer: "ὄνοι (οἱ)",
+                gloss: "donkies"
+            },
         ]
         },
         { "τέταρτος": [ 
