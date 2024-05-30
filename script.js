@@ -379,7 +379,7 @@ const allVocabulary = [
                 c: "χοῖροι (οἱ)",
                 d: "λύκοι (οἱ)",
                 answer: "χοῖροι (οἱ)",
-                gloss: "wolves"
+                gloss: "pigs"
             },
             {
                 image: "/Assets/λύκοι (οἱ).png",
