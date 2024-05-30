@@ -354,6 +354,15 @@ const allVocabulary = [
                 answer: "κάλαμοι (οἱ)",
                 gloss: "camels"
             },
+            {
+                image: "/Assets/κάλαμοι (οἱ).png",
+                a: "ἵπποι (οἱ)",
+                b: "κάμηλοι (οἱ)",
+                c: "κάλαμοι (οἱ)",
+                d: "ἄρτοι (οἱ)",
+                answer: "κάλαμοι (οἱ)",
+                gloss: "camels"
+            },
         ]
         },
         { "τέταρτος": [ 
