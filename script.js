@@ -388,7 +388,7 @@ const allVocabulary = [
                 c: "κάλαμοι (οἱ)",
                 d: "λύκοι (οἱ)",
                 answer: "πετεινά (τά)",
-                gloss: "wolves"
+                gloss: "birds"
             },
         ]
         },
