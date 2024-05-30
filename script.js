@@ -364,7 +364,7 @@ const allVocabulary = [
                 gloss: "reeds"
             },
             {
-                image: "/Assets/κάμηλοι (οἱ).png",
+                image: "/Assets/λύκοι (οἱ).png",
                 a: "ἵπποι (οἱ)",
                 b: "κάμηλοι (οἱ)",
                 c: "κάλαμοι (οἱ)",
