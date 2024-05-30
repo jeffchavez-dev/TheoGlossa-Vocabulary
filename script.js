@@ -328,13 +328,13 @@ const allVocabulary = [
                 gloss: "donkies"
             },
             {
-                image: "/Assets/ὄνοι (οἱ).png",
+                image: "/Assets/λίθοι (οἱ).png",
                 a: "ἵπποι (οἱ)",
                 b: "ὄνοι (οἱ)",
                 c: "λίθοι (οἱ)",
                 d: "ἄρτοι (οἱ)",
-                answer: "ὄνοι (οἱ)",
-                gloss: "donkies"
+                answer: "λίθοι (οἱ)",
+                gloss: "stones"
             },
         ]
         },
