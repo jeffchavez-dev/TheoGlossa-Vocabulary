@@ -60,6 +60,15 @@ const allVocabulary = [
                 gloss: "He"
             },
             {
+                image: "/Assets/μικρά.png",
+                a: "μέγας",
+                b: "μεγάλη",
+                c: "μικρός",
+                d: "μικρά",
+                answer: "μικρά",
+                gloss: "He"
+            },
+            {
                 image: "/Assets/οὔ.png",
                 a: "ναί",
                 b: "οὔ",
