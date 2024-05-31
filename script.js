@@ -39,7 +39,7 @@ const allVocabulary = [
                 c: "μικρός",
                 d: "μικρά",
                 answer: "μέγας",
-                gloss: "He"
+                gloss: "big/large/great (masculine singular)"
             },
             {
                 image: "/Assets/μεγάλη.png",
