@@ -1188,6 +1188,8 @@ const viewGloss = (gloss) => {
 };
 
 // Generate HTML for vocabulary list
+
+{/* <input>Search</input> */}
 const viewList = allVocabulary.map((list) => {
     const vocabularyName = Object.keys(list)[0];
     const vocabularyItems = Object.values(list)[0];
