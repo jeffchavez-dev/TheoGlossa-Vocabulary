@@ -35,9 +35,9 @@ const allVocabulary = [
             {
                 image: "/Assets/μέγας.png",
                 a: "μέγας",
-                b: "αὐτή",
-                c: "σύ",
-                d: "ἐγώ",
+                b: "μεγάλη",
+                c: "μικρός",
+                d: "μικρά",
                 answer: "μέγας",
                 gloss: "He"
             },
