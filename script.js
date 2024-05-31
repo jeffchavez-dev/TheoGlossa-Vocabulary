@@ -66,7 +66,7 @@ const allVocabulary = [
                 c: "μικρός",
                 d: "μικρά",
                 answer: "μικρά",
-                gloss: "He"
+                gloss: "small/little (feminine singular)"
             },
             {
                 image: "/Assets/οὔ.png",
