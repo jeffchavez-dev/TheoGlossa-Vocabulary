@@ -33,12 +33,12 @@ const allVocabulary = [
                 gloss: "He"
             },
             {
-                image: "/Assets/αὐτός.png",
-                a: "αὐτός",
+                image: "/Assets/μέγας.png",
+                a: "μέγας",
                 b: "αὐτή",
                 c: "σύ",
                 d: "ἐγώ",
-                answer: "αὐτός",
+                answer: "μέγας",
                 gloss: "He"
             },
             {
