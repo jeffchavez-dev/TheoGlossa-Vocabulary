@@ -79,7 +79,7 @@ const allVocabulary = [
             },
             {
                 image: "/Assets/ναί.png",
-                a: "οὔ",
+                a: "Ἆρα",
                 b: "ναί",
                 c: "σύ",
                 d: "ἐγώ",
