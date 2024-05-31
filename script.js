@@ -39,7 +39,7 @@ const allVocabulary = [
                 c: "σύ",
                 d: "ἐγώ",
                 answer: "αὐτός",
-                gloss: "He"
+                gloss: "No"
             },
             {
                 image: "/Assets/ναί.png",
