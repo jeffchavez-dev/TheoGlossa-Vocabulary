@@ -1203,6 +1203,7 @@ const viewList = allVocabulary.map((list) => {
         .join('');
 
     return `
+        <input>Search</input>
         <details>
             <summary class="list-vocabulary-headings">${vocabularyName}</summary>
             <div class="list-vocabulary-items">${itemsHTML}</div>
