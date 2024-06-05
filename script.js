@@ -120,7 +120,7 @@ const allVocabulary = [
                 c: "μεγάλη",
                 d: "μικρά",
                 answer: "μέγας",
-                gloss: "big"
+                gloss: "big (masculine)"
             },
             {
                 image: "/Assets/μικρός.png",
@@ -129,7 +129,7 @@ const allVocabulary = [
                 c: "μέγας",
                 d: "μικρός",
                 answer: "μικρός",
-                gloss: "small"
+                gloss: "small (masculine)"
             },
             {
                 image: "/Assets/μεγάλη.png",
