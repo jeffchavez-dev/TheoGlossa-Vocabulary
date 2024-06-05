@@ -147,7 +147,7 @@ const allVocabulary = [
                 c: "μέγας",
                 d: "μικρός",
                 answer: "μικρά",
-                gloss: "small"
+                gloss: "small (feminine)"
             },
             {
                 image: "/Assets/ἡ γυνή.png",
