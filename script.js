@@ -117,15 +117,15 @@ const allVocabulary = [
                 image: "/Assets/μέγας.png",
                 a: "μικρός",
                 b: "μέγας",
-                c: "κακός",
-                d: "καλός",
+                c: "μεγάλη",
+                d: "μικρά",
                 answer: "μέγας",
                 gloss: "big"
             },
             {
                 image: "/Assets/μικρός.png",
-                a: "κακός",
-                b: "καλός",
+                a: "μεγάλη",
+                b: "μικρά",
                 c: "μέγας",
                 d: "μικρός",
                 answer: "μικρός",
@@ -136,17 +136,17 @@ const allVocabulary = [
                 a: "μικρός",
                 b: "μέγας",
                 c: "μεγάλη",
-                d: "καλός",
+                d: "μικρά",
                 answer: "μεγάλη",
                 gloss: "big (feminine)"
             },
             {
                 image: "/Assets/μικρά.png",
                 a: "κακός",
-                b: "καλός",
+                b: "μικρά",
                 c: "μέγας",
                 d: "μικρός",
-                answer: "μικρός",
+                answer: "μικρά",
                 gloss: "small"
             },
             {
