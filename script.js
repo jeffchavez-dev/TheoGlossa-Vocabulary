@@ -135,10 +135,10 @@ const allVocabulary = [
                 image: "/Assets/μεγάλη.png",
                 a: "μικρός",
                 b: "μέγας",
-                c: "κακός",
+                c: "μεγάλη",
                 d: "καλός",
-                answer: "μέγας",
-                gloss: "big"
+                answer: "μεγάλη",
+                gloss: "big (feminine)"
             },
             {
                 image: "/Assets/μικρά.png",
