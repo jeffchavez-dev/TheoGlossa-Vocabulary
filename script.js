@@ -243,33 +243,6 @@ const allVocabulary = [
                 gloss: "bread"
             },
             {
-                image: "/Assets/ὁ κάμηλος.png",
-                a: "ὁ κάμηλος",
-                b: "ὁ χοῖρος",
-                c: "ὁ ἵππος",
-                d: "τὸ παιδίον",
-                answer: "ὁ κάμηλος",
-                gloss: "camel"
-            },
-            {
-                image: "/Assets/ὁ λύκος.png",
-                a: "ὁ χοῖρος",
-                b: "ὁ λύκος",
-                c: "ὁ ἵππος",
-                d: "τὸ παιδίον",
-                answer: "ὁ λύκος",
-                gloss: "wolf"
-            },
-            {
-                image: "/Assets/ὁ χοῖρος.png",
-                a: "ὁ χοῖρος",
-                b: "τὸ πετεινόν",
-                c: "ὁ ἵππος",
-                d: "τὸ παιδίον",
-                answer: "ὁ χοῖρος",
-                gloss: "pig"
-            },
-            {
                 image: "/Assets/ποῦ;.png",
                 a: "ποῦ;",
                 b: "ἐκεῖ",
