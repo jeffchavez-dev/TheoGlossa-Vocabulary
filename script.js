@@ -132,6 +132,24 @@ const allVocabulary = [
                 gloss: "small"
             },
             {
+                image: "/Assets/μεγάλη.png",
+                a: "μικρός",
+                b: "μέγας",
+                c: "κακός",
+                d: "καλός",
+                answer: "μέγας",
+                gloss: "big"
+            },
+            {
+                image: "/Assets/μικρά.png",
+                a: "κακός",
+                b: "καλός",
+                c: "μέγας",
+                d: "μικρός",
+                answer: "μικρός",
+                gloss: "small"
+            },
+            {
                 image: "/Assets/ἡ γυνή.png",
                 a: "ἡ ὄρνις",
                 b: "ἡ γυνή",
