@@ -60,6 +60,15 @@ const allVocabulary = [
                 answer: "μικρά",
                 gloss: "small/little (feminine singular)"
             },
+                        {
+                image: "/Assets/μικρά.png",
+                a: "μέγας",
+                b: "μεγάλη",
+                c: "μικρός",
+                d: "μικρά",
+                answer: "μικρά",
+                gloss: "small/little (feminine singular)"
+            },
             {
                 image: "/Assets/οὔ.png",
                 a: "ναί",
