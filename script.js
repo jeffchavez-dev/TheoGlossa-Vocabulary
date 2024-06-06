@@ -61,12 +61,12 @@ const allVocabulary = [
                 gloss: "small/little (feminine singular)"
             },
                         {
-                image: "/Assets/μικρά.png",
+                image: "/Assets/σφόδρα.png",
                 a: "μέγας",
-                b: "μεγάλη",
+                b: "σφόδρα",
                 c: "μικρός",
                 d: "μικρά",
-                answer: "μικρά",
+                answer: "σφόδρα",
                 gloss: "small/little (feminine singular)"
             },
             {
