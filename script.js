@@ -379,13 +379,13 @@ const allVocabulary = [
                 gloss: "tree"
             },
             {
-                image: "/Assets/τὸ δένδρον.png",
-                a: "τὸ πρόβατον",
+                image: "/Assets/τὸ σκεῦος.png",
+                a: "τὸ σκεῦος",
                 b: "τὸ ποτήριον",
                 c: "τὸ δένδρον",
                 d: "τὸ παιδίον",
-                answer: "τὸ δένδρον",
-                gloss: "tree"
+                answer: "τὸ σκεῦος",
+                gloss: "vessel"
             },
             {
                 image: "/Assets/τὸ θηλυκόν ἄρθρον.png",
