@@ -97,24 +97,6 @@ const allVocabulary = [
                 gloss: "you (singular)"
             },
             {
-                image: "/Assets/μέγας.png",
-                a: "μικρός",
-                b: "μέγας",
-                c: "μεγάλη",
-                d: "μικρά",
-                answer: "μέγας",
-                gloss: "big (masculine)"
-            },
-            {
-                image: "/Assets/μικρός.png",
-                a: "μεγάλη",
-                b: "μικρά",
-                c: "μέγας",
-                d: "μικρός",
-                answer: "μικρός",
-                gloss: "small (masculine)"
-            },
-            {
                 image: "/Assets/μεγάλη.png",
                 a: "μικρός",
                 b: "μέγας",
