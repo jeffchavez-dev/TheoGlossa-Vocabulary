@@ -255,8 +255,8 @@ const allVocabulary = [
                 b: "ἄνθρωποι",
                 c: "ἄνθρωπη",
                 d: "ἄνθρωπαι",
-                answer: "ὁ ἄνθρωπος",
-                gloss: "man"
+                answer: "ἄνθρωποι",
+                gloss: "Men (brothers and sisters)"
             }     
          ]
         },
