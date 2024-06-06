@@ -221,7 +221,34 @@ const allVocabulary = [
                 d: "ἔρρωσθε",
                 answer: "χαῖρε",
                 gloss: "Hi (singular)"
-            },       
+            }, 
+            {
+                image: "/Assets/χαῖρε.png",
+                a: "ὁ χοῖρος",
+                b: "χαίρετε",
+                c: "ἔρρωσο",
+                d: "ἔρρωσθε",
+                answer: "χαῖρε",
+                gloss: "Hi (singular)"
+            },
+            {
+                image: "/Assets/χαῖρε.png",
+                a: "ὁ χοῖρος",
+                b: "χαίρετε",
+                c: "ἔρρωσο",
+                d: "ἔρρωσθε",
+                answer: "χαῖρε",
+                gloss: "Hi (singular)"
+            },
+            {
+                image: "/Assets/χαῖρε.png",
+                a: "ὁ χοῖρος",
+                b: "χαίρετε",
+                c: "ἔρρωσο",
+                d: "ἔρρωσθε",
+                answer: "χαῖρε",
+                gloss: "Hi (singular)"
+            }      
          ]
         },
         { "δεύτερος": [ 
