@@ -277,7 +277,7 @@ const allVocabulary = [
                 c: "μέγα",
                 d: "μικρά",
                 answer: "μέγας",
-                gloss: "big/large/great (masculine singular)"
+                gloss: "big/large/great (neuter singular)"
             },
             {
                 image: "/Assets/τὸ παιδίον.png",
