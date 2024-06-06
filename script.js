@@ -271,10 +271,10 @@ const allVocabulary = [
         },
         { "δεύτερος": [ 
             {
-                image: "/Assets/μέγας.png",
+                image: "/Assets/μέγα.png",
                 a: "μέγας",
                 b: "μεγάλη",
-                c: "μικρός",
+                c: "μέγα",
                 d: "μικρά",
                 answer: "μέγας",
                 gloss: "big/large/great (masculine singular)"
