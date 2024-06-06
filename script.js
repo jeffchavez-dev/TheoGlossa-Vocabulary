@@ -232,13 +232,13 @@ const allVocabulary = [
                 gloss: "Hi (singular)"
             },
             {
-                image: "/Assets/χαῖρε.png",
+                image: "/Assets/χαίρετε.png",
                 a: "χαῖρε",
                 b: "χαίρετε",
                 c: "ἔρρωσο",
                 d: "ἔρρωσθε",
                 answer: "χαῖρε",
-                gloss: "Hi (singular)"
+                gloss: "Hi (plural)"
             },
             {
                 image: "/Assets/χαῖρε.png",
