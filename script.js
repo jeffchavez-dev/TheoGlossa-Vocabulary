@@ -280,6 +280,15 @@ const allVocabulary = [
                 gloss: "child"
             },
             {
+                image: "/Assets/τὸ παιδίον.png",
+                a: "ὁ ἄρτος",
+                b: "ὁ χοῖρος",
+                c: "ὁ ἵππος",
+                d: "τὸ παιδίον",
+                answer: "τὸ παιδίον",
+                gloss: "child"
+            },
+            {
                 image: "/Assets/ὁ ἄρτος.png",
                 a: "ὁ ἵππος",
                 b: "ὁ κάμηλος",
