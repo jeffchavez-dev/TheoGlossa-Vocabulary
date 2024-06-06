@@ -280,13 +280,13 @@ const allVocabulary = [
                 gloss: "child"
             },
             {
-                image: "/Assets/τὸ παιδίον.png",
+                image: "/Assets/τὸ ζῷον.png",
                 a: "ὁ ἄρτος",
                 b: "ὁ χοῖρος",
                 c: "ὁ ἵππος",
-                d: "τὸ παιδίον",
-                answer: "τὸ παιδίον",
-                gloss: "child"
+                d: "τὸ ζῷον",
+                answer: "τὸ ζῷον",
+                gloss: "animal (singular"
             },
             {
                 image: "/Assets/ὁ ἄρτος.png",
