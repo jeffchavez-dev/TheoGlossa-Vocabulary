@@ -271,6 +271,15 @@ const allVocabulary = [
         },
         { "δεύτερος": [ 
             {
+                image: "/Assets/μικρός.png",
+                a: "μέγας",
+                b: "μεγάλη",
+                c: "μικρός",
+                d: "μικρά",
+                answer: "μικρός",
+                gloss: "small/little (masculine singular)"
+            },
+            {
                 image: "/Assets/μέγα.png",
                 a: "μέγας",
                 b: "μεγάλη",
