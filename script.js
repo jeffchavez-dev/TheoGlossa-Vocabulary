@@ -23,15 +23,7 @@ const quiz = [
 
 const allVocabulary = [
         { "πρῶτος": [ 
-            {
-                image: "/Assets/αὐτός.png",
-                a: "αὐτός",
-                b: "αὐτή",
-                c: "σύ",
-                d: "ἐγώ",
-                answer: "αὐτός",
-                gloss: "He"
-            },
+            
             {
                 image: "/Assets/μέγας.png",
                 a: "μέγας",
@@ -103,15 +95,6 @@ const allVocabulary = [
                 d: "ἐγώ",
                 answer: "σύ",
                 gloss: "you (singular)"
-            },
-            {
-                image: "/Assets/αὐτή.png",
-                a: "αὐτός",
-                b: "αὐτή",
-                c: "σύ",
-                d: "ἐγώ",
-                answer: "αὐτή",
-                gloss: "she"
             },
             {
                 image: "/Assets/μέγας.png",
