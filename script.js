@@ -466,6 +466,24 @@ const allVocabulary = [
         ]
         },
         { "έβδομος": [ 
+            {
+                image: "/Assets/αὐτή.png",
+                a: "αὐτός",
+                b: "αὐτή",
+                c: "σύ",
+                d: "ἐγώ",
+                answer: "αὐτή",
+                gloss: "she"
+            },
+            {
+                image: "/Assets/αὐτός.png",
+                a: "αὐτός",
+                b: "αὐτή",
+                c: "σύ",
+                d: "ἐγώ",
+                answer: "αὐτός",
+                gloss: "He"
+            }
         ]
         },
         { "όγδοο": [ 
