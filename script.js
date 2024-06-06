@@ -250,8 +250,8 @@ const allVocabulary = [
                 gloss: "Bye (plural)"
             },
             {
-                image: "/Assets/ὁ ἄνθρωπος.png",
-                a: "ὁ ἄνθρωπος",
+                image: "/Assets/ἄνθρωποι.png",
+                a: "ἄνθρωπος",
                 b: "ἄνθρωποι",
                 c: "ἄνθρωπη",
                 d: "ἄνθρωπαι",
