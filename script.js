@@ -219,8 +219,8 @@ const allVocabulary = [
                 b: "χαίρετε",
                 c: "ἔρρωσο",
                 d: "ἔρρωσθε",
-                answer: "ὁ χοῖρος",
-                gloss: "pig"
+                answer: "χαῖρε",
+                gloss: "Hi (singular)"
             },       
          ]
         },
