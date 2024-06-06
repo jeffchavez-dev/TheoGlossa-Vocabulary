@@ -248,7 +248,16 @@ const allVocabulary = [
                 d: "ἔρρωσθε",
                 answer: "ἔρρωσθε",
                 gloss: "Bye (plural)"
-            }      
+            },
+            {
+                image: "/Assets/ὁ ἄνθρωπος.png",
+                a: "ὁ ἄνθρωπος",
+                b: "ἡ οἰκία",
+                c: "ὁ κύων",
+                d: "ὁ ἀλέκτωρ",
+                answer: "ὁ ἄνθρωπος",
+                gloss: "man"
+            }     
          ]
         },
         { "δεύτερος": [ 
