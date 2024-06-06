@@ -237,7 +237,7 @@ const allVocabulary = [
                 b: "χαίρετε",
                 c: "ἔρρωσο",
                 d: "ἔρρωσθε",
-                answer: "χαῖρε",
+                answer: "χαίρετε",
                 gloss: "Hi (plural)"
             },
             {
