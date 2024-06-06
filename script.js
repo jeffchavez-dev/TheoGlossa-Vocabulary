@@ -214,11 +214,11 @@ const allVocabulary = [
                 gloss: "pig"
             }, 
             {
-                image: "/Assets/ὁ χοῖρος.png",
+                image: "/Assets/χαῖρε.png",
                 a: "ὁ χοῖρος",
-                b: "τὸ πετεινόν",
-                c: "ὁ ἵππος",
-                d: "τὸ παιδίον",
+                b: "χαίρετε",
+                c: "ἔρρωσο",
+                d: "ἔρρωσθε",
                 answer: "ὁ χοῖρος",
                 gloss: "pig"
             },       
