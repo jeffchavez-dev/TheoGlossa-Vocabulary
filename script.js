@@ -67,7 +67,7 @@ const allVocabulary = [
                 c: "μικρός",
                 d: "μικρά",
                 answer: "σφόδρα",
-                gloss: "small/little (feminine singular)"
+                gloss: "exceedingly (small or large)"
             },
             {
                 image: "/Assets/οὔ.png",
