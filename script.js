@@ -578,7 +578,7 @@ const allVocabulary = [
                 c: "δένδρα (τά)",
                 d: "πρόβατα (τά)",
                 answer: "πρόβατα (τά)",
-                gloss: "glasses"
+                gloss: "sheeps"
             },
             {
                 image: "/Assets/παιδία (τά).png",
@@ -587,7 +587,7 @@ const allVocabulary = [
                 c: "δένδρα (τά)",
                 d: "παιδία (τά)",
                 answer: "παιδία (τά)",
-                gloss: "glasses"
+                gloss: "children"
             },
             {
                 image: "/Assets/ζῷα (τά).png",
