@@ -550,7 +550,7 @@ const allVocabulary = [
                 b: "θύρα (ἡ)",
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
-                answer: "τράπεζα (ἡ)",
+                answer: "οἰκίαι (αἱ)",
                 gloss: "Table"
             },
             {
