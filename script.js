@@ -524,7 +524,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "στέγαι (αἱ)",
                 answer: "στέγη (ἡ)",
-                gloss: "glasses"
+                gloss: "roof"
             },
             {
                 image: "/Assets/θύρα (ἡ).png",
@@ -533,7 +533,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "θύραι (αἱ)",
                 answer: "θύρα (ἡ)",
-                gloss: "glasses"
+                gloss: "door"
             },
             {
                 image: "/Assets/τράπεζα (ἡ).png",
