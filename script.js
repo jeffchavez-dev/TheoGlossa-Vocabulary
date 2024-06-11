@@ -605,7 +605,7 @@ const allVocabulary = [
                 c: "οὗτοι",
                 d: "Οὗτός",
                 answer: "οὗτοι",
-                gloss: "glasses"
+                gloss: "These (masculine)"
             }
         ]
         },
