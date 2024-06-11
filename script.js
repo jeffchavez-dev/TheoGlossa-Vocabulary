@@ -545,8 +545,8 @@ const allVocabulary = [
                 gloss: "Table"
             },
             {
-                image: "/Assets/τράπεζα (ἡ).png",
-                a: "στέγη (ἡ)",
+                image: "/Assets/οἰκίαι (αἱ).png",
+                a: "οἰκίαι (αἱ)",
                 b: "θύρα (ἡ)",
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
@@ -554,12 +554,12 @@ const allVocabulary = [
                 gloss: "Table"
             },
             {
-                image: "/Assets/τράπεζα (ἡ).png",
-                a: "στέγη (ἡ)",
-                b: "θύρα (ἡ)",
+                image: "/Assets/ὑδρίαι (αἱ).png",
+                a: "οἰκίαι (αἱ)",
+                b: "ὑδρίαι (αἱ)",
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
-                answer: "τράπεζα (ἡ)",
+                answer: "ὑδρίαι (αἱ)",
                 gloss: "Table"
             },
         ]
