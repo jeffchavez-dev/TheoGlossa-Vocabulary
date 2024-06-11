@@ -569,7 +569,7 @@ const allVocabulary = [
                 c: "δένδρα (τά)",
                 d: "πρόβατα (τά)",
                 answer: "δένδρα (τά)",
-                gloss: "glasses"
+                gloss: "trees"
             },
             {
                 image: "/Assets/πρόβατα (τά).png",
