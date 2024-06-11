@@ -560,7 +560,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
                 answer: "ὑδρίαι (αἱ)",
-                gloss: "water basin"
+                gloss: "jars"
             },
             {
                 image: "/Assets/δένδρα (τά).png",
