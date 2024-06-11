@@ -596,6 +596,15 @@ const allVocabulary = [
                 c: "δένδρα (τά)",
                 d: "ζῷα (τά)",
                 answer: "ζῷα (τά)",
+                gloss: "aninals"
+            },
+            {
+                image: "/Assets/οὗτοι.png",
+                a: "αὗται",
+                b: "ταῦτα",
+                c: "οὗτοι",
+                d: "Οὗτός",
+                answer: "ζῷα (τά)",
                 gloss: "glasses"
             }
         ]
