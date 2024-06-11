@@ -604,7 +604,7 @@ const allVocabulary = [
                 b: "ταῦτα",
                 c: "οὗτοι",
                 d: "Οὗτός",
-                answer: "ζῷα (τά)",
+                answer: "οὗτοι",
                 gloss: "glasses"
             }
         ]
