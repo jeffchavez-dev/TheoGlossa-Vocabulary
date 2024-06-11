@@ -581,7 +581,7 @@ const allVocabulary = [
                 gloss: "glasses"
             },
             {
-                image: "/Assets/πρόβατα (τά).png",
+                image: "/Assets/παιδία (τά).png",
                 a: "ποτήρια (τά)",
                 b: "πετεινά (τά)",
                 c: "δένδρα (τά)",
