@@ -551,7 +551,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
                 answer: "οἰκίαι (αἱ)",
-                gloss: "Table"
+                gloss: "houses"
             },
             {
                 image: "/Assets/ὑδρίαι (αἱ).png",
