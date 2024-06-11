@@ -597,7 +597,7 @@ const allVocabulary = [
                 d: "ζῷα (τά)",
                 answer: "ζῷα (τά)",
                 gloss: "glasses"
-            },
+            }
         ]
         },
         { "τέταρτος": [ 
