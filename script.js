@@ -560,7 +560,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "τράπεζαι (αἱ)",
                 answer: "ὑδρίαι (αἱ)",
-                gloss: "Table"
+                gloss: "water gallon"
             },
         ]
         },
