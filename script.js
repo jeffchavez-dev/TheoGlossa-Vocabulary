@@ -563,21 +563,21 @@ const allVocabulary = [
                 gloss: "water basin"
             },
             {
-                image: "/Assets/ποτήρια (τά).png",
+                image: "/Assets/δένδρα (τά).png",
                 a: "ποτήρια (τά)",
                 b: "πετεινά (τά)",
-                c: "κάλαμοι (οἱ)",
-                d: "λύκοι (οἱ)",
-                answer: "ποτήρια (τά)",
+                c: "δένδρα (τά)",
+                d: "πρόβατα (τά)",
+                answer: "δένδρα (τά)",
                 gloss: "glasses"
             },
             {
-                image: "/Assets/ποτήρια (τά).png",
+                image: "/Assets/πρόβατα (τά).png",
                 a: "ποτήρια (τά)",
                 b: "πετεινά (τά)",
                 c: "κάλαμοι (οἱ)",
                 d: "λύκοι (οἱ)",
-                answer: "ποτήρια (τά)",
+                answer: "πρόβατα (τά)",
                 gloss: "glasses"
             },
         ]
