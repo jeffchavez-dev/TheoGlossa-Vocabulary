@@ -518,25 +518,25 @@ const allVocabulary = [
                 gloss: "glasses"
             },
             {
-                image: "/Assets/ποτήρια (τά).png",
+                image: "/Assets/στέγη (ἡ).png",
+                a: "στέγη (ἡ)",
+                b: "θύρα (ἡ)",
+                c: "τράπεζα (ἡ)",
+                d: "λύκοι (οἱ)",
+                answer: "στέγη (ἡ)",
+                gloss: "glasses"
+            },
+            {
+                image: "/Assets/πθύρα (ἡ).png",
                 a: "ποτήρια (τά)",
                 b: "πετεινά (τά)",
                 c: "κάλαμοι (οἱ)",
                 d: "λύκοι (οἱ)",
-                answer: "ποτήρια (τά)",
+                answer: "θύρα (ἡ)",
                 gloss: "glasses"
             },
             {
-                image: "/Assets/ποτήρια (τά).png",
-                a: "ποτήρια (τά)",
-                b: "πετεινά (τά)",
-                c: "κάλαμοι (οἱ)",
-                d: "λύκοι (οἱ)",
-                answer: "ποτήρια (τά)",
-                gloss: "glasses"
-            },
-            {
-                image: "/Assets/ποτήρια (τά).png",
+                image: "/Assets/τράπεζα (ἡ).png",
                 a: "ποτήρια (τά)",
                 b: "πετεινά (τά)",
                 c: "κάλαμοι (οἱ)",
