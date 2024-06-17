@@ -617,12 +617,12 @@ const allVocabulary = [
                 gloss: "These (feminine)"
             },
             {
-                image: "/Assets/αὗται.png",
+                image: "/Assets/ταῦτα.png",
                 a: "αὗται",
                 b: "ταῦτα",
                 c: "οὗτοι",
                 d: "Οὗτός",
-                answer: "αὗται",
+                answer: "ταῦτα",
                 gloss: "These (feminine)"
             }
         ]
