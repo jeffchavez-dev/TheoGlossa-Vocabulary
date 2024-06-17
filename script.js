@@ -640,8 +640,8 @@ const allVocabulary = [
                 b: "δάκτυλοι (οἱ)",
                 c: "ὀφθαλμός (ὁ)",
                 d: "ὀφθαλμοί (οἱ)",
-                answer: "δάκτυλος (ὁ)",
-                gloss: "finger"
+                answer: "δάκτυλοι (οἱ)",
+                gloss: "fingers"
             }
         ]
         },
