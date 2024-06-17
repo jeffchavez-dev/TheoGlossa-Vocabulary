@@ -668,7 +668,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "κεφαλαί (αἱ)",
                 answer: "κεφαλή (ἡ)",
-                gloss: "eye"
+                gloss: "head"
             },
             {
                 image: "/Assets/κεφαλαί (αἱ).png",
