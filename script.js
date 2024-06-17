@@ -653,13 +653,13 @@ const allVocabulary = [
                 gloss: "eyes"
             },
             {
-                image: "/Assets/δάκτυλος (ὁ).png",
+                image: "/Assets/ὀφθαλμός (ὁ).png",
                 a: "δάκτυλος (ὁ)",
                 b: "δάκτυλοι (οἱ)",
                 c: "ὀφθαλμός (ὁ)",
                 d: "ὀφθαλμοί (οἱ)",
-                answer: "δάκτυλος (ὁ)",
-                gloss: "finger"
+                answer: "ὀφθαλμός (ὁ)",
+                gloss: "eye"
             }
         ]
         },
