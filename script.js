@@ -615,6 +615,15 @@ const allVocabulary = [
                 d: "Οὗτός",
                 answer: "αὗται",
                 gloss: "These (feminine)"
+            },
+            {
+                image: "/Assets/αὗται.png",
+                a: "αὗται",
+                b: "ταῦτα",
+                c: "οὗτοι",
+                d: "Οὗτός",
+                answer: "αὗται",
+                gloss: "These (feminine)"
             }
         ]
         },
