@@ -626,13 +626,13 @@ const allVocabulary = [
                 gloss: "These (neuter)"
             },
             {
-                image: "/Assets/ταῦτα.png",
-                a: "αὗται",
-                b: "ταῦτα",
-                c: "οὗτοι",
-                d: "Οὗτός",
-                answer: "ταῦτα",
-                gloss: "These (neuter)"
+                image: "/Assets/δάκτυλος (ὁ).png",
+                a: "δάκτυλος (ὁ)",
+                b: "δάκτυλοι (οἱ)",
+                c: "ὀφθαλμός (ὁ)",
+                d: "ὀφθαλμοί (οἱ)",
+                answer: "δάκτυλος (ὁ)",
+                gloss: "finger"
             }
         ]
         },
