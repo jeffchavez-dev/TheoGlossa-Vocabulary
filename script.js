@@ -623,7 +623,7 @@ const allVocabulary = [
                 c: "οὗτοι",
                 d: "Οὗτός",
                 answer: "ταῦτα",
-                gloss: "These (feminine)"
+                gloss: "These (neuter)"
             }
         ]
         },
