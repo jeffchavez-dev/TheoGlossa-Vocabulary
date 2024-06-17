@@ -669,6 +669,15 @@ const allVocabulary = [
                 d: "θύραι (αἱ)",
                 answer: "κεφαλή (ἡ)",
                 gloss: "eye"
+            },
+            {
+                image: "/Assets/κεφαλαί (αἱ).png",
+                a: "κεφαλή (ἡ)",
+                b: "θύρα (ἡ)",
+                c: "τράπεζα (ἡ)",
+                d: "θύραι (αἱ)",
+                answer: "κεφαλή (ἡ)",
+                gloss: "eye"
             }
         ]
         },
