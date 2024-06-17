@@ -677,7 +677,7 @@ const allVocabulary = [
                 c: "τράπεζα (ἡ)",
                 d: "κεφαλαί (αἱ)",
                 answer: "κεφαλαί (αἱ)",
-                gloss: "eye"
+                gloss: "heads"
             }
         ]
         },
