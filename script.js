@@ -686,10 +686,10 @@ const allVocabulary = [
                 image: "/Assets/ὕδωρ (τό).png",
                 a: "ᾠόν (τό)",
                 b: "ᾠά (τά)",
-                c: "τράπεζα (ἡ)",
-                d: "κεφαλαί (αἱ)",
-                answer: "κεφαλαί (αἱ)",
-                gloss: "heads"
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὕδωρ (τό)",
+                gloss: "water"
             }
         ]
         },
