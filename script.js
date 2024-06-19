@@ -734,7 +734,7 @@ const allVocabulary = [
                 c: "βιβλία (τά)",
                 d: "ὦτα (τά)",
                 answer: "βιβλίον (τό)",
-                gloss: "ears"
+                gloss: "book"
             },
             {
                 image: "/Assets/βιβλία (τά).png",
@@ -743,7 +743,7 @@ const allVocabulary = [
                 c: "βιβλία (τά)",
                 d: "ὦτα (τά)",
                 answer: "βιβλία (τά)",
-                gloss: "ears"
+                gloss: "books"
             }
         ]
         },
