@@ -771,6 +771,15 @@ const allVocabulary = [
                 d: "γλῶσσαι (αἱ)",
                 answer: "γλῶσσα (ἡ)",
                 gloss: "heads"
+            },
+            {
+                image: "/Assets/γλῶσσα (ἡ).png",
+                a: "κόμη (ἡ)",
+                b: "κόμαι (αἱ)",
+                c: "γλῶσσα (ἡ)",
+                d: "γλῶσσαι (αἱ)",
+                answer: "γλῶσσα (ἡ)",
+                gloss: "heads"
             }
         ]
         },
