@@ -726,6 +726,24 @@ const allVocabulary = [
                 d: "ὦτα (τά)",
                 answer: "ὦτα (τά)",
                 gloss: "ears"
+            },
+            {
+                image: "/Assets/ὦτα (τά).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὦτα (τά)",
+                gloss: "ears"
+            },
+            {
+                image: "/Assets/ὦτα (τά).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὦτα (τά)",
+                gloss: "ears"
             }
         ]
         },
