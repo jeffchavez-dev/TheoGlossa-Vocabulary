@@ -710,12 +710,12 @@ const allVocabulary = [
                 gloss: "water"
             },
             {
-                image: "/Assets/ὕδωρ (τό).png",
+                image: "/Assets/οὖς (τό).png",
                 a: "ᾠόν (τό)",
                 b: "ᾠά (τά)",
                 c: "οὖς (τό)",
                 d: "ὦτα (τά)",
-                answer: "ὕδωρ (τό)",
+                answer: "οὖς (τό)",
                 gloss: "water"
             }
         ]
