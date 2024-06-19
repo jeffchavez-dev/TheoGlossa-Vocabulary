@@ -725,7 +725,7 @@ const allVocabulary = [
                 c: "οὖς (τό)",
                 d: "ὦτα (τά)",
                 answer: "ὦτα (τά)",
-                gloss: "water"
+                gloss: "ears"
             }
         ]
         },
