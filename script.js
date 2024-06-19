@@ -752,7 +752,7 @@ const allVocabulary = [
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
                 answer: "κόμη (ἡ)",
-                gloss: "heads"
+                gloss: "hair"
             },
             {
                 image: "/Assets/κόμαι (αἱ).png",
@@ -761,7 +761,7 @@ const allVocabulary = [
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
                 answer: "κόμαι (αἱ)",
-                gloss: "heads"
+                gloss: "hairs"
             },
             {
                 image: "/Assets/γλῶσσα (ἡ).png",
@@ -770,16 +770,16 @@ const allVocabulary = [
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
                 answer: "γλῶσσα (ἡ)",
-                gloss: "heads"
+                gloss: "tongue"
             },
             {
-                image: "/Assets/γλῶσσα (ἡ).png",
+                image: "/Assets/γλῶσσαι (αἱ).png",
                 a: "κόμη (ἡ)",
                 b: "κόμαι (αἱ)",
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
-                answer: "γλῶσσα (ἡ)",
-                gloss: "heads"
+                answer: "γλῶσσαι (αἱ)",
+                gloss: "tongues"
             }
         ]
         },
