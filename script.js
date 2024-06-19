@@ -788,7 +788,7 @@ const allVocabulary = [
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
                 answer: "πρόσωπον (τό)",
-                gloss: "tongues"
+                gloss: "face"
             },
             {
                 image: "/Assets/πρόσωπα (τά).png",
@@ -797,7 +797,7 @@ const allVocabulary = [
                 c: "γλῶσσα (ἡ)",
                 d: "γλῶσσαι (αἱ)",
                 answer: "πρόσωπα (τά)",
-                gloss: "tongues"
+                gloss: "faces"
             },
             {
                 image: "/Assets/ὀστέον (τό).png",
@@ -806,7 +806,7 @@ const allVocabulary = [
                 c: "ὀστέον (τό)",
                 d: "ὀστέα (τά)",
                 answer: "ὀστέον (τό)",
-                gloss: "tongues"
+                gloss: "bone"
             },
             {
                 image: "/Assets/ὀστέα (τά).png",
@@ -815,7 +815,7 @@ const allVocabulary = [
                 c: "ὀστέον (τό)",
                 d: "ὀστέα (τά)",
                 answer: "ὀστέα (τά)",
-                gloss: "tongues"
+                gloss: "bones"
             },
             {
                 image: "/Assets/ῥίς (ἡ).png",
@@ -824,7 +824,7 @@ const allVocabulary = [
                 c: "στόμα (τό)",
                 d: "ῥῖνες (αἱ)",
                 answer: "ῥίς (ἡ)",
-                gloss: "tongues"
+                gloss: "nose"
             },
             {
                 image: "/Assets/ῥῖνες (αἱ).png",
@@ -833,16 +833,25 @@ const allVocabulary = [
                 c: "στόμα (τό)",
                 d: "ῥῖνες (αἱ)",
                 answer: "ῥῖνες (αἱ)",
-                gloss: "tongues"
+                gloss: "noses"
             },
             {
                 image: "/Assets/ὀδούς (ὁ).png",
                 a: "ῥίς (ἡ)",
                 b: "ὀδούς (ὁ)",
-                c: "στόμα (τό)",
+                c: "ὀδόντες (οἱ)",
                 d: "χεῖρες (αἱ)",
                 answer: "ὀδούς (ὁ)",
-                gloss: "tongues"
+                gloss: "tooth"
+            },
+            {
+                image: "/Assets/ὀδόντες (οἱ).png",
+                a: "ῥίς (ἡ)",
+                b: "ὀδούς (ὁ)",
+                c: "ὀδόντες (οἱ)",
+                d: "χεῖρες (αἱ)",
+                answer: "ὀδόντες (οἱ)",
+                gloss: "teeth"
             },
             {
                 image: "/Assets/στόμα (τό).png",
