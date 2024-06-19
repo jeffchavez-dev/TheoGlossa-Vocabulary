@@ -717,6 +717,15 @@ const allVocabulary = [
                 d: "ὦτα (τά)",
                 answer: "οὖς (τό)",
                 gloss: "water"
+            },
+            {
+                image: "/Assets/οὖς (τό).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "οὖς (τό)",
+                gloss: "water"
             }
         ]
         },
