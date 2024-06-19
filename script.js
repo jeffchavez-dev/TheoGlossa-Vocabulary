@@ -728,12 +728,12 @@ const allVocabulary = [
                 gloss: "ears"
             },
             {
-                image: "/Assets/ὦτα (τά).png",
+                image: "/Assets/βιβλίον (τό).png",
                 a: "ᾠόν (τό)",
-                b: "ᾠά (τά)",
+                b: "βιβλίον (τό)",
                 c: "οὖς (τό)",
                 d: "ὦτα (τά)",
-                answer: "ὦτα (τά)",
+                answer: "βιβλίον (τό)",
                 gloss: "ears"
             },
             {
