@@ -690,6 +690,33 @@ const allVocabulary = [
                 d: "ὦτα (τά)",
                 answer: "ὕδωρ (τό)",
                 gloss: "water"
+            },
+            {
+                image: "/Assets/ὕδωρ (τό).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὕδωρ (τό)",
+                gloss: "water"
+            },
+            {
+                image: "/Assets/ὕδωρ (τό).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὕδωρ (τό)",
+                gloss: "water"
+            },
+            {
+                image: "/Assets/ὕδωρ (τό).png",
+                a: "ᾠόν (τό)",
+                b: "ᾠά (τά)",
+                c: "οὖς (τό)",
+                d: "ὦτα (τά)",
+                answer: "ὕδωρ (τό)",
+                gloss: "water"
             }
         ]
         },
