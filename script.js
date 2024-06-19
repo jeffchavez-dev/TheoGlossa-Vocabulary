@@ -716,7 +716,7 @@ const allVocabulary = [
                 c: "οὖς (τό)",
                 d: "ὦτα (τά)",
                 answer: "οὖς (τό)",
-                gloss: "water"
+                gloss: "ear"
             },
             {
                 image: "/Assets/ὦτα (τά).png",
