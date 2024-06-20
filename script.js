@@ -654,11 +654,29 @@ const allVocabulary = [
             },
             {
                 image: "/Assets/κακαί.png",
-                a: "κακός",
-                b: "κακοί",
+                a: "κακόν",
+                b: "κακά",
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακαί",
+                gloss: "These (neuter)"
+            },
+            {
+                image: "/Assets/κακόν.png",
+                a: "κακόν",
+                b: "κακά",
+                c: "κακή",
+                d: "κακαί",
+                answer: "κακόν",
+                gloss: "These (neuter)"
+            },
+            {
+                image: "/Assets/κακά.png",
+                a: "κακόν",
+                b: "κακά",
+                c: "κακή",
+                d: "κακαί",
+                answer: "κακά",
                 gloss: "These (neuter)"
             }
         ]
