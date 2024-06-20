@@ -659,7 +659,7 @@ const allVocabulary = [
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακαί",
-                gloss: "Ἐπίθετον These (neuter)"
+                gloss: "Ἐπίθετον bad (feminine plural)"
             },
             {
                 image: "/Assets/κακόν.png",
@@ -668,7 +668,7 @@ const allVocabulary = [
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακόν",
-                gloss: "Ἐπίθετον These (neuter)"
+                gloss: "Ἐπίθετον bad (neuter singular)"
             },
             {
                 image: "/Assets/κακά.png",
@@ -677,7 +677,7 @@ const allVocabulary = [
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακά",
-                gloss: "Ἐπίθετον These (neuter)"
+                gloss: "Ἐπίθετον bad (neuter plural)"
             }
         ]
         },
