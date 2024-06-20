@@ -626,12 +626,12 @@ const allVocabulary = [
                 gloss: "These (neuter)"
             },
             {
-                image: "/Assets/ταῦτα.png",
-                a: "αὗται",
-                b: "ταῦτα",
-                c: "οὗτοι",
-                d: "Οὗτός",
-                answer: "ταῦτα",
+                image: "/Assets/κακός.png",
+                a: "κακός",
+                b: "κακοί",
+                c: "κακή",
+                d: "κακαί",
+                answer: "κακός",
                 gloss: "These (neuter)"
             }
         ]
