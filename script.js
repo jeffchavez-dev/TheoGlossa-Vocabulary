@@ -632,7 +632,7 @@ const allVocabulary = [
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακός",
-                gloss: "These (neuter)"
+                gloss: "bad (masculine singular)"
             },
             {
                 image: "/Assets/κακοί.png",
@@ -641,7 +641,7 @@ const allVocabulary = [
                 c: "κακή",
                 d: "κακαί",
                 answer: "κακοί",
-                gloss: "These (neuter)"
+                gloss: "bad (masculine singular)"
             },
             {
                 image: "/Assets/κακή.png",
