@@ -932,7 +932,7 @@ const allVocabulary = [
                 c: "γυναῖκες (αἱ)",
                 d: "ῥῖνες (αἱ)",
                 answer: "ἄνδρες (οἱ)",
-                gloss: "tongues"
+                gloss: "men/husbands"
             },
             {
                 image: "/Assets/γυναῖκες (αἱ).png",
@@ -941,7 +941,7 @@ const allVocabulary = [
                 c: "γυναῖκες (αἱ)",
                 d: "ῥῖνες (αἱ)",
                 answer: "γυναῖκες (αἱ)",
-                gloss: "tongues"
+                gloss: "women/wives"
             },
             {
                 image: "/Assets/γκύνες (οἱ).png",
