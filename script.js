@@ -959,7 +959,7 @@ const allVocabulary = [
                 c: "κύνες (οἱ)",
                 d: "ἀλέκτορες (οἱ)",
                 answer: "ἀλέκτορες (οἱ)",
-                gloss: "tongues"
+                gloss: "roosters"
             }
         ]
         },
