@@ -994,8 +994,8 @@ const allVocabulary = [
                 b: "σκέλη (τά)",
                 c: "στόματα (τά),",
                 d: "ἀλέκτορες (οἱ)",
-                answer: "στόματα (τά)",
-                gloss: "hens"
+                answer: "σκέλος (τό)",
+                gloss: "bone"
             },
             {
                 image: "/Assets/σκέλη (τά).png",
@@ -1004,7 +1004,7 @@ const allVocabulary = [
                 c: "στόματα (τά),",
                 d: "ἀλέκτορες (οἱ)",
                 answer: "σκέλη (τά)",
-                gloss: "hens"
+                gloss: "bones"
             }
         ]
         },
