@@ -924,6 +924,15 @@ const allVocabulary = [
                 d: "ῥῖνες (αἱ)",
                 answer: "χεῖρες (αἱ)",
                 gloss: "tongues"
+            },
+            {
+                image: "/Assets/χεῖρες (αἱ).png",
+                a: "ῥίς (ἡ)",
+                b: "χεῖρες (αἱ)",
+                c: "στόμα (τό)",
+                d: "ῥῖνες (αἱ)",
+                answer: "χεῖρες (αἱ)",
+                gloss: "tongues"
             }
         ]
         },
