@@ -962,12 +962,12 @@ const allVocabulary = [
                 gloss: "roosters"
             },
             {
-                image: "/Assets/βόες (οἱ/αἱ).png",
+                image: "/Assets/βόες (αἱ).png",
                 a: "ἄνδρες (οἱ)",
-                b: "βόες (οἱ/αἱ)",
+                b: "βόες (αἱ)",
                 c: "κύνες (οἱ)",
                 d: "ἀλέκτορες (οἱ)",
-                answer: "βόες (οἱ/αἱ)",
+                answer: "βόες (αἱ)",
                 gloss: "roosters"
             }
         ]
