@@ -944,7 +944,7 @@ const allVocabulary = [
                 gloss: "women/wives"
             },
             {
-                image: "/Assets/γκύνες (οἱ).png",
+                image: "/Assets/κύνες (οἱ).png",
                 a: "ἄνδρες (οἱ)",
                 b: "χεῖρες (αἱ)",
                 c: "κύνες (οἱ)",
