@@ -942,6 +942,15 @@ const allVocabulary = [
                 d: "ῥῖνες (αἱ)",
                 answer: "γυναῖκες (αἱ)",
                 gloss: "tongues"
+            },
+            {
+                image: "/Assets/γκύνες (οἱ).png",
+                a: "ἄνδρες (οἱ)",
+                b: "χεῖρες (αἱ)",
+                c: "κύνες (οἱ)",
+                d: "κύνες (οἱ)",
+                answer: "κύνες (οἱ)",
+                gloss: "tongues"
             }
         ]
         },
