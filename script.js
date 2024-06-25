@@ -926,12 +926,12 @@ const allVocabulary = [
                 gloss: "tongues"
             },
             {
-                image: "/Assets/χεῖρες (αἱ).png",
-                a: "ῥίς (ἡ)",
+                image: "/Assets/ἄνδρες (οἱ).png",
+                a: "ἄνδρες (οἱ)",
                 b: "χεῖρες (αἱ)",
-                c: "στόμα (τό)",
+                c: "γυναῖκες (αἱ)",
                 d: "ῥῖνες (αἱ)",
-                answer: "χεῖρες (αἱ)",
+                answer: "ἄνδρες (οἱ)",
                 gloss: "tongues"
             }
         ]
