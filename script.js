@@ -968,7 +968,7 @@ const allVocabulary = [
                 c: "κύνες (οἱ)",
                 d: "ἀλέκτορες (οἱ)",
                 answer: "βόες (αἱ)",
-                gloss: "roosters"
+                gloss: "cows"
             }
         ]
         },
