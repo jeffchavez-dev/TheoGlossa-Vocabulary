@@ -1025,7 +1025,7 @@ const allVocabulary = [
                 c: "ὑμεῖς",
                 d: "ἐστέ",
                 answer: "ἐσμέν",
-                gloss: "We"
+                gloss: "We ARE (be verb)"
             },
             {
                 image: "/Assets/ὑμεῖς.png",
