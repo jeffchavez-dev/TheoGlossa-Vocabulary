@@ -1034,7 +1034,7 @@ const allVocabulary = [
                 c: "ὑμεῖς",
                 d: "ἐστέ",
                 answer: "ὑμεῖς",
-                gloss: "We"
+                gloss: "You"
             },
             {
                 image: "/Assets/ἐστέ.png",
