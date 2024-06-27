@@ -1019,21 +1019,21 @@ const allVocabulary = [
                 gloss: "We"
             },
             {
-                image: "/Assets/ἡμεῖς.png",
+                image: "/Assets/ἐσμέν.png",
                 a: "ἡμεῖς",
                 b: "ἐσμέν",
                 c: "ὑμεῖς",
                 d: "ἐστέ",
-                answer: "ἡμεῖς",
+                answer: "ἐσμέν",
                 gloss: "We"
             },
             {
-                image: "/Assets/ἡμεῖς.png",
+                image: "/Assets/ὑμεῖς.png",
                 a: "ἡμεῖς",
                 b: "ἐσμέν",
                 c: "ὑμεῖς",
                 d: "ἐστέ",
-                answer: "ἡμεῖς",
+                answer: "ὑμεῖς",
                 gloss: "We"
             },
             {
