@@ -1028,6 +1028,24 @@ const allVocabulary = [
                 gloss: "We"
             },
             {
+                image: "/Assets/ἡμεῖς.png",
+                a: "ἡμεῖς",
+                b: "ἐσμέν",
+                c: "ὑμεῖς",
+                d: "ἐστέ",
+                answer: "ἡμεῖς",
+                gloss: "We"
+            },
+            {
+                image: "/Assets/ἡμεῖς.png",
+                a: "ἡμεῖς",
+                b: "ἐσμέν",
+                c: "ὑμεῖς",
+                d: "ἐστέ",
+                answer: "ἡμεῖς",
+                gloss: "We"
+            },
+            {
                 image: "/Assets/στόματα (τά).png",
                 a: "ὄρνιθες (αἱ)",
                 b: "βόες (αἱ)",
