@@ -1052,7 +1052,7 @@ const allVocabulary = [
                 c: "βρέφος (τό)",
                 d: "κοράσιον (τό)",
                 answer: "πρεσβῦτις (ἡ)",
-                gloss: "hens"
+                gloss: "elder lady"
             }
         ]
         },
