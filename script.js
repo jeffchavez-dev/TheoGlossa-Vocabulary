@@ -1019,13 +1019,13 @@ const allVocabulary = [
                 gloss: "We"
             },
             {
-                image: "/Assets/σκέλη (τά).png",
-                a: "σκέλος (τό)",
-                b: "σκέλη (τά)",
-                c: "στόματα (τά),",
-                d: "ἀλέκτορες (οἱ)",
-                answer: "σκέλη (τά)",
-                gloss: "legs"
+                image: "/Assets/ἡμεῖς.png",
+                a: "ἡμεῖς",
+                b: "ἐσμέν",
+                c: "ὑμεῖς",
+                d: "ἐστέ",
+                answer: "ἡμεῖς",
+                gloss: "We"
             },
             {
                 image: "/Assets/στόματα (τά).png",
