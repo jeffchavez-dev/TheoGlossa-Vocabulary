@@ -1016,7 +1016,7 @@ const allVocabulary = [
                 c: "ὑμεῖς",
                 d: "ἐστέ",
                 answer: "ἡμεῖς",
-                gloss: "We"
+                gloss: "We (Personal Pronoun)"
             },
             {
                 image: "/Assets/ἐσμέν.png",
@@ -1034,7 +1034,7 @@ const allVocabulary = [
                 c: "ὑμεῖς",
                 d: "ἐστέ",
                 answer: "ὑμεῖς",
-                gloss: "You"
+                gloss: "You (Personal Pronoun)"
             },
             {
                 image: "/Assets/ἐστέ.png",
