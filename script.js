@@ -1037,12 +1037,12 @@ const allVocabulary = [
                 gloss: "We"
             },
             {
-                image: "/Assets/ἡμεῖς.png",
+                image: "/Assets/ἐστέ.png",
                 a: "ἡμεῖς",
                 b: "ἐσμέν",
                 c: "ὑμεῖς",
                 d: "ἐστέ",
-                answer: "ἡμεῖς",
+                answer: "ἐστέ",
                 gloss: "We"
             },
             {
