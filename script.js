@@ -1053,6 +1053,15 @@ const allVocabulary = [
                 d: "κοράσιον (τό)",
                 answer: "πρεσβῦτις (ἡ)",
                 gloss: "elder lady"
+            },
+            {
+                image: "/Assets/πρεσβῦτις (ἡ).png",
+                a: "πρεσβῦτις (ἡ)",
+                b: "πρεσβύτης (ὁ)",
+                c: "βρέφος (τό)",
+                d: "κοράσιον (τό)",
+                answer: "πρεσβῦτις (ἡ)",
+                gloss: "elder lady"
             }
         ]
         },
