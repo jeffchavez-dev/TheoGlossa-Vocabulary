@@ -1055,12 +1055,12 @@ const allVocabulary = [
                 gloss: "elder lady"
             },
             {
-                image: "/Assets/πρεσβῦτις (ἡ).png",
+                image: "/Assets/πρεσβύτης (ὁ).png",
                 a: "πρεσβῦτις (ἡ)",
                 b: "πρεσβύτης (ὁ)",
                 c: "βρέφος (τό)",
                 d: "κοράσιον (τό)",
-                answer: "πρεσβῦτις (ἡ)",
+                answer: "πρεσβύτης (ὁ)",
                 gloss: "elder lady"
             }
         ]
