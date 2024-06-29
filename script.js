@@ -1061,7 +1061,7 @@ const allVocabulary = [
                 c: "βρέφος (τό)",
                 d: "κοράσιον (τό)",
                 answer: "πρεσβύτης (ὁ)",
-                gloss: "elder lady"
+                gloss: "elder"
             },
             {
                 image: "/Assets/βρέφος (τό).png",
@@ -1070,7 +1070,7 @@ const allVocabulary = [
                 c: "βρέφος (τό)",
                 d: "κοράσιον (τό)",
                 answer: "βρέφος (τό)",
-                gloss: "elder lady"
+                gloss: "elder"
             },
             {
                 image: "/Assets/κοράσιον (τό).png",
