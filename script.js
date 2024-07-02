@@ -1097,7 +1097,7 @@ const allVocabulary = [
                 c: "κοράσια (τά)",
                 d: "κοράσιον (τό)",
                 answer: "κοράσια (τά)",
-                gloss: "little boy"
+                gloss: "little girls"
             },
             {
                 image: "/Assets/νεανίσκοι (οἱ).png",
@@ -1106,7 +1106,7 @@ const allVocabulary = [
                 c: "κοράσια (τά)",
                 d: "κοράσιον (τό)",
                 answer: "νεανίσκοι (οἱ)",
-                gloss: "little boy"
+                gloss: "little boys"
             }
         ]
         },
