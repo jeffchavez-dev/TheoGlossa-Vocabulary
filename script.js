@@ -1089,6 +1089,15 @@ const allVocabulary = [
                 d: "κοράσιον (τό)",
                 answer: "νεανίσκος (ὁ)",
                 gloss: "little boy"
+            },
+            {
+                image: "/Assets/κοράσια (τά).png",
+                a: "πρεσβῦτις (ἡ)",
+                b: "νεανίσκος (ὁ)",
+                c: "κοράσια (τά)",
+                d: "κοράσιον (τό)",
+                answer: "νεανίσκος (ὁ)",
+                gloss: "little boy"
             }
         ]
         },
