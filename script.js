@@ -1096,7 +1096,7 @@ const allVocabulary = [
                 b: "νεανίσκος (ὁ)",
                 c: "κοράσια (τά)",
                 d: "κοράσιον (τό)",
-                answer: "νεανίσκος (ὁ)",
+                answer: "κοράσια (τά)",
                 gloss: "little boy"
             },
             {
