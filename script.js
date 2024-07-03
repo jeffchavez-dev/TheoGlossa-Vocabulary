@@ -1167,11 +1167,20 @@ const allVocabulary = [
             },
             {
                 image: "/Assets/γονεῖς (οἱ).png",
-                a: "βασιλεύς (ὁ)",
+                a: "γονεύς (ὁ)",
                 b: "γονεῖς (οἱ)",
                 c: "μήτηρ (ἡ)",
                 d: "πατήρ (ὁ)",
                 answer: "γονεῖς (οἱ)",
+                gloss: "babies"
+            },
+            {
+                image: "/Assets/γονεύς (ὁ).png",
+                a: "γονεύς (ὁ)",
+                b: "γονεῖς (οἱ)",
+                c: "μήτηρ (ἡ)",
+                d: "πατήρ (ὁ)",
+                answer: "γονεύς (ὁ)",
                 gloss: "babies"
             },
             {
@@ -1289,6 +1298,15 @@ const allVocabulary = [
                 image: "/Assets/αὐτός.png",
                 a: "αὐτός",
                 b: "αὐτή",
+                c: "σύ",
+                d: "ἐγώ",
+                answer: "αὐτός",
+                gloss: "He"
+            },
+            {
+                image: "/Assets/πόδες (οἱ).png",
+                a: "πόδες (οἱ)",
+                b: "πούς (ὁ)",
                 c: "σύ",
                 d: "ἐγώ",
                 answer: "αὐτός",
