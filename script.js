@@ -1146,6 +1146,15 @@ const allVocabulary = [
                 d: "πατήρ (ὁ)",
                 answer: "πατήρ (ὁ)",
                 gloss: "babies"
+            },
+            {
+                image: "/Assets/μήτηρ (ἡ).png",
+                a: "βασιλεύς (ὁ)",
+                b: "γονεῖς (οἱ)",
+                c: "μήτηρ (ἡ)",
+                d: "πατήρ (ὁ)",
+                answer: "μήτηρ (ἡ)",
+                gloss: "babies"
             }
         ]
         },
