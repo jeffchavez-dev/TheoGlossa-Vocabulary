@@ -1052,7 +1052,7 @@ const allVocabulary = [
                 c: "πρεσβύτερος (ὁ)",
                 d: "κοράσιον (τό)",
                 answer: "πρεσβῦτις (ἡ)",
-                gloss: "elder lady"
+                gloss: "elder lady / older woman"
             },
             {
                 image: "/Assets/πρεσβύτης (ὁ).png",
@@ -1061,7 +1061,7 @@ const allVocabulary = [
                 c: "πρεσβύτερος (ὁ)",
                 d: "κοράσιον (τό)",
                 answer: "πρεσβύτης (ὁ)",
-                gloss: "elder"
+                gloss: "old man"
             },
             {
                 image: "/Assets/πρεσβύτερος (ὁ).png",
@@ -1070,7 +1070,7 @@ const allVocabulary = [
                 c: "πρεσβύτερος (ὁ)",
                 d: "κοράσιον (τό)",
                 answer: "πρεσβύτερος (ὁ)",
-                gloss: "elder"
+                gloss: "elder /  older man"
             },
             {
                 image: "/Assets/βρέφος (τό).png",
