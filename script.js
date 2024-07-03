@@ -22,7 +22,7 @@ const quiz = [
 
 
 const allVocabulary = [
-        { "πρῶτος": [ 
+        { "τὸ δίδαγμα τὸ πρώτον": [ 
             
             {
                 image: "/Assets/μέγας.png",
@@ -60,7 +60,7 @@ const allVocabulary = [
                 answer: "μικρά",
                 gloss: "small/little (feminine singular)"
             },
-                        {
+            {
                 image: "/Assets/σφόδρα.png",
                 a: "μέγας",
                 b: "σφόδρα",
@@ -269,7 +269,7 @@ const allVocabulary = [
             }     
          ]
         },
-        { "δεύτερος": [ 
+        { "τὸ δίδαγμα τὸ δεύτερον": [ 
             {
                 image: "/Assets/μικρόν.png",
                 a: "μέγας",
@@ -417,7 +417,7 @@ const allVocabulary = [
             
         ]
         },
-        { "τρίτος": [ 
+        { "τὸ δίδαγμα τὸ τρίτον": [ 
             {
                 image: "/Assets/ἵπποι (οἱ).png",
                 a: "ἵπποι (οἱ)",
@@ -681,7 +681,7 @@ const allVocabulary = [
             }
         ]
         },
-        { "τέταρτος": [ 
+        { "τὸ δίδαγμα τὸ τέταρτον": [ 
             {
                 image: "/Assets/ὕδωρ (τό).png",
                 a: "ᾠόν (τό)",
@@ -1008,7 +1008,7 @@ const allVocabulary = [
             }
         ]
         },
-        { "πέμπτος": [ 
+        { "τὸ δίδαγμα τὸ πέμπτον": [ 
             {
                 image: "/Assets/ἡμεῖς.png",
                 a: "ἡμεῖς",
@@ -1128,7 +1128,7 @@ const allVocabulary = [
             }
         ]
         },
-        { "έκτος": [
+        { "τὸ δίδαγμα τὸ ἕκτον": [
             {
                 image: "/Assets/υἱός (ὁ).png",
                 a: "υἱός (ὁ)",
@@ -1275,7 +1275,7 @@ const allVocabulary = [
             }
         ]
         },
-        { "έβδομος": [ 
+        { "τὸ δίδαγμα τὸ ἕβδομον": [ 
             {
                 image: "/Assets/αὐτή.png",
                 a: "αὐτός",
