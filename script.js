@@ -1318,7 +1318,7 @@ const allVocabulary = [
                 b: "πούς (ὁ)",
                 c: "φύλαξ (ὁ)",
                 d: "φύλακες (οἱ)",
-                answer: "/πόδες (οἱ)",
+                answer: "πόδες (οἱ)",
                 gloss: "He"
             },
             {
@@ -1331,21 +1331,21 @@ const allVocabulary = [
                 gloss: "He"
             },
             {
-                image: "/Assets/πόδες (οἱ).png",
+                image: "/Assets/φύλαξ (ὁ).png",
                 a: "πόδες (οἱ)",
                 b: "πούς (ὁ)",
                 c: "φύλαξ (ὁ)",
                 d: "φύλακες (οἱ)",
-                answer: "/πόδες (οἱ)",
+                answer: "φύλαξ (ὁ)",
                 gloss: "He"
             },
             {
-                image: "/Assets/πόδες (οἱ).png",
+                image: "/Assets/φύλακες (οἱ).png",
                 a: "πόδες (οἱ)",
                 b: "πούς (ὁ)",
                 c: "φύλαξ (ὁ)",
                 d: "φύλακες (οἱ)",
-                answer: "/πόδες (οἱ)",
+                answer: "φύλακες (οἱ)",
                 gloss: "He"
             }
         ]
