@@ -1347,6 +1347,15 @@ const allVocabulary = [
                 d: "φύλακες (οἱ)",
                 answer: "φύλακες (οἱ)",
                 gloss: "He"
+            },
+            {
+                image: "/Assets/φῶς (τό).png",
+                a: "φῶς (τό)",
+                b: "σκότος (ὁ)",
+                c: "ἡμέρα (ἡ)",
+                d: "νύξ (ἡ)",
+                answer: "φῶς (τό)",
+                gloss: "He"
             }
         ]
         },
