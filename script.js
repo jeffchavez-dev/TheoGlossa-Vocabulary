@@ -1139,12 +1139,12 @@ const allVocabulary = [
                 gloss: "babies"
             },
             {
-                image: "/Assets/υἱός (ὁ).png",
+                image: "/Assets/πατήρ (ὁ).png",
                 a: "υἱός (ὁ)",
                 b: "πρεσβύτης (ὁ)",
                 c: "βρέφος (τό)",
                 d: "πατήρ (ὁ)",
-                answer: "υἱός (ὁ)",
+                answer: "πατήρ (ὁ)",
                 gloss: "babies"
             }
         ]
