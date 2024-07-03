@@ -1200,6 +1200,15 @@ const allVocabulary = [
                 d: "υἱοί (οἱ)",
                 answer: "υἱοί (οἱ)",
                 gloss: "babies"
+            },
+            {
+                image: "/Assets/ἀδελφός (ὁ).png",
+                a: "θυγάτηρ (ἡ)",
+                b: "ἀδελφή (ἡ)",
+                c: "ἀδελφοί (οἱ)",
+                d: "υἱοί (οἱ)",
+                answer: "ἀδελφός (ὁ)",
+                gloss: "babies"
             }
         ]
         },
