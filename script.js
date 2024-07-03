@@ -1245,6 +1245,24 @@ const allVocabulary = [
                 d: "ἥλιος (ὁ)",
                 answer: "ἀδελφοί (οἱ)",
                 gloss: "babies"
+            },
+            {
+                image: "/Assets/γῆ (ἡ).png",
+                a: "ὥρα (ἡ)",
+                b: "ὧραι (αἱ)",
+                c: "γῆ (ἡ)",
+                d: "ἥλιος (ὁ)",
+                answer: "γῆ (ἡ)",
+                gloss: "babies"
+            },
+            {
+                image: "/Assets/ἥλιος (ὁ).png",
+                a: "ὥρα (ἡ)",
+                b: "ὧραι (αἱ)",
+                c: "γῆ (ἡ)",
+                d: "ἥλιος (ὁ)",
+                answer: "ἥλιος (ὁ)",
+                gloss: "babies"
             }
         ]
         },
