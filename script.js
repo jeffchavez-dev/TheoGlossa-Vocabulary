@@ -1130,12 +1130,21 @@ const allVocabulary = [
         },
         { "έκτος": [
             {
-                image: "/Assets/βρέφη (τά).png",
+                image: "/Assets/υἱός (ὁ).png",
                 a: "υἱός (ὁ)",
                 b: "πρεσβύτης (ὁ)",
                 c: "βρέφος (τό)",
                 d: "πατήρ (ὁ)",
-                answer: "βρέφη (τά)",
+                answer: "υἱός (ὁ)",
+                gloss: "babies"
+            },
+            {
+                image: "/Assets/υἱός (ὁ).png",
+                a: "υἱός (ὁ)",
+                b: "πρεσβύτης (ὁ)",
+                c: "βρέφος (τό)",
+                d: "πατήρ (ὁ)",
+                answer: "υἱός (ὁ)",
                 gloss: "babies"
             }
         ]
