@@ -1234,11 +1234,11 @@ const allVocabulary = [
                 b: "ὧραι (αἱ)",
                 c: "γῆ (ἡ)",
                 d: "ἥλιος (ὁ)",
-                answer: "ἀδελφοί (οἱ)",
+                answer: "ὥρα (ἡ)",
                 gloss: "babies"
             },
             {
-                image: "/Assets/ὥρα (ἡ).png",
+                image: "/Assets/ὧραι (αἱ).png",
                 a: "ὥρα (ἡ)",
                 b: "ὧραι (αἱ)",
                 c: "γῆ (ἡ)",
