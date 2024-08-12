@@ -1355,7 +1355,7 @@ const allVocabulary = [
                 c: "ἡμέρα (ἡ)",
                 d: "νύξ (ἡ)",
                 answer: "φῶς (τό)",
-                gloss: "He"
+                gloss: "Light"
             }
         ]
         },
