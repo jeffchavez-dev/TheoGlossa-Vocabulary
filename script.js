@@ -1328,7 +1328,7 @@ const allVocabulary = [
                 c: "φύλαξ (ὁ)",
                 d: "φύλακες (οἱ)",
                 answer: "πούς (ὁ)",
-                gloss: "He"
+                gloss: "Foot"
             },
             {
                 image: "/Assets/φύλαξ (ὁ).png",
