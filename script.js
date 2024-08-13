@@ -1392,6 +1392,15 @@ const allVocabulary = [
                 d: "πάππος (ὁ)",
                 answer: "μάμμη (ἡ)",
                 gloss: "child"
+            },
+            {
+                image: "/Assets/πάππος (ὁ).png",
+                a: "τέκνα (τά)",
+                b: "τέκνον (τό)",
+                c: "μάμμη (ἡ)",
+                d: "πάππος (ὁ)",
+                answer: "πάππος (ὁ)",
+                gloss: "Grandfather"
             }
         ]
         },
