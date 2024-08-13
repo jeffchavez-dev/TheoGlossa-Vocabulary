@@ -1373,7 +1373,7 @@ const allVocabulary = [
                 c: "μάμμη (ἡ)",
                 d: "πάππος (ὁ)",
                 answer: "τέκνα (τά)",
-                gloss: ""
+                gloss: "children"
             }
         ]
         },
