@@ -1391,7 +1391,7 @@ const allVocabulary = [
                 c: "μάμμη (ἡ)",
                 d: "πάππος (ὁ)",
                 answer: "μάμμη (ἡ)",
-                gloss: "child"
+                gloss: "Grandmother"
             },
             {
                 image: "/Assets/πάππος (ὁ).png",
