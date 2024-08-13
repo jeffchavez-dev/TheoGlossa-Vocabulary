@@ -1365,6 +1365,15 @@ const allVocabulary = [
                 d: "νύξ (ἡ)",
                 answer: "σκότος (ὁ)",
                 gloss: "Darkness"
+            },
+            {
+                image: "/Assets/σκότος (ὁ).png",
+                a: "φῶς (τό)",
+                b: "σκότος (ὁ)",
+                c: "ἡμέρα (ἡ)",
+                d: "νύξ (ἡ)",
+                answer: "σκότος (ὁ)",
+                gloss: "Darkness"
             }
         ]
         },
