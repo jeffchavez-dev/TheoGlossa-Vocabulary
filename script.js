@@ -1403,7 +1403,7 @@ const allVocabulary = [
                 gloss: "Grandfather"
             },
             {
-                image: "/Assets/πάππος (ὁ).png",
+                image: "/Assets/.png",
                 a: "τέκνα (τά)",
                 b: "τέκνον (τό)",
                 c: "μάμμη (ἡ)",
