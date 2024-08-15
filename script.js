@@ -1412,7 +1412,7 @@ const allVocabulary = [
                 c: "μαθηταί (οἱ)",
                 d: "μαθητής (ὁ)",
                 answer: "μαθηταί (οἱ)",
-                gloss: "μαθηταί (οἱ)"
+                gloss: "Students (Male)"
             }
         ]
         },
