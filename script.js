@@ -1401,7 +1401,10 @@ const allVocabulary = [
                 d: "πάππος (ὁ)",
                 answer: "πάππος (ὁ)",
                 gloss: "Grandfather"
-            },
+            }
+        ]
+        },
+        { "τὸ δίδαγμα τὸ ὄγδοον": [ 
             {
                 image: "/Assets/.png",
                 a: "τέκνα (τά)",
@@ -1411,9 +1414,6 @@ const allVocabulary = [
                 answer: "πάππος (ὁ)",
                 gloss: ""
             }
-        ]
-        },
-        { "τὸ δίδαγμα τὸ ὄγδοον": [ 
         ]
         },
         { "ένατος": [ 
