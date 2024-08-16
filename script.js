@@ -1415,12 +1415,12 @@ const allVocabulary = [
                 gloss: "Students (Male)"
             },
             {
-                image: "/Assets/μαθηταί (οἱ).png",
+                image: "/Assets/μαθήτριαι (αἱ).png",
                 a: "μαθήτριαι (αἱ)",
                 b: "μαθήτρια (ἡ)",
                 c: "μαθηταί (οἱ)",
                 d: "μαθητής (ὁ)",
-                answer: "μαθηταί (οἱ)",
+                answer: "μαθήτριαι (αἱ)",
                 gloss: "Students (Male)"
             },
             {
