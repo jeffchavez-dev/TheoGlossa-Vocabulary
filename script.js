@@ -1424,13 +1424,13 @@ const allVocabulary = [
                 gloss: "Students (female)"
             },
             {
-                image: "/Assets/μαθηταί (οἱ).png",
+                image: "/Assets/μαθήτρια (ἡ).png",
                 a: "μαθήτριαι (αἱ)",
                 b: "μαθήτρια (ἡ)",
                 c: "μαθηταί (οἱ)",
                 d: "μαθητής (ὁ)",
-                answer: "μαθηταί (οἱ)",
-                gloss: "Students (Male)"
+                answer: "μαθήτρια (ἡ)",
+                gloss: "Student (Female)"
             },
             {
                 image: "/Assets/μαθηταί (οἱ).png",
