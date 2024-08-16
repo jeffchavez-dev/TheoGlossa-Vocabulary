@@ -1421,7 +1421,7 @@ const allVocabulary = [
                 c: "μαθηταί (οἱ)",
                 d: "μαθητής (ὁ)",
                 answer: "μαθήτριαι (αἱ)",
-                gloss: "Students (Male)"
+                gloss: "Students (female)"
             },
             {
                 image: "/Assets/μαθηταί (οἱ).png",
