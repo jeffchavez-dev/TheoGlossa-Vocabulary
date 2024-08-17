@@ -1440,7 +1440,7 @@ const allVocabulary = [
                 d: "μαθητής (ὁ)",
                 answer: "μαθητής (ὁ)",
                 gloss: "Student (Male)"
-            },
+            }
         ]
         },
         { "ένατος": [ 
