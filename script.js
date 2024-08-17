@@ -1440,6 +1440,15 @@ const allVocabulary = [
                 d: "μαθητής (ὁ)",
                 answer: "μαθητής (ὁ)",
                 gloss: "Student (Male)"
+            },
+            {
+                image: "/Assets/μαθητής (ὁ).png",
+                a: "μαθήτριαι (αἱ)",
+                b: "μαθήτρια (ἡ)",
+                c: "μαθηταί (οἱ)",
+                d: "μαθητής (ὁ)",
+                answer: "μαθητής (ὁ)",
+                gloss: "Student (Male)"
             }
         ]
         },
